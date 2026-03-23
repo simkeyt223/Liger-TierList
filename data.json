@@ -1,4 +1,83 @@
 {
-  "players": [],
-  "results": []
+  "players": [
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT4",
+      "previousTier": "HT5",
+      "lastTested": "2026-03-23T23:14:51.050Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "lt3",
+      "previousTier": "lt4",
+      "lastTested": "2026-03-23T10:17:46.547Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT2",
+      "previousTier": "LT4",
+      "lastTested": "2026-03-23T19:26:19.911Z"
+    }
+  ],
+  "results": [
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "lt4",
+      "rankEarned": "ht2",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T10:15:15.039Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "lt4",
+      "rankEarned": "lt3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T10:17:46.548Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "LT4",
+      "rankEarned": "HT2",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T19:26:19.911Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T22:47:15.789Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT5",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T23:14:51.050Z"
+    }
+  ]
 }
