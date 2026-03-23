@@ -376,8 +376,13 @@ async function loadData() {
 }
 
 function tierRank(tier) {
-  const order = { 'HT1': 0, 'HT2': 1, 'HT3': 2, 'LT1': 3, 'LT2': 4, 'LT3': 5, 'LT4': 6 };
-  return order[tier] ?? 99;
+  if (!tier) return 99;
+  const t = tier.toUpperCase();
+  const order = {
+    'HT1': 0, 'HT2': 1, 'HT3': 2, 'HT4': 3, 'HT5': 4,
+    'LT1': 5, 'LT2': 6, 'LT3': 7, 'LT4': 8, 'LT5': 9
+  };
+  return order[t] ?? 99;
 }
 
 function render(data) {
@@ -463,3 +468,4 @@ setInterval(loadData, 60000); // refresh every minute
 </script>
 </body>
 </html>
+
