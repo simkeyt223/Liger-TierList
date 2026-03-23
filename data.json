@@ -7,6 +7,14 @@
       "currentTier": "High Tier 4",
       "previousTier": "High Tier 5",
       "lastTested": "2026-03-23T09:46:26.928Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "currentTier": "Low Tier 3",
+      "previousTier": "Low Tier 4",
+      "lastTested": "2026-03-23T09:48:40.059Z"
     }
   ],
   "results": [
@@ -18,6 +26,15 @@
       "rankEarned": "High Tier 4",
       "tester": "banned2timesalready",
       "date": "2026-03-23T09:46:26.930Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "previousRank": "Low Tier 4",
+      "rankEarned": "Low Tier 3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T09:48:40.059Z"
     }
   ]
 }
