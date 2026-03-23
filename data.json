@@ -5,9 +5,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "ht2",
-      "previousTier": "lt4",
-      "lastTested": "2026-03-23T10:15:15.038Z"
+      "currentTier": "HT3",
+      "previousTier": "LT5",
+      "lastTested": "2026-03-23T22:47:15.789Z"
     },
     {
       "username": "Vigilentull",
@@ -58,6 +58,16 @@
       "rankEarned": "HT2",
       "tester": "banned2timesalready",
       "date": "2026-03-23T19:26:19.911Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T22:47:15.789Z"
     }
   ]
 }
