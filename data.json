@@ -8,6 +8,15 @@
       "currentTier": "ht2",
       "previousTier": "lt4",
       "lastTested": "2026-03-23T10:15:15.038Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "lt3",
+      "previousTier": "lt4",
+      "lastTested": "2026-03-23T10:17:46.547Z"
     }
   ],
   "results": [
@@ -20,6 +29,16 @@
       "rankEarned": "ht2",
       "tester": "banned2timesalready",
       "date": "2026-03-23T10:15:15.039Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "lt4",
+      "rankEarned": "lt3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-23T10:17:46.548Z"
     }
   ]
 }
