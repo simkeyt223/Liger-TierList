@@ -21,6 +21,16 @@
       "lastTested": "2026-03-25T22:06:44.667Z"
     },
     {
+      "username": "Ma4l0w",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-25T22:10:32.984Z"
+    },
+    {
       "username": "Ma4lOw",
       "discordId": "1246743965965881344",
       "discordTag": "itznotmeohio",
@@ -29,6 +39,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-25T22:11:59.595Z"
+    },
+    {
+      "username": "Ma4low",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "AF",
+      "gamemode": "Mace",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-25T22:33:03.678Z"
     }
   ],
   "results": [
@@ -55,6 +75,17 @@
       "date": "2026-03-25T22:06:44.667Z"
     },
     {
+      "username": "Ma4l0w",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "fanos123456",
+      "date": "2026-03-25T22:10:32.984Z"
+    },
+    {
       "username": "Ma4lOw",
       "discordId": "1246743965965881344",
       "discordTag": "itznotmeohio",
@@ -64,6 +95,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-03-25T22:11:59.595Z"
+    },
+    {
+      "username": "Ma4low",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "AF",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-25T22:33:03.678Z"
     }
   ]
 }
