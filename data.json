@@ -1,13 +1,13 @@
 {
   "players": [
     {
-      "username": "SimkeYT_223",
+      "username": "Simkeyt_223",
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "HT4",
-      "previousTier": "HT5",
-      "lastTested": "2026-03-24T00:42:59.367Z"
+      "currentTier": "LT7",
+      "previousTier": "LT6",
+      "lastTested": "2026-03-25T20:55:10.729Z"
     }
   ],
   "results": [
@@ -20,6 +20,16 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-24T00:42:59.368Z"
+    },
+    {
+      "username": "Simkeyt_223",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT6",
+      "rankEarned": "LT7",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-25T20:55:10.730Z"
     }
   ]
 }
