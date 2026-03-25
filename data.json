@@ -1,4 +1,27 @@
 {
-  "players": [],
-  "results": []
+  "players": [
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-25T22:05:44.239Z"
+    }
+  ],
+  "results": [
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "banned2timesalready",
+      "date": "2026-03-25T22:05:44.239Z"
+    }
+  ]
 }
