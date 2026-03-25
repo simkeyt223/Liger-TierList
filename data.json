@@ -9,6 +9,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-25T22:05:44.239Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-25T22:06:44.667Z"
     }
   ],
   "results": [
@@ -22,6 +32,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-03-25T22:05:44.239Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-03-25T22:06:44.667Z"
     }
   ]
 }
