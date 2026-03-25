@@ -8,6 +8,15 @@
       "currentTier": "LT7",
       "previousTier": "LT6",
       "lastTested": "2026-03-25T20:55:10.729Z"
+    },
+    {
+      "username": "traxxasC_10",
+      "discordTag": "traxxasc",
+      "region": "eu",
+      "gamemode": "Vanilla",
+      "currentTier": "lt4",
+      "previousTier": "none",
+      "lastTested": "2026-03-25T20:55:16.250Z"
     }
   ],
   "results": [
@@ -30,6 +39,16 @@
       "rankEarned": "LT7",
       "tester": "edytzu_safe05",
       "date": "2026-03-25T20:55:10.730Z"
+    },
+    {
+      "username": "traxxasC_10",
+      "discordTag": "traxxasc",
+      "region": "eu",
+      "gamemode": "Vanilla",
+      "previousRank": "none",
+      "rankEarned": "lt4",
+      "tester": "fanos123456",
+      "date": "2026-03-25T20:55:16.250Z"
     }
   ]
 }
