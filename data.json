@@ -79,6 +79,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-26T19:46:11.337Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-26T19:55:40.871Z"
     }
   ],
   "results": [
@@ -180,6 +190,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-26T19:46:11.338Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-26T19:55:40.871Z"
     }
   ],
   "blacklist": []
