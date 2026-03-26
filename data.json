@@ -99,6 +99,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-26T20:02:00.231Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-26T21:07:38.309Z"
     }
   ],
   "results": [
@@ -222,6 +232,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-03-26T20:02:00.231Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-26T21:07:38.309Z"
     }
   ],
   "blacklist": []
