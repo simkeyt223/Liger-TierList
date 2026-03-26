@@ -109,6 +109,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-26T21:07:38.309Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-26T21:53:51.395Z"
     }
   ],
   "results": [
@@ -243,6 +253,17 @@
       "rankEarned": "HT5",
       "tester": "edytzu_safe05",
       "date": "2026-03-26T21:07:38.309Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-26T21:53:51.395Z"
     }
   ],
   "blacklist": []
