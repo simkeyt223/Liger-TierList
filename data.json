@@ -129,6 +129,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-26T23:51:26.788Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-27T19:42:38.264Z"
     }
   ],
   "results": [
@@ -285,6 +295,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-26T23:51:26.788Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "fanos123456",
+      "date": "2026-03-27T19:42:38.264Z"
     }
   ],
   "blacklist": []
