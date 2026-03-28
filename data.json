@@ -279,6 +279,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T18:07:33.581Z"
+    },
+    {
+      "username": "merabi_pi",
+      "discordId": "1134773751205068900",
+      "discordTag": "merabi_pi",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T18:14:44.436Z"
     }
   ],
   "results": [
@@ -600,6 +610,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-03-28T18:07:33.581Z"
+    },
+    {
+      "username": "merabi_pi",
+      "discordId": "1134773751205068900",
+      "discordTag": "merabi_pi",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T18:14:44.436Z"
     }
   ],
   "blacklist": []
