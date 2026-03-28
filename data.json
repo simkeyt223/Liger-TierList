@@ -259,6 +259,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T17:46:02.480Z"
+    },
+    {
+      "username": "mt2f3",
+      "discordId": "1456650921059549381",
+      "discordTag": "cekicc.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T17:59:17.390Z"
     }
   ],
   "results": [
@@ -558,6 +568,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-28T17:46:02.480Z"
+    },
+    {
+      "username": "mt2f3",
+      "discordId": "1456650921059549381",
+      "discordTag": "cekicc.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T17:59:17.390Z"
     }
   ],
   "blacklist": []
