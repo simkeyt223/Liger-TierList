@@ -139,6 +139,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-27T19:42:38.264Z"
+    },
+    {
+      "username": "rikusdebeer",
+      "discordId": "1469806899330285852",
+      "discordTag": "rikus8010_28460",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T12:15:15.951Z"
     }
   ],
   "results": [
@@ -306,6 +316,17 @@
       "rankEarned": "HT5",
       "tester": "fanos123456",
       "date": "2026-03-27T19:42:38.264Z"
+    },
+    {
+      "username": "rikusdebeer",
+      "discordId": "1469806899330285852",
+      "discordTag": "rikus8010_28460",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-28T12:15:15.953Z"
     }
   ],
   "blacklist": []
