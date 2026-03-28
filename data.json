@@ -239,6 +239,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T17:29:51.049Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T17:32:40.466Z"
     }
   ],
   "results": [
@@ -516,6 +526,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-03-28T17:29:51.050Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T17:32:40.466Z"
     }
   ],
   "blacklist": []
