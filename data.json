@@ -199,6 +199,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T16:43:00.331Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T16:46:47.245Z"
     }
   ],
   "results": [
@@ -432,6 +442,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-03-28T16:43:00.333Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T16:46:47.245Z"
     }
   ],
   "blacklist": []
