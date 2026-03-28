@@ -219,6 +219,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T17:09:12.892Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T17:17:27.869Z"
     }
   ],
   "results": [
@@ -474,6 +484,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-03-28T17:09:12.899Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T17:17:27.870Z"
     }
   ],
   "blacklist": []
