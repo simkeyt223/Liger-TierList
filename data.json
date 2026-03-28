@@ -229,6 +229,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T17:17:27.869Z"
+    },
+    {
+      "username": "sixbell",
+      "discordId": "1136380280085688400",
+      "discordTag": "sixbell8722",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T17:29:51.049Z"
     }
   ],
   "results": [
@@ -495,6 +505,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-03-28T17:17:27.870Z"
+    },
+    {
+      "username": "sixbell",
+      "discordId": "1136380280085688400",
+      "discordTag": "sixbell8722",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T17:29:51.050Z"
     }
   ],
   "blacklist": []
