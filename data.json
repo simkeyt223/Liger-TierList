@@ -289,6 +289,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T18:14:44.436Z"
+    },
+    {
+      "username": "Divine_Difinity",
+      "discordId": "1036352058699296838",
+      "discordTag": "divinedifinity",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T18:18:42.688Z"
     }
   ],
   "results": [
@@ -621,6 +631,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-03-28T18:14:44.436Z"
+    },
+    {
+      "username": "Divine_Difinity",
+      "discordId": "1036352058699296838",
+      "discordTag": "divinedifinity",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T18:18:42.688Z"
     }
   ],
   "blacklist": []
