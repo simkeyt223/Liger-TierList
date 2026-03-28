@@ -309,6 +309,16 @@
       "currentTier": "LT5",
       "previousTier": "LT5",
       "lastTested": "2026-03-28T19:34:21.662Z"
+    },
+    {
+      "username": "Kaizu",
+      "discordId": "1113356101988122695",
+      "discordTag": "clixy_1k",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T21:13:48.502Z"
     }
   ],
   "results": [
@@ -674,6 +684,17 @@
       "rankEarned": "LT5",
       "tester": "fanos123456",
       "date": "2026-03-28T19:34:21.662Z"
+    },
+    {
+      "username": "Kaizu",
+      "discordId": "1113356101988122695",
+      "discordTag": "clixy_1k",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-28T21:13:48.503Z"
     }
   ],
   "blacklist": []
