@@ -169,6 +169,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T13:12:02.403Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T13:29:19.513Z"
     }
   ],
   "results": [
@@ -369,6 +379,17 @@
       "rankEarned": "LT5",
       "tester": "edytzu_safe05",
       "date": "2026-03-28T13:12:02.403Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-28T13:29:19.513Z"
     }
   ],
   "blacklist": []
