@@ -189,6 +189,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T13:53:48.402Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T16:43:00.331Z"
     }
   ],
   "results": [
@@ -411,6 +421,17 @@
       "rankEarned": "LT5",
       "tester": "fanos123456",
       "date": "2026-03-28T13:53:48.402Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-28T16:43:00.333Z"
     }
   ],
   "blacklist": []
