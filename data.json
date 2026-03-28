@@ -149,6 +149,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-28T12:15:15.951Z"
+    },
+    {
+      "username": "merabi_pi",
+      "discordId": "1134773751205068900",
+      "discordTag": "merabi_pi",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-28T12:54:55.533Z"
     }
   ],
   "results": [
@@ -327,6 +337,17 @@
       "rankEarned": "LT5",
       "tester": "edytzu_safe05",
       "date": "2026-03-28T12:15:15.953Z"
+    },
+    {
+      "username": "merabi_pi",
+      "discordId": "1134773751205068900",
+      "discordTag": "merabi_pi",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-03-28T12:54:55.533Z"
     }
   ],
   "blacklist": []
