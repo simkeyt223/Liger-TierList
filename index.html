@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>LigerTiers — PvP Rankings</title>
+<title>LigerSMP — PvP Rankings</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
@@ -30,100 +30,230 @@ html { scroll-behavior:smooth; }
 body { background:var(--bg); color:var(--text); font-family:'DM Sans',sans-serif; min-height:100vh; overflow-x:hidden; }
 body::before {
   content:''; position:fixed; inset:0;
-  background-image: linear-gradient(rgba(245,200,66,.025) 1px,transparent 1px), linear-gradient(90deg,rgba(245,200,66,.025) 1px,transparent 1px);
+  background-image: linear-gradient(rgba(245,200,66,.02) 1px,transparent 1px), linear-gradient(90deg,rgba(245,200,66,.02) 1px,transparent 1px);
   background-size:48px 48px; pointer-events:none; z-index:0;
 }
 
-/* NAV */
-nav { position:sticky; top:0; z-index:200; display:flex; align-items:center; height:58px; background:rgba(13,14,18,.95); backdrop-filter:blur(20px); border-bottom:1px solid var(--border); padding:0 2rem; gap:.5rem; }
-.nav-logo { display:flex; align-items:center; gap:.6rem; font-family:'Bebas Neue',sans-serif; font-size:1.55rem; letter-spacing:.12em; color:var(--accent); text-decoration:none; margin-right:1.5rem; flex-shrink:0; }
-.logo-icon { width:30px; height:30px; background:linear-gradient(135deg,var(--accent),var(--accent2)); border-radius:7px; display:flex; align-items:center; justify-content:center; font-size:15px; }
+/* ─── NAV ─────────────────────────────── */
+nav {
+  position:sticky; top:0; z-index:200;
+  display:flex; align-items:center;
+  height:62px;
+  background:rgba(13,14,18,.97);
+  backdrop-filter:blur(20px);
+  border-bottom:1px solid var(--border);
+  padding:0 1.5rem;
+  gap:.5rem;
+}
+
+/* LIGER SMP logo text */
+.nav-logo {
+  display:flex; align-items:center; gap:0;
+  text-decoration:none; margin-right:1.2rem; flex-shrink:0;
+  line-height:1;
+  user-select:none;
+}
+.logo-liger {
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.7rem;
+  letter-spacing:.1em;
+  color:#f5c842;
+  text-shadow:
+    2px 2px 0 #c47a00,
+    3px 3px 0 #8a5500,
+    0 0 20px rgba(245,200,66,.25);
+  -webkit-text-stroke:1px rgba(0,0,0,.5);
+}
+.logo-smp {
+  font-family:'Bebas Neue',sans-serif;
+  font-size:1.15rem;
+  letter-spacing:.18em;
+  color:#d0d8e8;
+  text-shadow:
+    1px 1px 0 #6a7080,
+    2px 2px 0 #3a4050;
+  -webkit-text-stroke:.5px rgba(0,0,0,.4);
+  margin-left:.15rem;
+  align-self:flex-end;
+  padding-bottom:2px;
+}
+.logo-sep {
+  width:1px; height:22px;
+  background:var(--border2);
+  margin:0 1.2rem;
+  flex-shrink:0;
+}
+
 .nav-links { display:flex; align-items:center; gap:.2rem; flex:1; }
 .nav-link { display:flex; align-items:center; gap:.4rem; padding:.4rem .85rem; border-radius:7px; font-size:.85rem; font-weight:600; color:var(--muted2); text-decoration:none; transition:color .2s,background .2s; }
 .nav-link svg { width:15px; height:15px; }
 .nav-link:hover { color:var(--text); background:var(--surface2); }
 .nav-link.active { color:var(--accent); background:rgba(245,200,66,.08); }
+
 .nav-right { display:flex; align-items:center; gap:.6rem; margin-left:auto; }
+
+/* SERVER IP CHIP */
+.server-ip-chip {
+  display:flex; align-items:center; gap:0;
+  background:var(--surface2);
+  border:1px solid var(--border2);
+  border-radius:8px;
+  overflow:hidden;
+  font-family:'JetBrains Mono',monospace;
+  flex-shrink:0;
+}
+.server-ip-label {
+  font-size:.6rem; font-weight:700;
+  letter-spacing:.12em; text-transform:uppercase;
+  color:var(--muted2);
+  background:var(--surface3);
+  padding:.32rem .6rem;
+  border-right:1px solid var(--border2);
+  white-space:nowrap;
+}
+.server-ip-value {
+  font-size:.78rem; font-weight:600;
+  color:var(--accent);
+  padding:.32rem .65rem;
+  white-space:nowrap;
+}
+.server-ip-copy {
+  display:flex; align-items:center; justify-content:center;
+  width:28px; height:100%;
+  background:transparent;
+  border:none; border-left:1px solid var(--border2);
+  color:var(--muted2);
+  cursor:pointer;
+  transition:color .2s, background .2s;
+  padding:0 .3rem;
+}
+.server-ip-copy:hover { color:var(--accent); background:rgba(245,200,66,.07); }
+.server-ip-copy svg { width:13px; height:13px; }
+
 .nav-btn { display:flex; align-items:center; gap:.45rem; padding:.38rem 1rem; border-radius:7px; font-size:.8rem; font-weight:700; letter-spacing:.04em; text-decoration:none; border:1px solid; cursor:pointer; font-family:'DM Sans',sans-serif; transition:all .2s; }
 .nav-btn.store { background:linear-gradient(135deg,var(--accent),var(--accent2)); border-color:transparent; color:#1a1000; }
 .nav-btn.store:hover { opacity:.87; transform:translateY(-1px); box-shadow:0 4px 18px rgba(245,200,66,.3); }
 .nav-btn.discord { background:transparent; border-color:rgba(88,101,242,.5); color:#7289da; }
 .nav-btn.discord:hover { background:rgba(88,101,242,.1); }
 
-/* HERO */
-.hero { position:relative; z-index:1; max-width:1240px; margin:0 auto; padding:3rem 2rem 0; }
-.hero-title { font-family:'Bebas Neue',sans-serif; font-size:4rem; letter-spacing:.06em; line-height:.9; background:linear-gradient(100deg,var(--accent) 0%,var(--accent2) 55%,#fff 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
+/* copy toast */
+.copy-toast {
+  position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%) translateY(20px);
+  background:var(--surface3); border:1px solid var(--border2); color:var(--text);
+  padding:.55rem 1.25rem; border-radius:8px; font-size:.8rem; font-weight:600;
+  font-family:'JetBrains Mono',monospace;
+  opacity:0; transition:opacity .2s, transform .2s;
+  pointer-events:none; z-index:9999;
+  box-shadow:0 8px 24px rgba(0,0,0,.5);
+}
+.copy-toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
+
+/* ─── HERO ─────────────────────────────── */
+.hero { position:relative; z-index:1; max-width:1240px; margin:0 auto; padding:2.5rem 2rem 0; }
+.hero-title { font-family:'Bebas Neue',sans-serif; font-size:3.6rem; letter-spacing:.06em; line-height:.9; background:linear-gradient(100deg,var(--accent) 0%,var(--accent2) 55%,#fff 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
 .hero-sub { font-size:.78rem; color:var(--muted2); letter-spacing:.12em; text-transform:uppercase; font-weight:600; display:flex; align-items:center; gap:.5rem; margin-top:.5rem; }
 .live-dot { width:7px; height:7px; border-radius:50%; background:var(--green); display:inline-block; animation:pulse 2s infinite; }
 @keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(56,193,114,.5)} 50%{opacity:.8;box-shadow:0 0 0 5px rgba(56,193,114,0)} }
 
-/* STATS */
-.stats-row { display:flex; gap:.75rem; max-width:1240px; margin:1.75rem auto 0; padding:0 2rem; position:relative; z-index:1; }
-.stat-card { flex:1; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:1rem 1.3rem; display:flex; align-items:center; gap:1rem; transition:border-color .2s,transform .2s; }
+/* ─── STATS ─────────────────────────────── */
+.stats-row { display:flex; gap:.75rem; max-width:1240px; margin:1.5rem auto 0; padding:0 2rem; position:relative; z-index:1; }
+.stat-card { flex:1; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.2rem; display:flex; align-items:center; gap:.9rem; transition:border-color .2s,transform .2s; }
 .stat-card:hover { border-color:var(--border2); transform:translateY(-2px); }
-.stat-icon { width:40px; height:40px; border-radius:10px; background:var(--surface2); display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0; }
-.stat-num { font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--accent); line-height:1; }
-.stat-label { font-size:.7rem; color:var(--muted2); text-transform:uppercase; letter-spacing:.12em; margin-top:1px; font-weight:600; }
+.stat-icon { width:38px; height:38px; border-radius:9px; background:var(--surface2); display:flex; align-items:center; justify-content:center; font-size:17px; flex-shrink:0; }
+.stat-num { font-family:'Bebas Neue',sans-serif; font-size:1.9rem; color:var(--accent); line-height:1; }
+.stat-label { font-size:.68rem; color:var(--muted2); text-transform:uppercase; letter-spacing:.12em; margin-top:1px; font-weight:600; }
 
-/* TABS */
-.tabs-wrap { max-width:1240px; margin:1.75rem auto 0; padding:0 2rem; position:relative; z-index:1; }
-.tabs { display:flex; gap:.3rem; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.35rem; overflow-x:auto; scrollbar-width:none; }
+/* ─── TABS ─────────────────────────────── */
+.tabs-wrap { max-width:1240px; margin:1.5rem auto 0; padding:0 2rem; position:relative; z-index:1; }
+.tabs { display:flex; gap:.3rem; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.32rem; overflow-x:auto; scrollbar-width:none; }
 .tabs::-webkit-scrollbar { display:none; }
-.tab { display:flex; align-items:center; gap:.55rem; padding:.65rem 1.4rem; border-radius:9px; cursor:pointer; font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted2); transition:all .2s; white-space:nowrap; border:1px solid transparent; font-family:'DM Sans',sans-serif; }
+.tab { display:flex; align-items:center; gap:.5rem; padding:.6rem 1.3rem; border-radius:9px; cursor:pointer; font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted2); transition:all .2s; white-space:nowrap; border:1px solid transparent; font-family:'DM Sans',sans-serif; }
 .tab svg { width:18px; height:18px; overflow:visible; flex-shrink:0; }
 .tab:hover { color:var(--text); background:var(--surface2); }
 .tab.active { color:var(--accent); background:rgba(245,200,66,.1); border-color:rgba(245,200,66,.25); }
 
-/* SEARCH */
-.search-row { max-width:1240px; margin:1rem auto 0; padding:0 2rem; position:relative; z-index:1; }
-.search-inner { display:flex; align-items:center; gap:.5rem; background:var(--surface); border:1px solid var(--border2); border-radius:9px; padding:.5rem 1rem; max-width:320px; transition:border-color .2s; }
+/* ─── SEARCH ─────────────────────────────── */
+.search-row { max-width:1240px; margin:.9rem auto 0; padding:0 2rem; position:relative; z-index:1; }
+.search-inner { display:flex; align-items:center; gap:.5rem; background:var(--surface); border:1px solid var(--border2); border-radius:9px; padding:.5rem 1rem; max-width:300px; transition:border-color .2s; }
 .search-inner:focus-within { border-color:rgba(245,200,66,.4); }
 .search-inner svg { color:var(--muted); width:14px; height:14px; flex-shrink:0; }
-.search-inner input { background:none; border:none; outline:none; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.8rem; width:220px; }
+.search-inner input { background:none; border:none; outline:none; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.8rem; width:200px; }
 .search-inner input::placeholder { color:var(--muted); }
 
-/* MAIN */
-main { max-width:1240px; margin:0 auto; padding:1.25rem 2rem 3rem; position:relative; z-index:1; }
+/* ─── MAIN ─────────────────────────────── */
+main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relative; z-index:1; }
 
-/* TABLE HEAD */
-.table-head { display:grid; align-items:center; padding:.4rem 1rem .4rem 1.4rem; font-size:.65rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-family:'JetBrains Mono',monospace; border-bottom:1px solid var(--border); margin-bottom:.6rem; }
-.table-head.overall-head { grid-template-columns:70px 96px 1fr 90px 1fr; }
-.table-head.gm-head      { grid-template-columns:70px 96px 1fr 90px 140px; }
+/* ─── TABLE HEAD ─────────────────────────────── */
+.table-head { display:grid; align-items:center; padding:.4rem 1rem .4rem 1.3rem; font-size:.63rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-family:'JetBrains Mono',monospace; border-bottom:1px solid var(--border); margin-bottom:.5rem; }
+.table-head.overall-head { grid-template-columns:60px 72px 1fr 88px 1fr; }
+.table-head.gm-head      { grid-template-columns:60px 72px 1fr 88px 130px; }
 
-/* PLAYER CARD */
-.player-card { display:grid; align-items:stretch; background:var(--surface); border:1px solid var(--border); border-radius:14px; margin-bottom:6px; overflow:hidden; transition:all .22s; animation:cardIn .4s ease both; min-height:100px; }
-.player-card.overall-card { grid-template-columns:70px 96px 1fr 90px 1fr; }
-.player-card.gm-card      { grid-template-columns:70px 96px 1fr 90px 140px; }
-@keyframes cardIn { from{opacity:0;transform:translateY(10px)} to{opacity:1;transform:translateY(0)} }
-.player-card:hover { border-color:var(--border2); transform:translateY(-2px); box-shadow:0 8px 32px rgba(0,0,0,.35); }
+/* ─── PLAYER CARD ─────────────────────────────── */
+.player-card {
+  display:grid; align-items:center;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:12px;
+  margin-bottom:5px;
+  overflow:hidden;
+  transition:all .22s;
+  animation:cardIn .4s ease both;
+  min-height:78px;
+}
+.player-card.overall-card { grid-template-columns:60px 72px 1fr 88px 1fr; }
+.player-card.gm-card      { grid-template-columns:60px 72px 1fr 88px 130px; }
+@keyframes cardIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
 
-.player-card.rank-1 { border-color:rgba(245,200,66,.35); background:linear-gradient(90deg,rgba(245,200,66,.07) 0%,var(--surface) 40%); box-shadow:0 0 30px rgba(245,200,66,.07); }
-.player-card.rank-2 { border-color:rgba(176,188,200,.3); background:linear-gradient(90deg,rgba(176,188,200,.05) 0%,var(--surface) 40%); }
-.player-card.rank-3 { border-color:rgba(196,122,56,.3); background:linear-gradient(90deg,rgba(196,122,56,.05) 0%,var(--surface) 40%); }
+.player-card:hover { border-color:var(--border2); transform:translateY(-2px); box-shadow:0 8px 28px rgba(0,0,0,.3); }
+
+.player-card.rank-1 { border-color:rgba(245,200,66,.4); background:linear-gradient(90deg,rgba(245,200,66,.09) 0%,var(--surface) 35%); box-shadow:0 0 28px rgba(245,200,66,.08); }
+.player-card.rank-2 { border-color:rgba(176,188,200,.35); background:linear-gradient(90deg,rgba(176,188,200,.06) 0%,var(--surface) 35%); }
+.player-card.rank-3 { border-color:rgba(196,122,56,.35); background:linear-gradient(90deg,rgba(196,122,56,.06) 0%,var(--surface) 35%); }
 
 /* RANK CELL */
-.rank-cell { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:.5rem; gap:2px; }
-.rank-number { font-family:'Bebas Neue',sans-serif; font-size:2.2rem; line-height:1; color:var(--muted); }
+.rank-cell { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:.5rem .4rem; gap:2px; }
+.rank-number { font-family:'Bebas Neue',sans-serif; font-size:2rem; line-height:1; color:var(--muted); }
 .rank-number.r1 { color:var(--gold); }
 .rank-number.r2 { color:var(--silver); }
 .rank-number.r3 { color:var(--bronze); }
-.rank-medal { font-size:14px; }
+.rank-medal { font-size:13px; }
 
-/* SKIN CELL */
-.skin-cell { position:relative; overflow:hidden; display:flex; align-items:flex-end; justify-content:center; }
-.skin-img { height:120px; width:auto; object-fit:contain; object-position:bottom center; image-rendering:pixelated; display:block; transition:transform .3s ease; filter:drop-shadow(0 -2px 10px rgba(0,0,0,.5)); }
-.player-card:hover .skin-img { transform:translateY(-4px); }
-.rank-1 .skin-img { filter:drop-shadow(0 -2px 12px rgba(245,200,66,.3)) drop-shadow(0 0 8px rgba(245,200,66,.15)); }
+/* ─── AVATAR CELL (face cutout) ─────────────────────────────── */
+.skin-cell {
+  position:relative;
+  display:flex; align-items:center; justify-content:center;
+  padding:.6rem .4rem;
+}
+.skin-avatar-wrap {
+  position:relative;
+  width:52px; height:52px;
+  border-radius:10px;
+  overflow:hidden;
+  background:var(--surface2);
+  border:2px solid var(--border2);
+  flex-shrink:0;
+  transition:border-color .2s, transform .2s;
+}
+.player-card:hover .skin-avatar-wrap { transform:scale(1.05); border-color:rgba(245,200,66,.3); }
+.rank-1 .skin-avatar-wrap { border-color:rgba(245,200,66,.5); box-shadow:0 0 12px rgba(245,200,66,.2); }
+.rank-2 .skin-avatar-wrap { border-color:rgba(176,188,200,.45); }
+.rank-3 .skin-avatar-wrap { border-color:rgba(196,122,56,.45); }
+.skin-img {
+  width:100%; height:100%;
+  object-fit:cover;
+  image-rendering:pixelated;
+  display:block;
+}
 
 /* INFO CELL */
-.info-cell { display:flex; flex-direction:column; justify-content:center; padding:.9rem .9rem .9rem .3rem; gap:.22rem; min-width:0; }
-.player-name { font-family:'Bebas Neue',sans-serif; font-size:1.5rem; letter-spacing:.04em; color:var(--text); line-height:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-.player-tag { font-family:'JetBrains Mono',monospace; font-size:.67rem; color:var(--muted); }
-.player-score { font-family:'JetBrains Mono',monospace; font-size:.75rem; font-weight:700; color:var(--accent); margin-top:.1rem; letter-spacing:.04em; }
+.info-cell { display:flex; flex-direction:column; justify-content:center; padding:.7rem .8rem .7rem .25rem; gap:.18rem; min-width:0; }
+.player-name { font-family:'Bebas Neue',sans-serif; font-size:1.4rem; letter-spacing:.04em; color:var(--text); line-height:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.player-tag { font-family:'JetBrains Mono',monospace; font-size:.63rem; color:var(--muted); }
+.player-score { font-family:'JetBrains Mono',monospace; font-size:.73rem; font-weight:700; color:var(--accent); margin-top:.1rem; letter-spacing:.04em; }
 
 /* REGION CELL */
 .region-cell { display:flex; align-items:center; justify-content:center; }
-.region-badge { display:inline-flex; align-items:center; justify-content:center; padding:.3rem .75rem; border-radius:7px; font-size:.72rem; font-weight:800; letter-spacing:.12em; font-family:'JetBrains Mono',monospace; }
+.region-badge { display:inline-flex; align-items:center; justify-content:center; padding:.28rem .7rem; border-radius:7px; font-size:.7rem; font-weight:800; letter-spacing:.12em; font-family:'JetBrains Mono',monospace; }
 .region-NA { background:rgba(80,144,224,.15); color:#5090e0; border:1px solid rgba(80,144,224,.28); }
 .region-EU { background:rgba(56,193,114,.15); color:#38c172; border:1px solid rgba(56,193,114,.28); }
 .region-AS { background:rgba(144,96,208,.15); color:#9060d0; border:1px solid rgba(144,96,208,.28); }
@@ -132,12 +262,12 @@ main { max-width:1240px; margin:0 auto; padding:1.25rem 2rem 3rem; position:rela
 .region-AF { background:rgba(200,160,60,.15); color:#c8a03c; border:1px solid rgba(200,160,60,.28); }
 
 /* TIER CIRCLES */
-.tiers-cell { display:flex; flex-wrap:wrap; align-items:center; gap:.5rem; padding:.75rem .75rem .75rem .25rem; }
+.tiers-cell { display:flex; flex-wrap:wrap; align-items:center; gap:.45rem; padding:.65rem .65rem .65rem .2rem; }
 .tier-circle { display:flex; flex-direction:column; align-items:center; gap:3px; flex-shrink:0; transition:transform .2s; }
 .tier-circle:hover { transform:scale(1.1) translateY(-2px); }
-.tier-circle-disc { width:50px; height:50px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2.5px solid; }
-.tier-circle-disc svg { width:22px; height:22px; overflow:visible; }
-.tier-circle-label { font-family:'JetBrains Mono',monospace; font-size:.63rem; font-weight:700; letter-spacing:.05em; padding:.1rem .38rem; border-radius:4px; }
+.tier-circle-disc { width:46px; height:46px; border-radius:50%; display:flex; align-items:center; justify-content:center; border:2.5px solid; }
+.tier-circle-disc svg { width:20px; height:20px; overflow:visible; }
+.tier-circle-label { font-family:'JetBrains Mono',monospace; font-size:.6rem; font-weight:700; letter-spacing:.05em; padding:.1rem .35rem; border-radius:4px; }
 
 .circle-HT1 .tier-circle-disc { background:rgba(245,200,66,.15); border-color:rgba(245,200,66,.55); }
 .circle-HT1 .tier-circle-label { background:rgba(245,200,66,.18); color:#f5c842; }
@@ -162,7 +292,7 @@ main { max-width:1240px; margin:0 auto; padding:1.25rem 2rem 3rem; position:rela
 
 /* SINGLE TIER (gm tabs) */
 .tier-cell { display:flex; align-items:center; justify-content:center; }
-.tier-badge-lg { display:inline-flex; align-items:center; gap:.4rem; padding:.35rem .9rem; border-radius:8px; font-size:.82rem; font-weight:700; letter-spacing:.08em; font-family:'JetBrains Mono',monospace; }
+.tier-badge-lg { display:inline-flex; align-items:center; gap:.4rem; padding:.32rem .85rem; border-radius:8px; font-size:.8rem; font-weight:700; letter-spacing:.08em; font-family:'JetBrains Mono',monospace; }
 .tier-HT1 { background:rgba(245,200,66,.14); color:#f5c842; border:1px solid rgba(245,200,66,.35); }
 .tier-HT2 { background:rgba(240,152,64,.14); color:#f09840; border:1px solid rgba(240,152,64,.35); }
 .tier-HT3 { background:rgba(232,104,48,.14); color:#e86830; border:1px solid rgba(232,104,48,.35); }
@@ -175,19 +305,19 @@ main { max-width:1240px; margin:0 auto; padding:1.25rem 2rem 3rem; position:rela
 .tier-LT5 { background:rgba(80,88,104,.12);  color:#506070; border:1px solid rgba(80,88,104,.3); }
 
 /* SECTION DIVIDER */
-.section-divider { display:flex; align-items:center; gap:.75rem; margin:2.75rem 0 1rem; }
+.section-divider { display:flex; align-items:center; gap:.75rem; margin:2.5rem 0 1rem; }
 .section-divider-label { font-family:'Bebas Neue',sans-serif; font-size:1rem; letter-spacing:.2em; color:var(--muted2); }
 .section-divider-line { flex:1; height:1px; background:var(--border); }
 .section-divider-dot { width:6px; height:6px; border-radius:50%; background:var(--accent); opacity:.6; }
 
 /* RECENT RESULTS */
-.result-card { display:flex; align-items:center; gap:1rem; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.85rem 1.2rem; margin-bottom:6px; animation:cardIn .4s ease both; transition:border-color .2s; }
+.result-card { display:flex; align-items:center; gap:1rem; background:var(--surface); border:1px solid var(--border); border-radius:11px; padding:.75rem 1.1rem; margin-bottom:5px; animation:cardIn .4s ease both; transition:border-color .2s; }
 .result-card:hover { border-color:var(--border2); }
-.result-avatar { width:36px; height:36px; border-radius:7px; overflow:hidden; flex-shrink:0; }
+.result-avatar { width:34px; height:34px; border-radius:8px; overflow:hidden; flex-shrink:0; border:1.5px solid var(--border2); }
 .result-avatar img { width:100%; height:100%; object-fit:cover; image-rendering:pixelated; }
 .result-info { flex:1; min-width:0; }
-.result-name { font-family:'Bebas Neue',sans-serif; font-size:1.1rem; letter-spacing:.04em; }
-.result-meta { font-size:.71rem; color:var(--muted2); margin-top:2px; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
+.result-name { font-family:'Bebas Neue',sans-serif; font-size:1.05rem; letter-spacing:.04em; }
+.result-meta { font-size:.7rem; color:var(--muted2); margin-top:2px; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
 .result-tiers { display:flex; align-items:center; gap:.5rem; }
 .arrow-icon { color:var(--muted); }
 
@@ -196,14 +326,17 @@ main { max-width:1240px; margin:0 auto; padding:1.25rem 2rem 3rem; position:rela
 .empty h2 { font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--text); margin-bottom:.5rem; letter-spacing:.08em; }
 
 /* FOOTER */
-footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; position:relative; z-index:1; }
-.footer-left { display:flex; align-items:center; gap:.6rem; font-family:'Bebas Neue',sans-serif; font-size:1.1rem; color:var(--accent); letter-spacing:.12em; }
+footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:1rem; position:relative; z-index:1; }
+.footer-left { display:flex; align-items:center; gap:.6rem; }
+.footer-logo { display:flex; align-items:baseline; gap:.1rem; }
+.footer-liger { font-family:'Bebas Neue',sans-serif; font-size:1.15rem; color:#f5c842; letter-spacing:.12em; text-shadow:1px 1px 0 #8a5500; }
+.footer-smp { font-family:'Bebas Neue',sans-serif; font-size:.85rem; color:#8090a0; letter-spacing:.18em; margin-left:.1rem; }
 .footer-links { display:flex; align-items:center; gap:1.2rem; }
-.footer-link { font-size:.8rem; color:var(--muted2); text-decoration:none; letter-spacing:.04em; display:flex; align-items:center; gap:.35rem; transition:color .2s; }
+.footer-link { font-size:.78rem; color:var(--muted2); text-decoration:none; letter-spacing:.04em; display:flex; align-items:center; gap:.35rem; transition:color .2s; }
 .footer-link:hover { color:var(--text); }
-.footer-copy { font-size:.72rem; color:var(--muted); font-family:'JetBrains Mono',monospace; }
+.footer-copy { font-size:.7rem; color:var(--muted); font-family:'JetBrains Mono',monospace; }
 
-::-webkit-scrollbar { width:6px; height:6px; }
+::-webkit-scrollbar { width:5px; height:5px; }
 ::-webkit-scrollbar-track { background:var(--surface); }
 ::-webkit-scrollbar-thumb { background:var(--border2); border-radius:3px; }
 
@@ -271,10 +404,12 @@ footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240
 <body>
 
 <nav>
+  <!-- LIGER SMP styled logo -->
   <a class="nav-logo" href="#">
-    <div class="logo-icon">⚔</div>
-    LigerTiers
+    <span class="logo-liger">LIGER</span><span class="logo-smp">SMP</span>
   </a>
+  <div class="logo-sep"></div>
+
   <div class="nav-links">
     <a class="nav-link active" href="#">
       <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-4 4 4 4-4"/></svg>
@@ -285,11 +420,20 @@ footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240
       Discord
     </a>
   </div>
+
   <div class="nav-right">
+    <!-- SERVER IP CHIP -->
+    <div class="server-ip-chip">
+      <span class="server-ip-label">Server IP</span>
+      <span class="server-ip-value">ligersmp.de</span>
+      <button class="server-ip-copy" onclick="copyIP()" title="Copy IP">
+        <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      </button>
+    </div>
     <a class="nav-btn store" href="https://ligersmp.tebex.io" target="_blank">🛒 Store</a>
     <a class="nav-btn discord" href="https://discord.gg/2pXvQxGucF" target="_blank">
       <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.057a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
-      Join Server
+      Join
     </a>
   </div>
 </nav>
@@ -297,7 +441,7 @@ footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240
 <div class="hero">
   <div>
     <div class="hero-title">PvP Rankings</div>
-    <div class="hero-sub">⚡ LigerSMP &nbsp;·&nbsp; <span class="live-dot"></span> Live Leaderboard</div>
+    <div class="hero-sub">⚡ LigerSMP &nbsp;·&nbsp; <span class="live-dot"></span> Live Leaderboard &nbsp;·&nbsp; ligersmp.de</div>
   </div>
 </div>
 
@@ -352,18 +496,23 @@ footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240
 
 <footer>
   <div class="footer-left">
-    <div style="width:24px;height:24px;background:linear-gradient(135deg,#f5c842,#e8953a);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px">⚔</div>
-    LigerTiers
+    <div style="width:22px;height:22px;background:linear-gradient(135deg,#f5c842,#e8953a);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px">⚔</div>
+    <div class="footer-logo">
+      <span class="footer-liger">LIGER</span><span class="footer-smp">SMP</span>
+    </div>
   </div>
   <div class="footer-links">
+    <span style="font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted2)">ligersmp.de</span>
     <a class="footer-link" href="https://ligersmp.tebex.io" target="_blank">🛒 Store</a>
     <a class="footer-link" href="https://discord.gg/2pXvQxGucF" target="_blank">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.057a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.057a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
       Discord
     </a>
   </div>
   <div class="footer-copy">Updated automatically via Discord bot</div>
 </footer>
+
+<div class="copy-toast" id="copyToast">✓ Copied to clipboard!</div>
 
 <div id="adminTrigger" onclick="openAdminLogin()"></div>
 
@@ -419,11 +568,10 @@ footer { border-top:1px solid var(--border); padding:1.5rem 2rem; max-width:1240
 const GM_ICONS = {
   Vanilla:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>`,
   Sword:  `<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#71bfdd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#6195d9"/></svg>`,
-  Mace:   `<svg viewBox="0 0 750 750" width="20" height="20" style="overflow:visible;flex-shrink:0"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>`
+  Mace:   `<svg viewBox="0 0 750 750" width="20" height="20" style="overflow:visible;flex-shrink:0"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>`,
 };
 const GM_ICONS_SM = Object.fromEntries(Object.entries(GM_ICONS).map(([k,v])=>[k,v.replace(/width="20" height="20"/g,'width="12" height="12"')]));
 
-// TIER SCORING: HT=2×LT same number. 2×LT=1×HT, 3×LT>1×HT
 const TIER_SCORES = {HT1:1024,LT1:512,HT2:256,LT2:128,HT3:64,LT3:32,HT4:16,LT4:8,HT5:4,LT5:2};
 function tierScore(t){ return t ? (TIER_SCORES[t.toUpperCase()]||0) : 0; }
 function totalScore(tiers){ return tiers.reduce((s,t)=>s+tierScore(t.tier),0); }
@@ -444,6 +592,13 @@ function groupForOverall(players){
 }
 
 let allPlayers=[],allResults=[],currentTab='All';
+
+// Use face avatar (head-only cutout)
+function skinUrl(u){ return `https://visage.surgeplay.com/face/104/${encodeURIComponent(u)}`; }
+function skinFallback(img,u){
+  if(!img.dataset.fb){ img.dataset.fb='1'; img.src=`https://minotar.net/avatar/${encodeURIComponent(u)}/52`; }
+  else { img.src='https://minotar.net/avatar/steve/52'; }
+}
 
 async function loadData(){
   try{
@@ -471,12 +626,6 @@ function makeTierCircle(gamemode,tier){
     <div class="tier-circle-disc">${GM_ICONS[gamemode]||''}</div>
     <div class="tier-circle-label">${tier||'—'}</div>
   </div>`;
-}
-
-function skinUrl(u){ return `https://visage.surgeplay.com/full/256/${encodeURIComponent(u)}`; }
-function skinFallback(img,u){
-  if(!img.dataset.fb){ img.dataset.fb='1'; img.src=`https://minotar.net/body/${encodeURIComponent(u)}/100`; }
-  else { img.src='https://minotar.net/body/steve/100'; }
 }
 
 function render(searchQuery){
@@ -526,7 +675,9 @@ function render(searchQuery){
           ${medal?`<div class="rank-medal">${medal}</div>`:''}
         </div>
         <div class="skin-cell">
-          <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
+          <div class="skin-avatar-wrap">
+            <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
+          </div>
         </div>
         <div class="info-cell">
           <div class="player-name">${p.username}</div>
@@ -549,7 +700,9 @@ function render(searchQuery){
           ${medal?`<div class="rank-medal">${medal}</div>`:''}
         </div>
         <div class="skin-cell">
-          <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
+          <div class="skin-avatar-wrap">
+            <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
+          </div>
         </div>
         <div class="info-cell">
           <div class="player-name">${p.username}</div>
@@ -570,19 +723,19 @@ function render(searchQuery){
       const pt=(r.previousRank||'').toUpperCase();
       const nt=(r.rankEarned||'').toUpperCase();
       return `<div class="result-card" style="animation-delay:${i*.04}s">
-        <div class="result-avatar"><img src="https://minotar.net/avatar/${r.username}/34" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div>
+        <div class="result-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div>
         <div class="result-info">
           <div class="result-name">${r.username}</div>
           <div class="result-meta">
             ${r.gamemode?(GM_ICONS_SM[r.gamemode]||'')+' '+r.gamemode+' &nbsp;·&nbsp;':''}
-            <span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.65rem">${r.region}</span>
+            <span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span>
             &nbsp;·&nbsp; Tested by <strong>${r.tester}</strong> &nbsp;·&nbsp; ${fmtDate(r.date)}
           </div>
         </div>
         <div class="result-tiers">
-          ${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.72rem;padding:.18rem .55rem">${r.previousRank}</span>`:''}
+          ${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.7rem;padding:.16rem .5rem">${r.previousRank}</span>`:''}
           ${pt?'<span class="arrow-icon">→</span>':''}
-          <span class="tier-badge-lg tier-${nt}" style="font-size:.72rem;padding:.18rem .55rem">${r.rankEarned}</span>
+          <span class="tier-badge-lg tier-${nt}" style="font-size:.7rem;padding:.16rem .5rem">${r.rankEarned}</span>
         </div>
       </div>`;
     }).join('');
@@ -591,6 +744,15 @@ function render(searchQuery){
 
 function filterPlayers(){ render(document.getElementById('searchInput').value); }
 function fmtDate(iso){ if(!iso) return '—'; return new Date(iso).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+
+// Copy server IP
+function copyIP(){
+  navigator.clipboard.writeText('ligersmp.de').then(()=>{
+    const t=document.getElementById('copyToast');
+    t.classList.add('show');
+    setTimeout(()=>t.classList.remove('show'),2000);
+  });
+}
 
 document.addEventListener('keydown',e=>{
   if(e.key==='/'&&document.activeElement!==document.getElementById('searchInput')){ e.preventDefault(); document.getElementById('searchInput').focus(); }
@@ -619,10 +781,10 @@ function setAdminTab(tab){ currentAdminTab=tab; document.querySelectorAll('.admi
 function renderAdminPanel(){
   const pl=document.getElementById('adminPlayerList');
   document.getElementById('adminPlayerCount').textContent=allPlayers.length;
-  pl.innerHTML=allPlayers.length?allPlayers.map((p,i)=>{const tier=(p.currentTier||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://minotar.net/avatar/${p.username}/34" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${p.username}</div><div class="admin-entry-meta"><span class="region-badge region-${p.region}" style="padding:.1rem .4rem;font-size:.63rem">${p.region}</span><span class="sep">·</span><span>${p.gamemode||'—'}</span><span class="sep">·</span><span class="tier-badge-lg tier-${tier}" style="font-size:.65rem;padding:.1rem .45rem">${p.currentTier||'—'}</span>${p.discordTag?`<span class="sep">·</span><span>${p.discordTag}</span>`:''}</div></div><button class="admin-delete-btn" onclick="confirmDelete('player',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No players to manage.</div>';
+  pl.innerHTML=allPlayers.length?allPlayers.map((p,i)=>{const tier=(p.currentTier||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${p.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${p.username}</div><div class="admin-entry-meta"><span class="region-badge region-${p.region}" style="padding:.1rem .4rem;font-size:.63rem">${p.region}</span><span class="sep">·</span><span>${p.gamemode||'—'}</span><span class="sep">·</span><span class="tier-badge-lg tier-${tier}" style="font-size:.65rem;padding:.1rem .45rem">${p.currentTier||'—'}</span>${p.discordTag?`<span class="sep">·</span><span>${p.discordTag}</span>`:''}</div></div><button class="admin-delete-btn" onclick="confirmDelete('player',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No players to manage.</div>';
   const rl=document.getElementById('adminResultList');
   document.getElementById('adminResultCount').textContent=allResults.length;
-  rl.innerHTML=allResults.length?[...allResults].reverse().map((r,revIdx)=>{const i=allResults.length-1-revIdx;const pt=(r.previousRank||'').toUpperCase();const nt=(r.rankEarned||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://minotar.net/avatar/${r.username}/34" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${r.username}</div><div class="admin-entry-meta"><span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span><span class="sep">·</span><span>${r.gamemode||'—'}</span><span class="sep">·</span>${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.65rem;padding:.1rem .45rem">${r.previousRank}</span> <span style="color:var(--muted)">→</span>`:''}<span class="tier-badge-lg tier-${nt}" style="font-size:.65rem;padding:.1rem .45rem">${r.rankEarned}</span><span class="sep">·</span><span>by ${r.tester}</span><span class="sep">·</span><span>${fmtDate(r.date)}</span></div></div><button class="admin-delete-btn" onclick="confirmDelete('result',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No test results to manage.</div>';
+  rl.innerHTML=allResults.length?[...allResults].reverse().map((r,revIdx)=>{const i=allResults.length-1-revIdx;const pt=(r.previousRank||'').toUpperCase();const nt=(r.rankEarned||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${r.username}</div><div class="admin-entry-meta"><span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span><span class="sep">·</span><span>${r.gamemode||'—'}</span><span class="sep">·</span>${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.65rem;padding:.1rem .45rem">${r.previousRank}</span> <span style="color:var(--muted)">→</span>`:''}<span class="tier-badge-lg tier-${nt}" style="font-size:.65rem;padding:.1rem .45rem">${r.rankEarned}</span><span class="sep">·</span><span>by ${r.tester}</span><span class="sep">·</span><span>${fmtDate(r.date)}</span></div></div><button class="admin-delete-btn" onclick="confirmDelete('result',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No test results to manage.</div>';
 }
 function confirmDelete(type,index){
   pendingDelete={type,index};
@@ -639,3 +801,4 @@ setInterval(loadData,60000);
 </script>
 </body>
 </html>
+
