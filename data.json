@@ -802,15 +802,5 @@
       "date": "2026-03-30T19:45:53.503Z"
     }
   ],
-  "blacklist": [
-    {
-      "discordId": "1423379726667485264",
-      "discordTag": "thatonebrotogetpinned",
-      "mcUsername": "antipopyk",
-      "reason": "Cheating in a tier test + Multiple cases of previous cheating",
-      "issuedBy": "banned2timesalready",
-      "issuedById": "1424493845390823574",
-      "date": "2026-03-30T19:38:27.510Z"
-    }
-  ]
+  "blacklist": []
 }
