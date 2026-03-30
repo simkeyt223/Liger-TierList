@@ -349,6 +349,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-30T19:29:47.056Z"
+    },
+    {
+      "username": "XstrahinjaX",
+      "discordId": "1300532181332135997",
+      "discordTag": "deadlight_89052",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-03-30T19:30:25.827Z"
     }
   ],
   "results": [
@@ -758,6 +768,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-30T19:29:47.060Z"
+    },
+    {
+      "username": "XstrahinjaX",
+      "discordId": "1300532181332135997",
+      "discordTag": "deadlight_89052",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-30T19:30:25.827Z"
     }
   ],
   "blacklist": []
