@@ -359,6 +359,16 @@
       "currentTier": "LT5",
       "previousTier": "LT5",
       "lastTested": "2026-03-30T19:30:25.827Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-30T19:45:53.502Z"
     }
   ],
   "results": [
@@ -779,6 +789,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-03-30T19:30:25.827Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-30T19:45:53.503Z"
     }
   ],
   "blacklist": [
