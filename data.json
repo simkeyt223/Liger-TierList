@@ -389,6 +389,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-03-31T14:09:33.522Z"
+    },
+    {
+      "username": "seprotheshark",
+      "discordId": "879762175860809779",
+      "discordTag": "theshark_4231",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-31T19:53:36.894Z"
     }
   ],
   "results": [
@@ -875,6 +885,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-03-31T19:45:43.941Z"
+    },
+    {
+      "username": "seprotheshark",
+      "discordId": "879762175860809779",
+      "discordTag": "theshark_4231",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-31T19:53:36.894Z"
     }
   ],
   "blacklist": [
