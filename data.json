@@ -256,9 +256,9 @@
       "discordTag": "adelraaah",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T17:46:02.480Z"
+      "currentTier": "LT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-03-31T19:45:43.941Z"
     },
     {
       "username": "mt2f3",
@@ -864,6 +864,17 @@
       "rankEarned": "LT5",
       "tester": "fanos123456",
       "date": "2026-03-31T14:18:43.354Z"
+    },
+    {
+      "username": "AdSwap",
+      "discordId": "1270114669864030361",
+      "discordTag": "adelraaah",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-03-31T19:45:43.941Z"
     }
   ],
   "blacklist": [
