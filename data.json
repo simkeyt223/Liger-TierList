@@ -379,6 +379,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-03-31T14:03:53.741Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-03-31T14:09:33.522Z"
     }
   ],
   "results": [
@@ -832,6 +842,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-03-31T14:03:53.741Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-03-31T14:09:33.522Z"
     }
   ],
   "blacklist": [
