@@ -66,9 +66,9 @@
       "discordTag": "sara019881",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "HT5",
-      "previousTier": "unranked",
-      "lastTested": "2026-03-26T14:06:49.752Z"
+      "currentTier": "LT5",
+      "previousTier": "HT5",
+      "lastTested": "2026-03-31T14:18:43.354Z"
     },
     {
       "username": "SimkeYT_223",
@@ -853,6 +853,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-03-31T14:09:33.522Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT5",
+      "rankEarned": "LT5",
+      "tester": "fanos123456",
+      "date": "2026-03-31T14:18:43.354Z"
     }
   ],
   "blacklist": [
