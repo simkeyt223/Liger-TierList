@@ -301,14 +301,14 @@
       "lastTested": "2026-03-28T18:18:42.688Z"
     },
     {
-      "username": "itszzantosek",
+      "username": "Itszzantosek",
       "discordId": "1362368859100811334",
       "discordTag": "antek_ollll._20192",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "LT5",
+      "currentTier": "HT5",
       "previousTier": "LT5",
-      "lastTested": "2026-03-28T19:34:21.662Z"
+      "lastTested": "2026-04-04T20:44:30.442Z"
     },
     {
       "username": "Kaizu",
@@ -918,6 +918,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-03-31T20:29:38.274Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "fanos123456",
+      "date": "2026-04-04T20:44:30.442Z"
     }
   ],
   "blacklist": [
