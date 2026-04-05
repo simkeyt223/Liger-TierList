@@ -96,9 +96,9 @@
       "discordTag": "being_him_41920",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "LT4",
+      "currentTier": "HT4",
       "previousTier": "LT4",
-      "lastTested": "2026-03-31T20:29:38.274Z"
+      "lastTested": "2026-04-05T21:33:37.278Z"
     },
     {
       "username": "SimkeYT_223",
@@ -1111,6 +1111,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-04-05T21:26:45.380Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT4",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-04-05T21:33:37.278Z"
     }
   ],
   "blacklist": [
