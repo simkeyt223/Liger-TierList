@@ -6,9 +6,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "LT4",
+      "currentTier": "HT4",
       "previousTier": "LT4",
-      "lastTested": "2026-03-31T13:46:48.868Z"
+      "lastTested": "2026-04-05T18:53:34.242Z"
     },
     {
       "username": "CloakingBadge78",
@@ -1014,6 +1014,17 @@
       "rankEarned": "LT4",
       "tester": "fanos123456",
       "date": "2026-04-05T18:35:24.958Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT4",
+      "rankEarned": "HT4",
+      "tester": "fanos123456",
+      "date": "2026-04-05T18:53:34.246Z"
     }
   ],
   "blacklist": [
