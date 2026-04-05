@@ -429,6 +429,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-05T12:38:16.536Z"
+    },
+    {
+      "username": "Cloakingbadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-05T20:30:41.665Z"
     }
   ],
   "results": [
@@ -1036,6 +1046,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-05T18:56:27.793Z"
+    },
+    {
+      "username": "Cloakingbadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-05T20:30:41.665Z"
     }
   ],
   "blacklist": [
