@@ -479,6 +479,16 @@
       "currentTier": "LT5",
       "previousTier": "HT5",
       "lastTested": "2026-04-09T17:05:55.529Z"
+    },
+    {
+      "username": "SweepMan",
+      "discordId": "818547534346584144",
+      "discordTag": "vitas4514",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-09T17:13:09.663Z"
     }
   ],
   "results": [
@@ -1229,6 +1239,17 @@
       "rankEarned": "LT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-09T17:05:55.529Z"
+    },
+    {
+      "username": "SweepMan",
+      "discordId": "818547534346584144",
+      "discordTag": "vitas4514",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-09T17:13:09.663Z"
     }
   ],
   "blacklist": [
