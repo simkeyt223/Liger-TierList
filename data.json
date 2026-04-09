@@ -469,6 +469,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-09T16:40:42.588Z"
+    },
+    {
+      "username": "itzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT5",
+      "previousTier": "HT5",
+      "lastTested": "2026-04-09T17:05:55.529Z"
     }
   ],
   "results": [
@@ -1208,6 +1218,17 @@
       "rankEarned": "HT4",
       "tester": "edytzu_safe05",
       "date": "2026-04-09T16:40:42.588Z"
+    },
+    {
+      "username": "itzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT5",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-09T17:05:55.529Z"
     }
   ],
   "blacklist": [
