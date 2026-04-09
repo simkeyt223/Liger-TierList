@@ -106,9 +106,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Mace",
-      "currentTier": "HT5",
+      "currentTier": "LT4",
       "previousTier": "HT5",
-      "lastTested": "2026-04-05T20:44:28.884Z"
+      "lastTested": "2026-04-09T18:03:50.406Z"
     },
     {
       "username": "greensteaky88",
@@ -1271,6 +1271,17 @@
       "rankEarned": "LT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-09T17:23:18.148Z"
+    },
+    {
+      "username": "SimkeYT_223",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT5",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-09T18:03:50.406Z"
     }
   ],
   "blacklist": [
