@@ -489,6 +489,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-09T17:13:09.663Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-09T17:23:18.148Z"
     }
   ],
   "results": [
@@ -1250,6 +1260,17 @@
       "rankEarned": "LT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-09T17:13:09.663Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-09T17:23:18.148Z"
     }
   ],
   "blacklist": [
