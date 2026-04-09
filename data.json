@@ -499,6 +499,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-09T17:23:18.148Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "LT4",
+      "previousTier": "HT5",
+      "lastTested": "2026-04-09T20:41:44.868Z"
     }
   ],
   "results": [
@@ -1282,6 +1292,17 @@
       "rankEarned": "LT4",
       "tester": "edytzu_safe05",
       "date": "2026-04-09T18:03:50.406Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT5",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-09T20:41:44.868Z"
     }
   ],
   "blacklist": [
