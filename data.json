@@ -217,8 +217,8 @@
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T17:09:12.892Z"
+      "previousTier": "LT4",
+      "lastTested": "2026-04-16T16:09:21.129Z"
     },
     {
       "username": "Vigilentull",
@@ -1421,6 +1421,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-04-16T15:10:05.582Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT4",
+      "rankEarned": "LT4",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T16:09:21.129Z"
     }
   ],
   "blacklist": [
