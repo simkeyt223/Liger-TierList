@@ -387,8 +387,8 @@
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-31T14:09:33.522Z"
+      "previousTier": "LT5",
+      "lastTested": "2026-04-16T17:51:28.363Z"
     },
     {
       "username": "seprotheshark",
@@ -1453,6 +1453,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-16T17:47:20.115Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT5",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T17:51:28.366Z"
     }
   ],
   "blacklist": [
