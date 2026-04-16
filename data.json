@@ -519,6 +519,16 @@
       "currentTier": "HT5",
       "previousTier": "HT5",
       "lastTested": "2026-04-13T15:48:01.347Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-04-16T14:36:42.877Z"
     }
   ],
   "results": [
@@ -1335,6 +1345,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-16T14:30:02.152Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:36:42.877Z"
     }
   ],
   "blacklist": [
