@@ -346,9 +346,9 @@
       "discordTag": "deadlight_89052",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-30T19:29:47.056Z"
+      "currentTier": "LT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-04-16T14:30:02.152Z"
     },
     {
       "username": "XstrahinjaX",
@@ -1324,6 +1324,17 @@
       "rankEarned": "HT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-13T15:48:01.353Z"
+    },
+    {
+      "username": "XstrahinjaX",
+      "discordId": "1300532181332135997",
+      "discordTag": "deadlight_89052",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:30:02.152Z"
     }
   ],
   "blacklist": [
