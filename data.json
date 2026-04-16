@@ -397,8 +397,8 @@
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-31T19:53:36.894Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-04-16T14:53:37.627Z"
     },
     {
       "username": "droxzprogamer123",
@@ -1399,6 +1399,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-16T14:49:03.661Z"
+    },
+    {
+      "username": "seprotheshark",
+      "discordId": "879762175860809779",
+      "discordTag": "theshark_4231",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:53:37.627Z"
     }
   ],
   "blacklist": [
