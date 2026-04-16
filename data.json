@@ -366,9 +366,9 @@
       "discordTag": "iyodrodamomenti",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT5",
+      "currentTier": "LT5",
       "previousTier": "HT5",
-      "lastTested": "2026-04-05T12:24:37.675Z"
+      "lastTested": "2026-04-16T14:40:28.121Z"
     },
     {
       "username": "CloakingBadge78",
@@ -1356,6 +1356,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-16T14:36:42.877Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:40:28.121Z"
     }
   ],
   "blacklist": [
