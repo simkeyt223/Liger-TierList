@@ -88,7 +88,7 @@
       "gamemode": "Sword",
       "currentTier": "HT5",
       "previousTier": "HT5",
-      "lastTested": "2026-04-06T09:55:27.229Z"
+      "lastTested": "2026-04-16T14:44:42.703Z"
     },
     {
       "username": "greensteaky88",
@@ -1367,6 +1367,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-04-16T14:40:28.121Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:44:42.703Z"
     }
   ],
   "blacklist": [
