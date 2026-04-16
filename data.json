@@ -529,6 +529,16 @@
       "currentTier": "LT3",
       "previousTier": "HT4",
       "lastTested": "2026-04-16T14:36:42.877Z"
+    },
+    {
+      "username": "itzrealAid",
+      "discordId": "1084150245123952673",
+      "discordTag": "premium4529",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-16T14:49:03.661Z"
     }
   ],
   "results": [
@@ -1378,6 +1388,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-16T14:44:42.703Z"
+    },
+    {
+      "username": "itzrealAid",
+      "discordId": "1084150245123952673",
+      "discordTag": "premium4529",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-16T14:49:03.661Z"
     }
   ],
   "blacklist": [
