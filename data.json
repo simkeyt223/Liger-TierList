@@ -407,8 +407,8 @@
       "region": "EU",
       "gamemode": "Vanilla",
       "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-04T20:52:15.819Z"
+      "previousTier": "LT5",
+      "lastTested": "2026-04-17T20:28:08.744Z"
     },
     {
       "username": "QGoscinny",
@@ -1550,6 +1550,17 @@
       "rankEarned": "HT4",
       "tester": "fanos123456",
       "date": "2026-04-17T20:21:04.565Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "LT5",
+      "tester": "fanos123456",
+      "date": "2026-04-17T20:28:08.744Z"
     }
   ],
   "blacklist": [
