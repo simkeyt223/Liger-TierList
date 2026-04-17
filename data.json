@@ -327,8 +327,8 @@
       "region": "EU",
       "gamemode": "Mace",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T22:04:26.736Z"
+      "previousTier": "LT5",
+      "lastTested": "2026-04-17T23:36:35.403Z"
     },
     {
       "username": "XstrahimjaX",
@@ -1593,6 +1593,17 @@
       "rankEarned": "LT4",
       "tester": "edytzu_safe05",
       "date": "2026-04-17T22:45:50.248Z"
+    },
+    {
+      "username": "itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-17T23:36:35.403Z"
     }
   ],
   "blacklist": [
