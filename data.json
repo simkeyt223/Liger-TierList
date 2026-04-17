@@ -376,9 +376,9 @@
       "discordTag": "fanos123456",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT3",
-      "previousTier": "LT3",
-      "lastTested": "2026-04-09T15:25:08.705Z"
+      "currentTier": "LT3",
+      "previousTier": "HT3",
+      "lastTested": "2026-04-17T16:40:56.387Z"
     },
     {
       "username": "FlameEmperor",
@@ -1464,6 +1464,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-04-16T17:51:28.366Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT3",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-17T16:40:56.390Z"
     }
   ],
   "blacklist": [
