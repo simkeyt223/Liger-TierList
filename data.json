@@ -431,14 +431,14 @@
       "lastTested": "2026-04-05T12:38:16.536Z"
     },
     {
-      "username": "Cloakingbadge78",
+      "username": "CloakingBadge78",
       "discordId": "851466092493013012",
       "discordTag": "fanos123456",
       "region": "EU",
       "gamemode": "Mace",
       "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-05T20:30:41.665Z"
+      "previousTier": "LT4",
+      "lastTested": "2026-04-17T22:45:50.248Z"
     },
     {
       "username": "Itzzantosek",
@@ -1582,6 +1582,17 @@
       "rankEarned": "HT4",
       "tester": "fanos123456",
       "date": "2026-04-17T22:07:05.282Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "LT4",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-17T22:45:50.248Z"
     }
   ],
   "blacklist": [
