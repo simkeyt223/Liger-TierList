@@ -247,8 +247,8 @@
       "region": "EU",
       "gamemode": "Vanilla",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T17:32:40.466Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-04-18T16:26:51.744Z"
     },
     {
       "username": "AdSwap",
@@ -1615,6 +1615,17 @@
       "rankEarned": "HT5",
       "tester": "fanos123456",
       "date": "2026-04-18T12:51:45.319Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "fanos123456",
+      "date": "2026-04-18T16:26:51.745Z"
     }
   ],
   "blacklist": [
