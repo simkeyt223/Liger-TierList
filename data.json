@@ -136,9 +136,9 @@
       "discordTag": "being_him_41920",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "LT4",
-      "previousTier": "HT5",
-      "lastTested": "2026-04-09T15:35:53.436Z"
+      "currentTier": "HT5",
+      "previousTier": "LT4",
+      "lastTested": "2026-04-18T12:51:45.319Z"
     },
     {
       "username": "rikusdebeer",
@@ -1604,6 +1604,17 @@
       "rankEarned": "HT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-17T23:36:35.403Z"
+    },
+    {
+      "username": "greensteaky88",
+      "discordId": "1253465298045108397",
+      "discordTag": "being_him_41920",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT4",
+      "rankEarned": "HT5",
+      "tester": "fanos123456",
+      "date": "2026-04-18T12:51:45.319Z"
     }
   ],
   "blacklist": [
