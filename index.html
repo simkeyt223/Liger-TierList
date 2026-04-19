@@ -34,128 +34,40 @@ body::before {
   background-size:48px 48px; pointer-events:none; z-index:0;
 }
 
-/* ─── NAV ─────────────────────────────── */
-nav {
-  position:sticky; top:0; z-index:200;
-  display:flex; align-items:center;
-  height:62px;
-  background:rgba(13,14,18,.97);
-  backdrop-filter:blur(20px);
-  border-bottom:1px solid var(--border);
-  padding:0 1.5rem;
-  gap:.5rem;
-}
-
-/* LIGER SMP logo text */
-.nav-logo {
-  display:flex; align-items:center; gap:0;
-  text-decoration:none; margin-right:1.2rem; flex-shrink:0;
-  line-height:1;
-  user-select:none;
-}
-.logo-liger {
-  font-family:'Bebas Neue',sans-serif;
-  font-size:1.7rem;
-  letter-spacing:.1em;
-  color:#f5c842;
-  text-shadow:
-    2px 2px 0 #c47a00,
-    3px 3px 0 #8a5500,
-    0 0 20px rgba(245,200,66,.25);
-  -webkit-text-stroke:1px rgba(0,0,0,.5);
-}
-.logo-smp {
-  font-family:'Bebas Neue',sans-serif;
-  font-size:1.15rem;
-  letter-spacing:.18em;
-  color:#d0d8e8;
-  text-shadow:
-    1px 1px 0 #6a7080,
-    2px 2px 0 #3a4050;
-  -webkit-text-stroke:.5px rgba(0,0,0,.4);
-  margin-left:.15rem;
-  align-self:flex-end;
-  padding-bottom:2px;
-}
-.logo-sep {
-  width:1px; height:22px;
-  background:var(--border2);
-  margin:0 1.2rem;
-  flex-shrink:0;
-}
-
+/* NAV */
+nav { position:sticky; top:0; z-index:200; display:flex; align-items:center; height:62px; background:rgba(13,14,18,.97); backdrop-filter:blur(20px); border-bottom:1px solid var(--border); padding:0 1.5rem; gap:.5rem; }
+.nav-logo { display:flex; align-items:center; gap:0; text-decoration:none; margin-right:1.2rem; flex-shrink:0; line-height:1; user-select:none; }
+.logo-liger { font-family:'Bebas Neue',sans-serif; font-size:1.7rem; letter-spacing:.1em; color:#f5c842; text-shadow:2px 2px 0 #c47a00,3px 3px 0 #8a5500,0 0 20px rgba(245,200,66,.25); -webkit-text-stroke:1px rgba(0,0,0,.5); }
+.logo-smp { font-family:'Bebas Neue',sans-serif; font-size:1.15rem; letter-spacing:.18em; color:#d0d8e8; text-shadow:1px 1px 0 #6a7080,2px 2px 0 #3a4050; -webkit-text-stroke:.5px rgba(0,0,0,.4); margin-left:.15rem; align-self:flex-end; padding-bottom:2px; }
+.logo-sep { width:1px; height:22px; background:var(--border2); margin:0 1.2rem; flex-shrink:0; }
 .nav-links { display:flex; align-items:center; gap:.2rem; flex:1; }
 .nav-link { display:flex; align-items:center; gap:.4rem; padding:.4rem .85rem; border-radius:7px; font-size:.85rem; font-weight:600; color:var(--muted2); text-decoration:none; transition:color .2s,background .2s; }
 .nav-link svg { width:15px; height:15px; }
 .nav-link:hover { color:var(--text); background:var(--surface2); }
 .nav-link.active { color:var(--accent); background:rgba(245,200,66,.08); }
-
 .nav-right { display:flex; align-items:center; gap:.6rem; margin-left:auto; }
-
-/* SERVER IP CHIP */
-.server-ip-chip {
-  display:flex; align-items:center; gap:0;
-  background:var(--surface2);
-  border:1px solid var(--border2);
-  border-radius:8px;
-  overflow:hidden;
-  font-family:'JetBrains Mono',monospace;
-  flex-shrink:0;
-}
-.server-ip-label {
-  font-size:.6rem; font-weight:700;
-  letter-spacing:.12em; text-transform:uppercase;
-  color:var(--muted2);
-  background:var(--surface3);
-  padding:.32rem .6rem;
-  border-right:1px solid var(--border2);
-  white-space:nowrap;
-}
-.server-ip-value {
-  font-size:.78rem; font-weight:600;
-  color:var(--accent);
-  padding:.32rem .65rem;
-  white-space:nowrap;
-}
-.server-ip-copy {
-  display:flex; align-items:center; justify-content:center;
-  width:28px; height:100%;
-  background:transparent;
-  border:none; border-left:1px solid var(--border2);
-  color:var(--muted2);
-  cursor:pointer;
-  transition:color .2s, background .2s;
-  padding:0 .3rem;
-}
+.server-ip-chip { display:flex; align-items:center; gap:0; background:var(--surface2); border:1px solid var(--border2); border-radius:8px; overflow:hidden; font-family:'JetBrains Mono',monospace; flex-shrink:0; }
+.server-ip-label { font-size:.6rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; color:var(--muted2); background:var(--surface3); padding:.32rem .6rem; border-right:1px solid var(--border2); white-space:nowrap; }
+.server-ip-value { font-size:.78rem; font-weight:600; color:var(--accent); padding:.32rem .65rem; white-space:nowrap; }
+.server-ip-copy { display:flex; align-items:center; justify-content:center; width:28px; height:100%; background:transparent; border:none; border-left:1px solid var(--border2); color:var(--muted2); cursor:pointer; transition:color .2s,background .2s; padding:0 .3rem; }
 .server-ip-copy:hover { color:var(--accent); background:rgba(245,200,66,.07); }
 .server-ip-copy svg { width:13px; height:13px; }
-
 .nav-btn { display:flex; align-items:center; gap:.45rem; padding:.38rem 1rem; border-radius:7px; font-size:.8rem; font-weight:700; letter-spacing:.04em; text-decoration:none; border:1px solid; cursor:pointer; font-family:'DM Sans',sans-serif; transition:all .2s; }
 .nav-btn.store { background:linear-gradient(135deg,var(--accent),var(--accent2)); border-color:transparent; color:#1a1000; }
 .nav-btn.store:hover { opacity:.87; transform:translateY(-1px); box-shadow:0 4px 18px rgba(245,200,66,.3); }
 .nav-btn.discord { background:transparent; border-color:rgba(88,101,242,.5); color:#7289da; }
 .nav-btn.discord:hover { background:rgba(88,101,242,.1); }
-
-/* copy toast */
-.copy-toast {
-  position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%) translateY(20px);
-  background:var(--surface3); border:1px solid var(--border2); color:var(--text);
-  padding:.55rem 1.25rem; border-radius:8px; font-size:.8rem; font-weight:600;
-  font-family:'JetBrains Mono',monospace;
-  opacity:0; transition:opacity .2s, transform .2s;
-  pointer-events:none; z-index:9999;
-  box-shadow:0 8px 24px rgba(0,0,0,.5);
-}
+.copy-toast { position:fixed; bottom:1.5rem; left:50%; transform:translateX(-50%) translateY(20px); background:var(--surface3); border:1px solid var(--border2); color:var(--text); padding:.55rem 1.25rem; border-radius:8px; font-size:.8rem; font-weight:600; font-family:'JetBrains Mono',monospace; opacity:0; transition:opacity .2s,transform .2s; pointer-events:none; z-index:9999; box-shadow:0 8px 24px rgba(0,0,0,.5); }
 .copy-toast.show { opacity:1; transform:translateX(-50%) translateY(0); }
 
-/* ─── HERO ─────────────────────────────── */
+/* HERO */
 .hero { position:relative; z-index:1; max-width:1240px; margin:0 auto; padding:2.5rem 2rem 0; }
 .hero-title { font-family:'Bebas Neue',sans-serif; font-size:3.6rem; letter-spacing:.06em; line-height:.9; background:linear-gradient(100deg,var(--accent) 0%,var(--accent2) 55%,#fff 100%); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
 .hero-sub { font-size:.78rem; color:var(--muted2); letter-spacing:.12em; text-transform:uppercase; font-weight:600; display:flex; align-items:center; gap:.5rem; margin-top:.5rem; }
 .live-dot { width:7px; height:7px; border-radius:50%; background:var(--green); display:inline-block; animation:pulse 2s infinite; }
 @keyframes pulse { 0%,100%{opacity:1;box-shadow:0 0 0 0 rgba(56,193,114,.5)} 50%{opacity:.8;box-shadow:0 0 0 5px rgba(56,193,114,0)} }
 
-/* ─── STATS ─────────────────────────────── */
+/* STATS */
 .stats-row { display:flex; gap:.75rem; max-width:1240px; margin:1.5rem auto 0; padding:0 2rem; position:relative; z-index:1; }
 .stat-card { flex:1; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.9rem 1.2rem; display:flex; align-items:center; gap:.9rem; transition:border-color .2s,transform .2s; }
 .stat-card:hover { border-color:var(--border2); transform:translateY(-2px); }
@@ -163,16 +75,74 @@ nav {
 .stat-num { font-family:'Bebas Neue',sans-serif; font-size:1.9rem; color:var(--accent); line-height:1; }
 .stat-label { font-size:.68rem; color:var(--muted2); text-transform:uppercase; letter-spacing:.12em; margin-top:1px; font-weight:600; }
 
-/* ─── TABS ─────────────────────────────── */
+/* TABS */
 .tabs-wrap { max-width:1240px; margin:1.5rem auto 0; padding:0 2rem; position:relative; z-index:1; }
 .tabs { display:flex; gap:.3rem; background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:.32rem; overflow-x:auto; scrollbar-width:none; }
 .tabs::-webkit-scrollbar { display:none; }
 .tab { display:flex; align-items:center; gap:.5rem; padding:.6rem 1.3rem; border-radius:9px; cursor:pointer; font-size:.82rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--muted2); transition:all .2s; white-space:nowrap; border:1px solid transparent; font-family:'DM Sans',sans-serif; }
-.tab svg { width:18px; height:18px; overflow:visible; flex-shrink:0; }
+.tab svg.tab-icon { width:18px; height:18px; overflow:visible; flex-shrink:0; }
+.tab-caret { width:11px; height:11px; flex-shrink:0; opacity:.45; transition:transform .25s ease, opacity .2s; margin-left:-3px; }
 .tab:hover { color:var(--text); background:var(--surface2); }
+.tab:hover .tab-caret { opacity:.75; }
 .tab.active { color:var(--accent); background:rgba(245,200,66,.1); border-color:rgba(245,200,66,.25); }
+.tab.active .tab-caret { opacity:1; transform:rotate(180deg); }
 
-/* ─── SEARCH ─────────────────────────────── */
+/* SUB-TIER STRIP */
+.subtabs-strip {
+  display:flex;
+  align-items:center;
+  gap:.4rem;
+  max-height:0;
+  overflow:hidden;
+  opacity:0;
+  padding:0 .35rem;
+  transition: max-height .32s cubic-bezier(.4,0,.2,1),
+              opacity .25s ease,
+              padding .28s ease,
+              margin-top .28s ease;
+  margin-top:0;
+}
+.subtabs-strip.visible {
+  max-height:60px;
+  opacity:1;
+  padding:.55rem .6rem .45rem;
+  margin-top:.35rem;
+}
+.subtabs-label {
+  font-size:.6rem;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  font-family:'JetBrains Mono',monospace;
+  white-space:nowrap;
+  padding-right:.45rem;
+  border-right:1px solid var(--border);
+  margin-right:.1rem;
+  flex-shrink:0;
+}
+.subtab {
+  display:flex;
+  align-items:center;
+  gap:.38rem;
+  padding:.3rem .9rem;
+  border-radius:20px;
+  font-size:.74rem;
+  font-weight:700;
+  letter-spacing:.05em;
+  cursor:pointer;
+  border:1.5px solid;
+  background:transparent;
+  transition:all .18s;
+  white-space:nowrap;
+  font-family:'DM Sans',sans-serif;
+  flex-shrink:0;
+}
+.subtab svg { width:14px; height:14px; overflow:visible; flex-shrink:0; }
+.subtab:hover { transform:translateY(-1px); }
+.subtab.active { color:#fff !important; }
+
+/* SEARCH */
 .search-row { max-width:1240px; margin:.9rem auto 0; padding:0 2rem; position:relative; z-index:1; }
 .search-inner { display:flex; align-items:center; gap:.5rem; background:var(--surface); border:1px solid var(--border2); border-radius:9px; padding:.5rem 1rem; max-width:300px; transition:border-color .2s; }
 .search-inner:focus-within { border-color:rgba(245,200,66,.4); }
@@ -180,37 +150,24 @@ nav {
 .search-inner input { background:none; border:none; outline:none; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.8rem; width:200px; }
 .search-inner input::placeholder { color:var(--muted); }
 
-/* ─── MAIN ─────────────────────────────── */
+/* MAIN */
 main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relative; z-index:1; }
 
-/* ─── TABLE HEAD ─────────────────────────────── */
+/* TABLE HEAD */
 .table-head { display:grid; align-items:center; padding:.4rem 1rem .4rem 1.3rem; font-size:.63rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.16em; font-family:'JetBrains Mono',monospace; border-bottom:1px solid var(--border); margin-bottom:.5rem; }
 .table-head.overall-head { grid-template-columns:60px 72px 1fr 88px 1fr; }
 .table-head.gm-head      { grid-template-columns:60px 72px 1fr 88px 130px; }
 
-/* ─── PLAYER CARD ─────────────────────────────── */
-.player-card {
-  display:grid; align-items:center;
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-radius:12px;
-  margin-bottom:5px;
-  overflow:hidden;
-  transition:all .22s;
-  animation:cardIn .4s ease both;
-  min-height:78px;
-}
+/* PLAYER CARD */
+.player-card { display:grid; align-items:center; background:var(--surface); border:1px solid var(--border); border-radius:12px; margin-bottom:5px; overflow:hidden; transition:all .22s; animation:cardIn .4s ease both; min-height:78px; }
 .player-card.overall-card { grid-template-columns:60px 72px 1fr 88px 1fr; }
 .player-card.gm-card      { grid-template-columns:60px 72px 1fr 88px 130px; }
 @keyframes cardIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
-
 .player-card:hover { border-color:var(--border2); transform:translateY(-2px); box-shadow:0 8px 28px rgba(0,0,0,.3); }
-
 .player-card.rank-1 { border-color:rgba(245,200,66,.4); background:linear-gradient(90deg,rgba(245,200,66,.09) 0%,var(--surface) 35%); box-shadow:0 0 28px rgba(245,200,66,.08); }
 .player-card.rank-2 { border-color:rgba(176,188,200,.35); background:linear-gradient(90deg,rgba(176,188,200,.06) 0%,var(--surface) 35%); }
 .player-card.rank-3 { border-color:rgba(196,122,56,.35); background:linear-gradient(90deg,rgba(196,122,56,.06) 0%,var(--surface) 35%); }
 
-/* RANK CELL */
 .rank-cell { display:flex; flex-direction:column; align-items:center; justify-content:center; padding:.5rem .4rem; gap:2px; }
 .rank-number { font-family:'Bebas Neue',sans-serif; font-size:2rem; line-height:1; color:var(--muted); }
 .rank-number.r1 { color:var(--gold); }
@@ -218,40 +175,19 @@ main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relat
 .rank-number.r3 { color:var(--bronze); }
 .rank-medal { font-size:13px; }
 
-/* ─── AVATAR CELL (face cutout) ─────────────────────────────── */
-.skin-cell {
-  position:relative;
-  display:flex; align-items:center; justify-content:center;
-  padding:.6rem .4rem;
-}
-.skin-avatar-wrap {
-  position:relative;
-  width:52px; height:52px;
-  border-radius:10px;
-  overflow:hidden;
-  background:var(--surface2);
-  border:2px solid var(--border2);
-  flex-shrink:0;
-  transition:border-color .2s, transform .2s;
-}
+.skin-cell { position:relative; display:flex; align-items:center; justify-content:center; padding:.6rem .4rem; }
+.skin-avatar-wrap { position:relative; width:52px; height:52px; border-radius:10px; overflow:hidden; background:var(--surface2); border:2px solid var(--border2); flex-shrink:0; transition:border-color .2s,transform .2s; }
 .player-card:hover .skin-avatar-wrap { transform:scale(1.05); border-color:rgba(245,200,66,.3); }
 .rank-1 .skin-avatar-wrap { border-color:rgba(245,200,66,.5); box-shadow:0 0 12px rgba(245,200,66,.2); }
 .rank-2 .skin-avatar-wrap { border-color:rgba(176,188,200,.45); }
 .rank-3 .skin-avatar-wrap { border-color:rgba(196,122,56,.45); }
-.skin-img {
-  width:100%; height:100%;
-  object-fit:cover;
-  image-rendering:pixelated;
-  display:block;
-}
+.skin-img { width:100%; height:100%; object-fit:cover; image-rendering:pixelated; display:block; }
 
-/* INFO CELL */
 .info-cell { display:flex; flex-direction:column; justify-content:center; padding:.7rem .8rem .7rem .25rem; gap:.18rem; min-width:0; }
 .player-name { font-family:'Bebas Neue',sans-serif; font-size:1.4rem; letter-spacing:.04em; color:var(--text); line-height:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
 .player-tag { font-family:'JetBrains Mono',monospace; font-size:.63rem; color:var(--muted); }
 .player-score { font-family:'JetBrains Mono',monospace; font-size:.73rem; font-weight:700; color:var(--accent); margin-top:.1rem; letter-spacing:.04em; }
 
-/* REGION CELL */
 .region-cell { display:flex; align-items:center; justify-content:center; }
 .region-badge { display:inline-flex; align-items:center; justify-content:center; padding:.28rem .7rem; border-radius:7px; font-size:.7rem; font-weight:800; letter-spacing:.12em; font-family:'JetBrains Mono',monospace; }
 .region-NA { background:rgba(80,144,224,.15); color:#5090e0; border:1px solid rgba(80,144,224,.28); }
@@ -261,7 +197,6 @@ main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relat
 .region-AU { background:rgba(64,176,144,.15); color:#40b090; border:1px solid rgba(64,176,144,.28); }
 .region-AF { background:rgba(200,160,60,.15); color:#c8a03c; border:1px solid rgba(200,160,60,.28); }
 
-/* TIER CIRCLES */
 .tiers-cell { display:flex; flex-wrap:wrap; align-items:center; gap:.45rem; padding:.65rem .65rem .65rem .2rem; }
 .tier-circle { display:flex; flex-direction:column; align-items:center; gap:3px; flex-shrink:0; transition:transform .2s; }
 .tier-circle:hover { transform:scale(1.1) translateY(-2px); }
@@ -290,7 +225,6 @@ main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relat
 .circle-LT5 .tier-circle-disc { background:rgba(80,88,104,.12); border-color:rgba(80,88,104,.35); }
 .circle-LT5 .tier-circle-label { background:rgba(80,88,104,.15); color:#506070; }
 
-/* SINGLE TIER (gm tabs) */
 .tier-cell { display:flex; align-items:center; justify-content:center; }
 .tier-badge-lg { display:inline-flex; align-items:center; gap:.4rem; padding:.32rem .85rem; border-radius:8px; font-size:.8rem; font-weight:700; letter-spacing:.08em; font-family:'JetBrains Mono',monospace; }
 .tier-HT1 { background:rgba(245,200,66,.14); color:#f5c842; border:1px solid rgba(245,200,66,.35); }
@@ -304,13 +238,11 @@ main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relat
 .tier-LT4 { background:rgba(128,136,152,.12);color:#8090a0; border:1px solid rgba(128,136,152,.35); }
 .tier-LT5 { background:rgba(80,88,104,.12);  color:#506070; border:1px solid rgba(80,88,104,.3); }
 
-/* SECTION DIVIDER */
 .section-divider { display:flex; align-items:center; gap:.75rem; margin:2.5rem 0 1rem; }
 .section-divider-label { font-family:'Bebas Neue',sans-serif; font-size:1rem; letter-spacing:.2em; color:var(--muted2); }
 .section-divider-line { flex:1; height:1px; background:var(--border); }
 .section-divider-dot { width:6px; height:6px; border-radius:50%; background:var(--accent); opacity:.6; }
 
-/* RECENT RESULTS */
 .result-card { display:flex; align-items:center; gap:1rem; background:var(--surface); border:1px solid var(--border); border-radius:11px; padding:.75rem 1.1rem; margin-bottom:5px; animation:cardIn .4s ease both; transition:border-color .2s; }
 .result-card:hover { border-color:var(--border2); }
 .result-avatar { width:34px; height:34px; border-radius:8px; overflow:hidden; flex-shrink:0; border:1.5px solid var(--border2); }
@@ -320,8 +252,6 @@ main { max-width:1240px; margin:0 auto; padding:1.1rem 2rem 3rem; position:relat
 .result-meta { font-size:.7rem; color:var(--muted2); margin-top:2px; display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
 .result-tiers { display:flex; align-items:center; gap:.5rem; }
 .arrow-icon { color:var(--muted); }
-
-/* EMPTY */
 .empty { text-align:center; padding:5rem 2rem; color:var(--muted); }
 .empty h2 { font-family:'Bebas Neue',sans-serif; font-size:2rem; color:var(--text); margin-bottom:.5rem; letter-spacing:.08em; }
 
@@ -404,12 +334,10 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 <body>
 
 <nav>
-  <!-- LIGER SMP styled logo -->
   <a class="nav-logo" href="#">
     <span class="logo-liger">LIGER</span><span class="logo-smp">SMP</span>
   </a>
   <div class="logo-sep"></div>
-
   <div class="nav-links">
     <a class="nav-link active" href="#">
       <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 3v18h18M7 16l4-4 4 4 4-4"/></svg>
@@ -420,9 +348,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
       Discord
     </a>
   </div>
-
   <div class="nav-right">
-    <!-- SERVER IP CHIP -->
     <div class="server-ip-chip">
       <span class="server-ip-label">Server IP</span>
       <span class="server-ip-value">ligersmp.de</span>
@@ -453,24 +379,135 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 </div>
 
 <div class="tabs-wrap">
+
+  <!-- ── Main tab bar ── -->
   <div class="tabs">
-    <div class="tab active" onclick="setTab('All')" id="tab-All">
-      <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+    <div class="tab active" onclick="setParentTab('All')" id="ptab-All">
+      <svg class="tab-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
       Overall
     </div>
-    <div class="tab" onclick="setTab('Vanilla')" id="tab-Vanilla">
+    <div class="tab" onclick="setParentTab('Vanilla')" id="ptab-Vanilla">
+      <svg class="tab-icon" viewBox="0 0 1080 1080"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>
+      Vanilla
+      <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
+    </div>
+    <div class="tab" onclick="setParentTab('Sword')" id="ptab-Sword">
+      <svg class="tab-icon" viewBox="0 0 1080 1080"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#71bfdd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#6195d9"/></svg>
+      Sword
+      <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
+    </div>
+    <div class="tab" onclick="setParentTab('Mace')" id="ptab-Mace">
+      <svg class="tab-icon" viewBox="0 0 750 750"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>
+      Mace
+      <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
+    </div>
+    <!-- Neth Pot — uses the uploaded nethop.svg paths inline -->
+    <div class="tab" onclick="setParentTab('NethPot')" id="ptab-NethPot">
+      <svg class="tab-icon" viewBox="0 0 1080 1080">
+        <path d="M318.76 910.04c139.39-61.23 285.97-65.01 441.16 0L937.7 790.79l-50.48-441.68H198.05L132.2 705.19z" style="fill:#6e4a91"/>
+        <path d="M784.75 950.72c-78.35 0-111.04 18.34-111.04-60.01s32.69-141.89 111.04-141.89v-.05c96.04-1.19 109.77-77.59 108.2-180.26-.7-47.21-30.55-88.28-72.44-103.75-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46-12.8-1.03-26.91-1.57-42.43-1.57-60.17 0-108.41 50.19-109.34 110.37-.71 45.47 1.63 85.79 12.75 116.66 14 38.91 41.94 62.94 95.44 63.59v.05c78.35 0 86.11 63.54 86.11 141.89s-7.76 60.01-86.11 60.01c-104.29 0-159.74-46.18-189.21-113.46-36.41-82.91-33.26-197.84-33.26-298 0-330.56 210.48-411.84 467.24-411.84h3.74c174.23.49 315.8 34.46 394.81 145.85 44.06 62.07 68.64 148.19 68.64 265.99.02 181.46 10.22 411.47-222.45 411.47" style="fill:#8f72a5"/>
+        <path d="M381.36 890.71c0 78.35-7.76 60.01-86.11 60.01-104.29 0-159.74-46.18-189.21-113.46l93.76-152.09c14 38.91 41.94 62.94 95.44 63.59v.05c78.37 0 86.12 63.54 86.12 141.9M938.58 273.27 820.5 464.76c-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46l204.94-332.3c174.26.49 315.82 34.46 394.83 145.86" style="opacity:.21;fill:#c7a3e8"/>
+      </svg>
+      Neth Pot
+      <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
+    </div>
+    <!-- SMP — uses the uploaded smp.svg paths inline -->
+    <div class="tab" onclick="setParentTab('SMP')" id="ptab-SMP">
+      <svg class="tab-icon" viewBox="0 0 512 512">
+        <circle cx="256.6" cy="257.7" r="215.4" style="fill:#10574b"/>
+        <path d="M426.6 305c-10.2 56.5-64.4 110.7-120.9 120.9s-94.1-27.3-83.9-83.9 64.5-110.7 121-121c56.7-10.2 94.2 27.4 83.8 84" style="fill:rgba(0,0,0,.35)"/>
+        <path d="M282.7 156.7c-10.3 56.5-64.5 110.7-121 121s-94.2-27.3-83.9-83.9 64.5-110.7 121.1-121 94.1 27.2 83.8 83.9" style="fill:rgba(0,0,0,.28)"/>
+        <path d="M83.6 262.2c15.8 15.8 46.8-46.8 89.3-89.3s104.7-72 88.3-88.3c-10.7-10.7-74.2-16-133.9 43.7C73.4 182.1 68.4 247 83.6 262.2" style="fill:#40bc9e"/>
+        <path d="M426 249.6c-15.8-15.8-46.8 46.8-89.3 89.3s-104.6 71.9-88.3 88.3c10.7 10.7 74.2 16 133.9-43.7 53.9-53.9 58.9-118.7 43.7-133.9" style="fill:#40bc9e"/>
+        <path d="M106.1 210.8c7 7 27.3-27.3 52.2-52.2s58.7-44.2 51.5-51.5c-16.3-16.3-55.3 15.4-71.8 31.9-16.4 16.5-47.6 56-31.9 71.8" style="fill:#b0f0e0"/>
+        <path d="M404.1 301.6c-7-7-27.3 27.3-52.2 52.2s-58.7 44.2-51.5 51.5c16.3 16.3 55.3-15.4 71.8-31.9s47.7-56 31.9-71.8" style="fill:#b0f0e0"/>
+      </svg>
+      SMP
+      <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
+    </div>
+  </div>
+
+  <!-- ── Sub-tier strips (one per parent tab) ── -->
+
+  <!-- Vanilla variants -->
+  <div class="subtabs-strip" id="strip-Vanilla">
+    <span class="subtabs-label">Variants</span>
+    <div class="subtab" id="stab-Vanilla" style="border-color:rgba(200,137,230,.35);color:#c889e6" onclick="setSubTab('Vanilla')">
       <svg viewBox="0 0 1080 1080"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>
       Vanilla
     </div>
-    <div class="tab" onclick="setTab('Sword')" id="tab-Sword">
+    <div class="subtab" id="stab-Diamond Vanilla" style="border-color:rgba(77,208,225,.35);color:#4dd0e1" onclick="setSubTab('Diamond Vanilla')">
+      <svg viewBox="0 0 100 100"><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="#4dd0e1"/><path d="M34 68 L34 80 L50 84 L66 80 L66 68 Z" fill="#26c6da" opacity="0.7"/><rect x="25" y="40" width="16" height="12" rx="2" fill="#102030"/><rect x="59" y="40" width="16" height="12" rx="2" fill="#102030"/></svg>
+      Diamond Vanilla
+    </div>
+    <div class="subtab" id="stab-NDBP Vanilla" style="border-color:rgba(156,100,208,.35);color:#9c64d0" onclick="setSubTab('NDBP Vanilla')">
+      <svg viewBox="0 0 100 100"><rect x="44" y="18" width="12" height="58" rx="3" fill="#9c64d0"/><ellipse cx="50" cy="23" rx="20" ry="11" fill="#9c64d0"/><ellipse cx="50" cy="23" rx="10" ry="5.5" fill="#140a20"/><path d="M20 75 Q18 60 28 62 L28 75Z" fill="#9c64d0"/><path d="M80 75 Q82 60 72 62 L72 75Z" fill="#9c64d0"/><rect x="20" y="75" width="60" height="11" rx="5.5" fill="#9c64d0"/></svg>
+      NDBP Vanilla
+    </div>
+  </div>
+
+  <!-- Sword variants -->
+  <div class="subtabs-strip" id="strip-Sword">
+    <span class="subtabs-label">Variants</span>
+    <div class="subtab" id="stab-Sword" style="border-color:rgba(113,191,221,.35);color:#71bfdd" onclick="setSubTab('Sword')">
       <svg viewBox="0 0 1080 1080"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#71bfdd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#6195d9"/></svg>
       Sword
     </div>
-    <div class="tab" onclick="setTab('Mace')" id="tab-Mace">
+    <div class="subtab" id="stab-Speed" style="border-color:rgba(149,117,205,.35);color:#9575cd" onclick="setSubTab('Speed')">
+      <svg viewBox="0 0 1080 1080"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#9575cd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#7e57c2"/><circle cx="210" cy="190" r="48" fill="#e040fb" opacity="0.6"/><circle cx="840" cy="155" r="36" fill="#ce93d8" opacity="0.55"/></svg>
+      Speed
+    </div>
+  </div>
+
+  <!-- Mace variants -->
+  <div class="subtabs-strip" id="strip-Mace">
+    <span class="subtabs-label">Variants</span>
+    <div class="subtab" id="stab-Mace" style="border-color:rgba(145,145,183,.35);color:#9191b7" onclick="setSubTab('Mace')">
       <svg viewBox="0 0 750 750"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>
       Mace
     </div>
+    <div class="subtab" id="stab-Spear Mace" style="border-color:rgba(122,128,144,.35);color:#9aa0b0" onclick="setSubTab('Spear Mace')">
+      <svg viewBox="0 0 100 100"><rect x="47" y="30" width="6" height="60" rx="2" fill="#8d7355"/><path d="M50 5 L62 30 L38 30 Z" fill="#a8a8b0"/><path d="M40 30 L32 19 L38 30Z" fill="#c8c8d0" opacity="0.7"/><path d="M60 30 L68 19 L62 30Z" fill="#c8c8d0" opacity="0.7"/><line x1="30" y1="38" x2="42" y2="38" stroke="#a08060" stroke-width="3" stroke-linecap="round"/></svg>
+      Spear Mace
+    </div>
   </div>
+
+  <!-- Neth Pot variants -->
+  <div class="subtabs-strip" id="strip-NethPot">
+    <span class="subtabs-label">Variants</span>
+    <div class="subtab" id="stab-Neth Pot" style="border-color:rgba(224,80,80,.35);color:#e05050" onclick="setSubTab('Neth Pot')">
+      <svg viewBox="0 0 1080 1080">
+        <path d="M318.76 910.04c139.39-61.23 285.97-65.01 441.16 0L937.7 790.79l-50.48-441.68H198.05L132.2 705.19z" style="fill:#6e4a91"/>
+        <path d="M784.75 950.72c-78.35 0-111.04 18.34-111.04-60.01s32.69-141.89 111.04-141.89v-.05c96.04-1.19 109.77-77.59 108.2-180.26-.7-47.21-30.55-88.28-72.44-103.75-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46-12.8-1.03-26.91-1.57-42.43-1.57-60.17 0-108.41 50.19-109.34 110.37-.71 45.47 1.63 85.79 12.75 116.66 14 38.91 41.94 62.94 95.44 63.59v.05c78.35 0 86.11 63.54 86.11 141.89s-7.76 60.01-86.11 60.01c-104.29 0-159.74-46.18-189.21-113.46-36.41-82.91-33.26-197.84-33.26-298 0-330.56 210.48-411.84 467.24-411.84h3.74c174.23.49 315.8 34.46 394.81 145.85 44.06 62.07 68.64 148.19 68.64 265.99.02 181.46 10.22 411.47-222.45 411.47" style="fill:#8f72a5"/>
+        <path d="M381.36 890.71c0 78.35-7.76 60.01-86.11 60.01-104.29 0-159.74-46.18-189.21-113.46l93.76-152.09c14 38.91 41.94 62.94 95.44 63.59v.05c78.37 0 86.12 63.54 86.12 141.9M938.58 273.27 820.5 464.76c-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46l204.94-332.3c174.26.49 315.82 34.46 394.83 145.86" style="opacity:.21;fill:#c7a3e8"/>
+      </svg>
+      Neth Pot
+    </div>
+    <div class="subtab" id="stab-Neth OP" style="border-color:rgba(192,48,48,.35);color:#c03030" onclick="setSubTab('Neth OP')">
+      <svg viewBox="0 0 100 100"><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="#3a2a2a"/><path d="M34 68 L34 80 L50 84 L66 80 L66 68 Z" fill="#2a1a1a"/><rect x="26" y="40" width="16" height="12" rx="2" fill="#100808"/><rect x="58" y="40" width="16" height="12" rx="2" fill="#100808"/><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="none" stroke="#9b1010" stroke-width="3.5" stroke-linejoin="round"/></svg>
+      Neth OP
+    </div>
+  </div>
+
+  <!-- SMP variants -->
+  <div class="subtabs-strip" id="strip-SMP">
+    <span class="subtabs-label">Variants</span>
+    <div class="subtab" id="stab-SMP" style="border-color:rgba(56,193,114,.35);color:#38c172" onclick="setSubTab('SMP')">
+      <svg viewBox="0 0 512 512">
+        <circle cx="256.6" cy="257.7" r="215.4" style="fill:#10574b"/>
+        <path d="M83.6 262.2c15.8 15.8 46.8-46.8 89.3-89.3s104.7-72 88.3-88.3c-10.7-10.7-74.2-16-133.9 43.7C73.4 182.1 68.4 247 83.6 262.2" style="fill:#40bc9e"/>
+        <path d="M426 249.6c-15.8-15.8-46.8 46.8-89.3 89.3s-104.6 71.9-88.3 88.3c10.7 10.7 74.2 16 133.9-43.7 53.9-53.9 58.9-118.7 43.7-133.9" style="fill:#40bc9e"/>
+        <path d="M106.1 210.8c7 7 27.3-27.3 52.2-52.2s58.7-44.2 51.5-51.5c-16.3-16.3-55.3 15.4-71.8 31.9-16.4 16.5-47.6 56-31.9 71.8" style="fill:#b0f0e0"/>
+        <path d="M404.1 301.6c-7-7-27.3 27.3-52.2 52.2s-58.7 44.2-51.5 51.5c16.3 16.3 55.3-15.4 71.8-31.9s47.7-56 31.9-71.8" style="fill:#b0f0e0"/>
+      </svg>
+      SMP
+    </div>
+    <div class="subtab" id="stab-Diamond SMP" style="border-color:rgba(38,166,154,.35);color:#26a69a" onclick="setSubTab('Diamond SMP')">
+      <svg viewBox="0 0 100 100"><path d="M15 42 L50 10 L85 42 L85 80 Q85 92 50 92 Q15 92 15 80Z" fill="#26a59a"/><path d="M15 42 L50 10 L85 42 L50 55 Z" fill="#4db6ac" opacity="0.7"/><rect x="30" y="60" width="40" height="4" rx="2" fill="rgba(0,50,46,0.4)"/><rect x="28" y="72" width="44" height="4" rx="2" fill="rgba(0,50,46,0.4)"/></svg>
+      Diamond SMP
+    </div>
+  </div>
+
 </div>
 
 <div class="search-row">
@@ -485,7 +522,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     <span>#</span><span></span><span>Player</span><span>Region</span><span>Tiers</span>
   </div>
   <div id="playerList"></div>
-
   <div class="section-divider">
     <div class="section-divider-dot"></div>
     <div class="section-divider-label">Recent Results</div>
@@ -497,9 +533,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 <footer>
   <div class="footer-left">
     <div style="width:22px;height:22px;background:linear-gradient(135deg,#f5c842,#e8953a);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px">⚔</div>
-    <div class="footer-logo">
-      <span class="footer-liger">LIGER</span><span class="footer-smp">SMP</span>
-    </div>
+    <div class="footer-logo"><span class="footer-liger">LIGER</span><span class="footer-smp">SMP</span></div>
   </div>
   <div class="footer-links">
     <span style="font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--muted2)">ligersmp.de</span>
@@ -513,7 +547,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 </footer>
 
 <div class="copy-toast" id="copyToast">✓ Copied to clipboard!</div>
-
 <div id="adminTrigger" onclick="openAdminLogin()"></div>
 
 <div class="admin-overlay" id="adminLoginOverlay">
@@ -533,8 +566,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
   <div class="admin-panel-inner">
     <div class="admin-panel-header">
       <div style="display:flex;align-items:center;gap:.5rem">
-        <h1>Admin Panel</h1>
-        <span class="admin-badge">Enterprise</span>
+        <h1>Admin Panel</h1><span class="admin-badge">Enterprise</span>
       </div>
       <button class="admin-close-btn" onclick="closeAdminPanel()">✕ Close</button>
     </div>
@@ -565,17 +597,48 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 </div>
 
 <script>
+/* ── Gamemode icon SVGs ── */
 const GM_ICONS = {
   Vanilla:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>`,
-  Sword:  `<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#71bfdd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#6195d9"/></svg>`,
-  Mace:   `<svg viewBox="0 0 750 750" width="20" height="20" style="overflow:visible;flex-shrink:0"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>`,
+  'Diamond Vanilla':`<svg viewBox="0 0 100 100" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="#4dd0e1"/><path d="M34 68 L34 80 L50 84 L66 80 L66 68 Z" fill="#26c6da" opacity="0.7"/><rect x="25" y="40" width="16" height="12" rx="2" fill="#102030"/><rect x="59" y="40" width="16" height="12" rx="2" fill="#102030"/></svg>`,
+  'NDBP Vanilla':`<svg viewBox="0 0 100 100" width="20" height="20" style="overflow:visible;flex-shrink:0"><rect x="44" y="18" width="12" height="58" rx="3" fill="#9c64d0"/><ellipse cx="50" cy="23" rx="20" ry="11" fill="#9c64d0"/><ellipse cx="50" cy="23" rx="10" ry="5.5" fill="#140a20"/><path d="M20 75 Q18 60 28 62 L28 75Z" fill="#9c64d0"/><path d="M80 75 Q82 60 72 62 L72 75Z" fill="#9c64d0"/><rect x="20" y="75" width="60" height="11" rx="5.5" fill="#9c64d0"/></svg>`,
+  Sword:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#71bfdd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#6195d9"/></svg>`,
+  Speed:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M901.02 120.67 722.8 198.83a61.6 61.6 0 0 0-18.81 12.85L358.24 557.43 547.71 746.9l345.41-345.41a61.6 61.6 0 0 0 13.21-19.64l76.18-180.86c21.62-51.31-30.51-102.68-81.49-80.32" fill="#9575cd"/><path d="m607.14 832.65-56.51 56.47c-8.89 8.89-23.31 8.88-32.2-.01l-88.72-88.72c-8.89-8.89-23.32-8.89-32.21 0l-80.66 80.71c-8.89 8.89-8.89 23.31 0 32.2s8.89 23.31 0 32.2l-64.52 64.52c-8.89 8.89-23.31 8.89-32.2 0L99.14 889.04c-8.89-8.89-8.89-23.31 0-32.2l64.52-64.52c8.89-8.89 23.31-8.89 32.2 0l.06.06c8.89 8.89 23.32 8.89 32.21 0l80.66-80.71c8.89-8.89 8.89-23.31 0-32.2l-88.72-88.72c-8.9-8.9-8.89-23.32.01-32.21l56.51-56.47c8.89-8.89 23.31-8.88 32.2.01l298.37 298.37c8.88 8.88 8.88 23.3-.02 32.2" fill="#7e57c2"/><circle cx="210" cy="190" r="48" fill="#e040fb" opacity="0.6"/><circle cx="840" cy="155" r="36" fill="#ce93d8" opacity="0.55"/></svg>`,
+  Mace:`<svg viewBox="0 0 750 750" width="20" height="20" style="overflow:visible;flex-shrink:0"><path fill="#60606b" d="M574.5 131.5a50 50 0 0 1 2.5 7 373 373 0 0 1 15.5 17q-.69 7.764-4.5 15a820 820 0 0 1-42.5 41 108 108 0 0 0-8 9.5 23 23 0 0 1-5 2l-56 56a7463 7463 0 0 0-14 12l-61 61q-3.822 3.663-9 5-8.923.306-17.5-2.5l-1.5.5q1.129 1.006 1 2.5-10.083-13.843-23-25.5a28 28 0 0 1-4-1.5 9331 9331 0 0 0-83-101q-5.832-15.26 7-25.5a20587 20587 0 0 1 179-166q9-5 18 0a11266 11266 0 0 0 106 93.5"/><path fill="#9191b7" d="M347.5 330.5q1.899.885 4 1.5 12.917 11.657 23 25.5a259 259 0 0 0 40 31.5q5.023 3.752 7 9.5a2385 2385 0 0 1-59 57q-5.56 2.784-10 7.5.834.574 1 1.5-5 6-11 11-1.22-1.73-3 0-1.393 1.783-1 4l-6 5h-3v3a148891 148891 0 0 1-37 36q-.595-1.538-2-.5-6.405 5.642-11 12.5a55 55 0 0 1-7 7q.197-1.314-1-2a32.5 32.5 0 0 1-5 4.5l1 1a4.93 4.93 0 0 1-3 .5v4q-6.961 6.458-14 13a127 127 0 0 0-11 8.5q.834.575 1 1.5-8.5 7.5-16 16a2.43 2.43 0 0 0-2 .5q-1.857 1.035 0 1.5a335 335 0 0 0-27.5 26 939 939 0 0 0-2 59q-5.44 13.435-19.5 17.5-52.545.678-105-2-9.639-5.032-12.5-15.5-1-33 0-66 .11-20.582 2-41 4.788-8.787 13.5-13.5a778 778 0 0 1 52-2 3432 3432 0 0 0 98.5-98.5 7390 7390 0 0 0 125.5-125"/></svg>`,
+  'Spear Mace':`<svg viewBox="0 0 100 100" width="20" height="20" style="overflow:visible;flex-shrink:0"><rect x="47" y="30" width="6" height="60" rx="2" fill="#8d7355"/><path d="M50 5 L62 30 L38 30 Z" fill="#a8a8b0"/><path d="M40 30 L32 19 L38 30Z" fill="#c8c8d0" opacity="0.7"/><path d="M60 30 L68 19 L62 30Z" fill="#c8c8d0" opacity="0.7"/><line x1="30" y1="38" x2="42" y2="38" stroke="#a08060" stroke-width="3" stroke-linecap="round"/></svg>`,
+  'Neth Pot':`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M318.76 910.04c139.39-61.23 285.97-65.01 441.16 0L937.7 790.79l-50.48-441.68H198.05L132.2 705.19z" style="fill:#6e4a91"/><path d="M784.75 950.72c-78.35 0-111.04 18.34-111.04-60.01s32.69-141.89 111.04-141.89v-.05c96.04-1.19 109.77-77.59 108.2-180.26-.7-47.21-30.55-88.28-72.44-103.75-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46-12.8-1.03-26.91-1.57-42.43-1.57-60.17 0-108.41 50.19-109.34 110.37-.71 45.47 1.63 85.79 12.75 116.66 14 38.91 41.94 62.94 95.44 63.59v.05c78.35 0 86.11 63.54 86.11 141.89s-7.76 60.01-86.11 60.01c-104.29 0-159.74-46.18-189.21-113.46-36.41-82.91-33.26-197.84-33.26-298 0-330.56 210.48-411.84 467.24-411.84h3.74c174.23.49 315.8 34.46 394.81 145.85 44.06 62.07 68.64 148.19 68.64 265.99.02 181.46 10.22 411.47-222.45 411.47" style="fill:#8f72a5"/><path d="M381.36 890.71c0 78.35-7.76 60.01-86.11 60.01-104.29 0-159.74-46.18-189.21-113.46l93.76-152.09c14 38.91 41.94 62.94 95.44 63.59v.05c78.37 0 86.12 63.54 86.12 141.9M938.58 273.27 820.5 464.76c-11.5-4.29-23.93-6.62-36.9-6.62-125.4 0-159.15 34.56-159.15 101.03 0 96.48-42.05 121.98-75.26 121.98h-18.45c-33.15 0-75.21-26.97-75.21-121.98 0-58.28-25.94-92.03-116.72-99.46l204.94-332.3c174.26.49 315.82 34.46 394.83 145.86" style="opacity:.21;fill:#c7a3e8"/></svg>`,
+  'Neth OP':`<svg viewBox="0 0 100 100" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="#3a2a2a"/><path d="M34 68 L34 80 L50 84 L66 80 L66 68 Z" fill="#2a1a1a"/><rect x="26" y="40" width="16" height="12" rx="2" fill="#100808"/><rect x="58" y="40" width="16" height="12" rx="2" fill="#100808"/><path d="M18 58 L18 40 Q18 13 50 13 Q82 13 82 40 L82 58 L66 58 L66 68 L34 68 L34 58 Z" fill="none" stroke="#9b1010" stroke-width="3.5" stroke-linejoin="round"/></svg>`,
+  SMP:`<svg viewBox="0 0 512 512" width="20" height="20" style="overflow:visible;flex-shrink:0"><circle cx="256.6" cy="257.7" r="215.4" style="fill:#10574b"/><path d="M83.6 262.2c15.8 15.8 46.8-46.8 89.3-89.3s104.7-72 88.3-88.3c-10.7-10.7-74.2-16-133.9 43.7C73.4 182.1 68.4 247 83.6 262.2" style="fill:#40bc9e"/><path d="M426 249.6c-15.8-15.8-46.8 46.8-89.3 89.3s-104.6 71.9-88.3 88.3c10.7 10.7 74.2 16 133.9-43.7 53.9-53.9 58.9-118.7 43.7-133.9" style="fill:#40bc9e"/><path d="M106.1 210.8c7 7 27.3-27.3 52.2-52.2s58.7-44.2 51.5-51.5c-16.3-16.3-55.3 15.4-71.8 31.9-16.4 16.5-47.6 56-31.9 71.8" style="fill:#b0f0e0"/><path d="M404.1 301.6c-7-7-27.3 27.3-52.2 52.2s-58.7 44.2-51.5 51.5c16.3 16.3 55.3-15.4 71.8-31.9s47.7-56 31.9-71.8" style="fill:#b0f0e0"/></svg>`,
+  'Diamond SMP':`<svg viewBox="0 0 100 100" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M15 42 L50 10 L85 42 L85 80 Q85 92 50 92 Q15 92 15 80Z" fill="#26a59a"/><path d="M15 42 L50 10 L85 42 L50 55 Z" fill="#4db6ac" opacity="0.7"/><rect x="30" y="60" width="40" height="4" rx="2" fill="rgba(0,50,46,0.4)"/><rect x="28" y="72" width="44" height="4" rx="2" fill="rgba(0,50,46,0.4)"/></svg>`,
 };
 const GM_ICONS_SM = Object.fromEntries(Object.entries(GM_ICONS).map(([k,v])=>[k,v.replace(/width="20" height="20"/g,'width="12" height="12"')]));
 
-const TIER_SCORES = {HT1:1024,LT1:512,HT2:256,LT2:128,HT3:64,LT3:32,HT4:16,LT4:8,HT5:4,LT5:2};
-function tierScore(t){ return t ? (TIER_SCORES[t.toUpperCase()]||0) : 0; }
-function totalScore(tiers){ return tiers.reduce((s,t)=>s+tierScore(t.tier),0); }
-function fmtScore(s){ return s.toLocaleString()+' pts'; }
+/* ── Tab config ── */
+const PARENT_SUBS = {
+  All: null,
+  Vanilla:  ['Vanilla','Diamond Vanilla','NDBP Vanilla'],
+  Sword:    ['Sword','Speed'],
+  Mace:     ['Mace','Spear Mace'],
+  NethPot:  ['Neth Pot','Neth OP'],
+  SMP:      ['SMP','Diamond SMP'],
+};
+// Map sub-gamemode string → parent key
+const SUB_TO_PARENT = {};
+for (const [k,subs] of Object.entries(PARENT_SUBS)) {
+  if(subs) subs.forEach(s => SUB_TO_PARENT[s]=k);
+}
+const SUB_COLORS = {
+  'Vanilla':'#c889e6','Diamond Vanilla':'#4dd0e1','NDBP Vanilla':'#9c64d0',
+  'Sword':'#71bfdd','Speed':'#9575cd',
+  'Mace':'#9191b7','Spear Mace':'#9aa0b0',
+  'Neth Pot':'#e05050','Neth OP':'#c03030',
+  'SMP':'#38c172','Diamond SMP':'#26a69a',
+};
+
+const TIER_SCORES={HT1:1024,LT1:512,HT2:256,LT2:128,HT3:64,LT3:32,HT4:16,LT4:8,HT5:4,LT5:2};
+function tierScore(t){return t?(TIER_SCORES[t.toUpperCase()]||0):0;}
+function totalScore(tiers){return tiers.reduce((s,t)=>s+tierScore(t.tier),0);}
+function fmtScore(s){return s.toLocaleString()+' pts';}
 
 function groupForOverall(players){
   const map=new Map();
@@ -584,21 +647,17 @@ function groupForOverall(players){
     if(!map.has(key)) map.set(key,{username:p.username,discordId:p.discordId,discordTag:p.discordTag,region:p.region,lastTested:p.lastTested,tiers:[]});
     const e=map.get(key);
     const ex=e.tiers.find(t=>t.gamemode===p.gamemode);
-    if(ex){ if(tierScore(p.currentTier)>tierScore(ex.tier)) ex.tier=p.currentTier; }
+    if(ex){if(tierScore(p.currentTier)>tierScore(ex.tier))ex.tier=p.currentTier;}
     else e.tiers.push({gamemode:p.gamemode,tier:p.currentTier});
     if(new Date(p.lastTested)>new Date(e.lastTested)){e.lastTested=p.lastTested;e.username=p.username;e.discordTag=p.discordTag;}
   }
   return [...map.values()];
 }
 
-let allPlayers=[],allResults=[],currentTab='All';
+let allPlayers=[],allResults=[],currentTab='All',currentParent='All';
 
-// Use face avatar (head-only cutout)
-function skinUrl(u){ return `https://visage.surgeplay.com/face/104/${encodeURIComponent(u)}`; }
-function skinFallback(img,u){
-  if(!img.dataset.fb){ img.dataset.fb='1'; img.src=`https://minotar.net/avatar/${encodeURIComponent(u)}/52`; }
-  else { img.src='https://minotar.net/avatar/steve/52'; }
-}
+function skinUrl(u){return `https://visage.surgeplay.com/face/104/${encodeURIComponent(u)}`;}
+function skinFallback(img,u){if(!img.dataset.fb){img.dataset.fb='1';img.src=`https://minotar.net/avatar/${encodeURIComponent(u)}/52`;}else{img.src='https://minotar.net/avatar/steve/52';}}
 
 async function loadData(){
   try{
@@ -612,20 +671,70 @@ async function loadData(){
   }
 }
 
-function setTab(tab){
-  currentTab=tab;
+/* ── Tab switching ── */
+function setParentTab(parentKey){
+  // If clicking the already-open parent tab, collapse it and go back to Overall
+  if(parentKey !== 'All' && currentParent === parentKey){
+    setParentTab('All');
+    return;
+  }
+  // Deactivate all parent tabs
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
-  document.getElementById('tab-'+tab).classList.add('active');
+  document.getElementById('ptab-'+parentKey).classList.add('active');
+
+  // Hide all strips
+  document.querySelectorAll('.subtabs-strip').forEach(s=>s.classList.remove('visible'));
+
+  currentParent = parentKey;
+
+  if(parentKey==='All'){
+    currentTab='All';
+    render();
+    return;
+  }
+
+  // Show the correct strip
+  const strip = document.getElementById('strip-'+parentKey);
+  if(strip) strip.classList.add('visible');
+
+  // Auto-select first sub-tab
+  const firstSub = PARENT_SUBS[parentKey][0];
+  setSubTab(firstSub, true);
+}
+
+function setSubTab(gamemode, fromParent){
+  // Style all subtabs in the active strip
+  const parentKey = SUB_TO_PARENT[gamemode];
+  const strip = document.getElementById('strip-'+parentKey);
+  if(strip){
+    strip.querySelectorAll('.subtab').forEach(el=>{
+      const c = el.style.getPropertyValue('color') || el.dataset.color;
+      el.classList.remove('active');
+      el.style.background = 'transparent';
+      el.style.boxShadow = '';
+    });
+    const activeEl = document.getElementById('stab-'+gamemode);
+    if(activeEl){
+      const col = SUB_COLORS[gamemode] || '#f5c842';
+      activeEl.classList.add('active');
+      activeEl.style.background = hexToRgba(col, 0.18);
+      activeEl.style.boxShadow = `0 0 14px ${hexToRgba(col, 0.22)}`;
+    }
+  }
+  currentTab = gamemode;
   document.getElementById('searchInput').value='';
   render();
 }
 
+function hexToRgba(hex,a){
+  const r=parseInt(hex.slice(1,3),16),g=parseInt(hex.slice(3,5),16),b=parseInt(hex.slice(5,7),16);
+  return `rgba(${r},${g},${b},${a})`;
+}
+
+/* ── Rendering ── */
 function makeTierCircle(gamemode,tier){
   const tc=(tier||'').toUpperCase();
-  return `<div class="tier-circle circle-${tc}">
-    <div class="tier-circle-disc">${GM_ICONS[gamemode]||''}</div>
-    <div class="tier-circle-label">${tier||'—'}</div>
-  </div>`;
+  return `<div class="tier-circle circle-${tc}"><div class="tier-circle-disc">${GM_ICONS[gamemode]||''}</div><div class="tier-circle-label">${tier||'—'}</div></div>`;
 }
 
 function render(searchQuery){
@@ -635,7 +744,7 @@ function render(searchQuery){
   if(isOverall){
     head.className='table-head overall-head';
     head.innerHTML='<span>#</span><span></span><span>Player</span><span>Region</span><span>Tiers</span>';
-  } else {
+  }else{
     head.className='table-head gm-head';
     head.innerHTML='<span>#</span><span></span><span>Player</span><span>Region</span><span>Tier</span>';
   }
@@ -645,7 +754,7 @@ function render(searchQuery){
     let grouped=groupForOverall(allPlayers);
     if(q) grouped=grouped.filter(p=>p.username.toLowerCase().includes(q));
     sorted=grouped.sort((a,b)=>totalScore(b.tiers)-totalScore(a.tiers));
-  } else {
+  }else{
     let filtered=allPlayers.filter(p=>p.gamemode===currentTab);
     if(q) filtered=filtered.filter(p=>p.username.toLowerCase().includes(q));
     sorted=filtered.sort((a,b)=>tierScore(b.currentTier)-tierScore(a.currentTier));
@@ -662,7 +771,7 @@ function render(searchQuery){
   const list=document.getElementById('playerList');
   if(!sorted.length){
     list.innerHTML=`<div class="empty"><h2>${q?'No players found':'No players yet'}</h2><p>${q?'Try a different search.':'Results will appear here automatically.'}</p></div>`;
-  } else if(isOverall){
+  }else if(isOverall){
     list.innerHTML=sorted.map((p,i)=>{
       const rk=i<3?`rank-${i+1}`:'';
       const nc=i===0?'r1':i===1?'r2':i===2?'r3':'';
@@ -670,45 +779,23 @@ function render(searchQuery){
       const score=totalScore(p.tiers);
       const tiersSorted=[...p.tiers].sort((a,b)=>tierScore(b.tier)-tierScore(a.tier));
       return `<div class="player-card overall-card ${rk}" style="animation-delay:${i*.04}s">
-        <div class="rank-cell">
-          <div class="rank-number ${nc}">${i+1}</div>
-          ${medal?`<div class="rank-medal">${medal}</div>`:''}
-        </div>
-        <div class="skin-cell">
-          <div class="skin-avatar-wrap">
-            <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
-          </div>
-        </div>
-        <div class="info-cell">
-          <div class="player-name">${p.username}</div>
-          ${p.discordTag?`<div class="player-tag">${p.discordTag}</div>`:''}
-          <div class="player-score">${fmtScore(score)}</div>
-        </div>
+        <div class="rank-cell"><div class="rank-number ${nc}">${i+1}</div>${medal?`<div class="rank-medal">${medal}</div>`:''}</div>
+        <div class="skin-cell"><div class="skin-avatar-wrap"><img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/></div></div>
+        <div class="info-cell"><div class="player-name">${p.username}</div>${p.discordTag?`<div class="player-tag">${p.discordTag}</div>`:''}<div class="player-score">${fmtScore(score)}</div></div>
         <div class="region-cell"><span class="region-badge region-${p.region}">${p.region}</span></div>
         <div class="tiers-cell">${tiersSorted.map(t=>makeTierCircle(t.gamemode,t.tier)).join('')}</div>
       </div>`;
     }).join('');
-  } else {
+  }else{
     list.innerHTML=sorted.map((p,i)=>{
       const rk=i<3?`rank-${i+1}`:'';
       const nc=i===0?'r1':i===1?'r2':i===2?'r3':'';
       const medal=i===0?'🥇':i===1?'🥈':i===2?'🥉':'';
       const tier=(p.currentTier||'').toUpperCase();
       return `<div class="player-card gm-card ${rk}" style="animation-delay:${i*.04}s">
-        <div class="rank-cell">
-          <div class="rank-number ${nc}">${i+1}</div>
-          ${medal?`<div class="rank-medal">${medal}</div>`:''}
-        </div>
-        <div class="skin-cell">
-          <div class="skin-avatar-wrap">
-            <img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/>
-          </div>
-        </div>
-        <div class="info-cell">
-          <div class="player-name">${p.username}</div>
-          ${p.discordTag?`<div class="player-tag">${p.discordTag}</div>`:''}
-          <div class="player-score" style="color:var(--muted2)">${fmtDate(p.lastTested)}</div>
-        </div>
+        <div class="rank-cell"><div class="rank-number ${nc}">${i+1}</div>${medal?`<div class="rank-medal">${medal}</div>`:''}</div>
+        <div class="skin-cell"><div class="skin-avatar-wrap"><img class="skin-img" src="${skinUrl(p.username)}" onerror="skinFallback(this,'${p.username.replace(/'/g,"\\'")}') " loading="lazy" alt="${p.username}"/></div></div>
+        <div class="info-cell"><div class="player-name">${p.username}</div>${p.discordTag?`<div class="player-tag">${p.discordTag}</div>`:''}<div class="player-score" style="color:var(--muted2)">${fmtDate(p.lastTested)}</div></div>
         <div class="region-cell"><span class="region-badge region-${p.region}">${p.region}</span></div>
         <div class="tier-cell"><span class="tier-badge-lg tier-${tier}">${p.currentTier||'—'}</span></div>
       </div>`;
@@ -717,23 +804,20 @@ function render(searchQuery){
 
   const recent=[...allResults].filter(r=>isOverall||r.gamemode===currentTab).reverse().slice(0,10);
   const rl=document.getElementById('recentList');
-  if(!recent.length){ rl.innerHTML='<div style="color:var(--muted);font-size:.88rem;padding:1rem 0">No results yet.</div>'; }
-  else {
+  if(!recent.length){rl.innerHTML='<div style="color:var(--muted);font-size:.88rem;padding:1rem 0">No results yet.</div>';}
+  else{
     rl.innerHTML=recent.map((r,i)=>{
       const pt=(r.previousRank||'').toUpperCase();
       const nt=(r.rankEarned||'').toUpperCase();
       return `<div class="result-card" style="animation-delay:${i*.04}s">
         <div class="result-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div>
-        <div class="result-info">
-          <div class="result-name">${r.username}</div>
-          <div class="result-meta">
-            ${r.gamemode?(GM_ICONS_SM[r.gamemode]||'')+' '+r.gamemode+' &nbsp;·&nbsp;':''}
+        <div class="result-info"><div class="result-name">${r.username}</div>
+          <div class="result-meta">${r.gamemode?(GM_ICONS_SM[r.gamemode]||'')+' '+r.gamemode+' &nbsp;·&nbsp;':''}
             <span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span>
             &nbsp;·&nbsp; Tested by <strong>${r.tester}</strong> &nbsp;·&nbsp; ${fmtDate(r.date)}
-          </div>
-        </div>
+          </div></div>
         <div class="result-tiers">
-          ${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.7rem;padding:.16rem .5rem">${r.previousRank}</span>`:''}
+          ${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.7rem;padding:.16rem .5rem">${r.previousRank}</span>`:''} 
           ${pt?'<span class="arrow-icon">→</span>':''}
           <span class="tier-badge-lg tier-${nt}" style="font-size:.7rem;padding:.16rem .5rem">${r.rankEarned}</span>
         </div>
@@ -742,10 +826,9 @@ function render(searchQuery){
   }
 }
 
-function filterPlayers(){ render(document.getElementById('searchInput').value); }
-function fmtDate(iso){ if(!iso) return '—'; return new Date(iso).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'}); }
+function filterPlayers(){render(document.getElementById('searchInput').value);}
+function fmtDate(iso){if(!iso)return'—';return new Date(iso).toLocaleDateString('en-GB',{day:'2-digit',month:'short',year:'numeric'});}
 
-// Copy server IP
 function copyIP(){
   navigator.clipboard.writeText('ligersmp.de').then(()=>{
     const t=document.getElementById('copyToast');
@@ -755,7 +838,7 @@ function copyIP(){
 }
 
 document.addEventListener('keydown',e=>{
-  if(e.key==='/'&&document.activeElement!==document.getElementById('searchInput')){ e.preventDefault(); document.getElementById('searchInput').focus(); }
+  if(e.key==='/'&&document.activeElement!==document.getElementById('searchInput')){e.preventDefault();document.getElementById('searchInput').focus();}
   if(e.key==='Escape'){
     if(document.getElementById('confirmOverlay').classList.contains('open')){closeConfirm();return;}
     if(document.getElementById('adminPanel').classList.contains('open')){closeAdminPanel();return;}
@@ -764,20 +847,20 @@ document.addEventListener('keydown',e=>{
   }
 });
 
-// ADMIN
+/* ── Admin ── */
 const ADMIN_PASSWORD='Enterprise_2234';
 let isAdmin=false,pendingDelete=null,currentAdminTab='players';
-function openAdminLogin(){ document.getElementById('adminLoginOverlay').classList.add('open'); document.getElementById('adminPasswordInput').value=''; document.getElementById('adminErrorMsg').classList.remove('show'); document.getElementById('adminPasswordInput').classList.remove('error'); setTimeout(()=>document.getElementById('adminPasswordInput').focus(),80); }
-function closeAdminLogin(){ document.getElementById('adminLoginOverlay').classList.remove('open'); }
-function handleAdminKeydown(e){ if(e.key==='Enter') submitAdminPassword(); if(e.key==='Escape') closeAdminLogin(); }
+function openAdminLogin(){document.getElementById('adminLoginOverlay').classList.add('open');document.getElementById('adminPasswordInput').value='';document.getElementById('adminErrorMsg').classList.remove('show');document.getElementById('adminPasswordInput').classList.remove('error');setTimeout(()=>document.getElementById('adminPasswordInput').focus(),80);}
+function closeAdminLogin(){document.getElementById('adminLoginOverlay').classList.remove('open');}
+function handleAdminKeydown(e){if(e.key==='Enter')submitAdminPassword();if(e.key==='Escape')closeAdminLogin();}
 function submitAdminPassword(){
   const val=document.getElementById('adminPasswordInput').value;
-  if(val===ADMIN_PASSWORD){ isAdmin=true; closeAdminLogin(); openAdminPanel(); }
-  else { const inp=document.getElementById('adminPasswordInput'); inp.classList.add('error'); document.getElementById('adminErrorMsg').classList.add('show'); inp.value=''; setTimeout(()=>inp.classList.remove('error'),400); setTimeout(()=>inp.focus(),50); }
+  if(val===ADMIN_PASSWORD){isAdmin=true;closeAdminLogin();openAdminPanel();}
+  else{const inp=document.getElementById('adminPasswordInput');inp.classList.add('error');document.getElementById('adminErrorMsg').classList.add('show');inp.value='';setTimeout(()=>inp.classList.remove('error'),400);setTimeout(()=>inp.focus(),50);}
 }
-function openAdminPanel(){ document.getElementById('adminPanel').classList.add('open'); renderAdminPanel(); }
-function closeAdminPanel(){ document.getElementById('adminPanel').classList.remove('open'); }
-function setAdminTab(tab){ currentAdminTab=tab; document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active')); document.getElementById('atab-'+tab).classList.add('active'); document.getElementById('adminPlayersSection').style.display=tab==='players'?'':'none'; document.getElementById('adminResultsSection').style.display=tab==='results'?'':'none'; }
+function openAdminPanel(){document.getElementById('adminPanel').classList.add('open');renderAdminPanel();}
+function closeAdminPanel(){document.getElementById('adminPanel').classList.remove('open');}
+function setAdminTab(tab){currentAdminTab=tab;document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active'));document.getElementById('atab-'+tab).classList.add('active');document.getElementById('adminPlayersSection').style.display=tab==='players'?'':'none';document.getElementById('adminResultsSection').style.display=tab==='results'?'':'none';}
 function renderAdminPanel(){
   const pl=document.getElementById('adminPlayerList');
   document.getElementById('adminPlayerCount').textContent=allPlayers.length;
@@ -793,12 +876,11 @@ function confirmDelete(type,index){
   else{const r=allResults[index];msg.innerHTML=`Remove <strong>${r.username}</strong>'s test result (${r.gamemode} · ${r.rankEarned}) submitted by <strong>${r.tester}</strong>? This cannot be undone.`;}
   document.getElementById('confirmOverlay').classList.add('open');
 }
-function closeConfirm(){ document.getElementById('confirmOverlay').classList.remove('open'); pendingDelete=null; }
-function executeDelete(){ if(!pendingDelete) return; const{type,index}=pendingDelete; if(type==='player') allPlayers.splice(index,1); else allResults.splice(index,1); closeConfirm(); render(); renderAdminPanel(); }
+function closeConfirm(){document.getElementById('confirmOverlay').classList.remove('open');pendingDelete=null;}
+function executeDelete(){if(!pendingDelete)return;const{type,index}=pendingDelete;if(type==='player')allPlayers.splice(index,1);else allResults.splice(index,1);closeConfirm();render();renderAdminPanel();}
 
 loadData();
 setInterval(loadData,60000);
 </script>
 </body>
 </html>
-
