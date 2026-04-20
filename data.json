@@ -579,6 +579,16 @@
       "currentTier": "HT4",
       "previousTier": "HT4",
       "lastTested": "2026-04-17T22:07:05.282Z"
+    },
+    {
+      "username": "TINI",
+      "discordId": "1262430342237917195",
+      "discordTag": "tini77_77_62149",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-20T16:05:52.782Z"
     }
   ],
   "results": [
@@ -1626,6 +1636,17 @@
       "rankEarned": "HT5",
       "tester": "fanos123456",
       "date": "2026-04-18T16:26:51.745Z"
+    },
+    {
+      "username": "TINI",
+      "discordId": "1262430342237917195",
+      "discordTag": "tini77_77_62149",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "fanos123456",
+      "date": "2026-04-20T16:05:52.788Z"
     }
   ],
   "blacklist": [
