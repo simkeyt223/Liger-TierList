@@ -599,6 +599,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-20T20:26:08.073Z"
+    },
+    {
+      "username": "KURDISTHEBEST",
+      "discordId": "863176218274955274",
+      "discordTag": "kurdinthehouse",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-20T20:44:56.429Z"
     }
   ],
   "results": [
@@ -1668,6 +1678,17 @@
       "rankEarned": "HT4",
       "tester": "edytzu_safe05",
       "date": "2026-04-20T20:26:08.073Z"
+    },
+    {
+      "username": "KURDISTHEBEST",
+      "discordId": "863176218274955274",
+      "discordTag": "kurdinthehouse",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-20T20:44:56.429Z"
     }
   ],
   "blacklist": [
