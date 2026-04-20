@@ -629,6 +629,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-20T21:17:05.492Z"
+    },
+    {
+      "username": "Loke_Helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Speed",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-20T21:32:19.574Z"
     }
   ],
   "results": [
@@ -1731,6 +1741,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-04-20T21:17:05.492Z"
+    },
+    {
+      "username": "Loke_Helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-20T21:32:19.574Z"
     }
   ],
   "blacklist": [
