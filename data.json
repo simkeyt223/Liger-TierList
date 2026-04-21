@@ -659,6 +659,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T13:04:21.258Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Diamond Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T13:08:28.903Z"
     }
   ],
   "results": [
@@ -1805,6 +1815,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-21T13:04:21.258Z"
+    },
+    {
+      "username": "droxzprogamer123",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Diamond Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T13:08:28.903Z"
     }
   ],
   "blacklist": [
