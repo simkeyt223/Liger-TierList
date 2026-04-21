@@ -889,6 +889,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T22:11:28.842Z"
+    },
+    {
+      "username": "song7_songh",
+      "discordId": "1422325574126407861",
+      "discordTag": "gren20339",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T22:16:58.761Z"
     }
   ],
   "results": [
@@ -2288,6 +2298,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-21T22:11:28.842Z"
+    },
+    {
+      "username": "song7_songh",
+      "discordId": "1422325574126407861",
+      "discordTag": "gren20339",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T22:16:58.761Z"
     }
   ],
   "blacklist": [
