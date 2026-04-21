@@ -839,6 +839,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T21:20:19.603Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T21:34:14.741Z"
     }
   ],
   "results": [
@@ -2183,6 +2193,17 @@
       "rankEarned": "LT4",
       "tester": "itznotmeohio",
       "date": "2026-04-21T21:20:19.603Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "itznotmeohio",
+      "date": "2026-04-21T21:34:14.742Z"
     }
   ],
   "blacklist": [
