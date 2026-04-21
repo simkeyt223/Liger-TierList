@@ -829,6 +829,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T21:02:45.685Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T21:20:19.603Z"
     }
   ],
   "results": [
@@ -2162,6 +2172,17 @@
       "rankEarned": "HT3",
       "tester": "itznotmeohio",
       "date": "2026-04-21T21:02:45.685Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "itznotmeohio",
+      "date": "2026-04-21T21:20:19.603Z"
     }
   ],
   "blacklist": [
