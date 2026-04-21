@@ -571,14 +571,14 @@
       "lastTested": "2026-04-17T20:06:24.847Z"
     },
     {
-      "username": "BlinkedX",
+      "username": "blinkedx",
       "discordId": "1424493845390823574",
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "HT4",
+      "currentTier": "LT3",
       "previousTier": "HT4",
-      "lastTested": "2026-04-17T22:07:05.282Z"
+      "lastTested": "2026-04-21T15:08:01.515Z"
     },
     {
       "username": "TINI",
@@ -2014,6 +2014,17 @@
       "rankEarned": "LT5",
       "tester": "fanos123456",
       "date": "2026-04-21T14:37:43.506Z"
+    },
+    {
+      "username": "blinkedx",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "fanos123456",
+      "date": "2026-04-21T15:08:01.515Z"
     }
   ],
   "blacklist": [
