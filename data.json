@@ -1730,17 +1730,6 @@
       "date": "2026-04-17T20:05:32.322Z"
     },
     {
-      "username": "Simke_YT223",
-      "discordId": "1424493845390823574",
-      "discordTag": "banned2timesalready",
-      "region": "EU",
-      "gamemode": "Vanilla",
-      "previousRank": "HT4",
-      "rankEarned": "HT4",
-      "tester": "fanos123456",
-      "date": "2026-04-17T20:06:24.848Z"
-    },
-    {
       "username": "QGoscinny",
       "discordId": "1246743965965881344",
       "discordTag": "itznotmeohio",
@@ -1761,17 +1750,6 @@
       "rankEarned": "LT5",
       "tester": "fanos123456",
       "date": "2026-04-17T20:28:08.744Z"
-    },
-    {
-      "username": "BlinkedX",
-      "discordId": "1424493845390823574",
-      "discordTag": "banned2timesalready",
-      "region": "EU",
-      "gamemode": "Vanilla",
-      "previousRank": "HT4",
-      "rankEarned": "HT4",
-      "tester": "fanos123456",
-      "date": "2026-04-17T22:07:05.282Z"
     },
     {
       "username": "CloakingBadge78",
@@ -2047,6 +2025,17 @@
       "issuedBy": "banned2timesalready",
       "issuedById": "1424493845390823574",
       "date": "2026-03-30T19:49:39.436Z"
+    }
+  ],
+  "cooldownResets": [
+    {
+      "issuedById": "1424493845390823574",
+      "issuedByTag": "banned2timesalready",
+      "targetId": "1424493845390823574",
+      "targetTag": "banned2timesalready",
+      "gamemode": "Vanilla",
+      "month": "2026-04",
+      "date": "2026-04-21T15:01:42.051Z"
     }
   ]
 }
