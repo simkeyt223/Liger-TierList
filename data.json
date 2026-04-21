@@ -809,6 +809,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T20:49:04.018Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T21:01:58.050Z"
     }
   ],
   "results": [
@@ -2120,6 +2130,17 @@
       "rankEarned": "LT3",
       "tester": "itznotmeohio",
       "date": "2026-04-21T20:49:04.018Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "itznotmeohio",
+      "date": "2026-04-21T21:01:58.050Z"
     }
   ],
   "blacklist": [
