@@ -739,6 +739,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T13:42:52.636Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T14:13:12.664Z"
     }
   ],
   "results": [
@@ -1973,6 +1983,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-21T13:42:52.636Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T14:13:12.664Z"
     }
   ],
   "blacklist": [
