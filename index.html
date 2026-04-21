@@ -269,77 +269,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 ::-webkit-scrollbar { width:5px; height:5px; }
 ::-webkit-scrollbar-track { background:var(--surface); }
 ::-webkit-scrollbar-thumb { background:var(--border2); border-radius:3px; }
-
-/* ADMIN */
-#adminTrigger { position:fixed; bottom:12px; right:14px; width:10px; height:10px; background:rgba(255,255,255,.04); border-radius:50%; cursor:pointer; z-index:9999; border:1px solid rgba(255,255,255,.06); transition:background .3s,border-color .3s; }
-#adminTrigger:hover { background:rgba(245,200,66,.15); border-color:rgba(245,200,66,.25); }
-.admin-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.78); backdrop-filter:blur(6px); z-index:10000; align-items:center; justify-content:center; }
-.admin-overlay.open { display:flex; }
-.admin-modal { background:var(--surface); border:1px solid var(--border2); border-radius:14px; padding:2rem; width:100%; max-width:420px; box-shadow:0 24px 64px rgba(0,0,0,.6); animation:modalIn .2s ease; }
-@keyframes modalIn { from{opacity:0;transform:translateY(-12px) scale(.97)} to{opacity:1;transform:translateY(0) scale(1)} }
-.admin-modal h2 { font-family:'Bebas Neue',sans-serif; font-size:1.6rem; letter-spacing:.1em; color:var(--accent); margin-bottom:.3rem; }
-.admin-modal p { font-size:.82rem; color:var(--muted2); margin-bottom:1.25rem; }
-.admin-modal input { width:100%; background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:.65rem 1rem; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.9rem; outline:none; transition:border-color .2s; margin-bottom:.75rem; letter-spacing:.08em; }
-.admin-modal input:focus { border-color:rgba(245,200,66,.45); }
-.admin-modal input.error { border-color:var(--red); animation:shake .3s; }
-@keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} }
-.admin-modal-btns { display:flex; gap:.6rem; justify-content:flex-end; }
-.admin-modal-btns button { padding:.5rem 1.2rem; border-radius:7px; font-size:.82rem; font-weight:700; cursor:pointer; border:1px solid; font-family:'DM Sans',sans-serif; transition:all .2s; }
-.btn-cancel { background:transparent; border-color:var(--border2); color:var(--muted2); }
-.btn-cancel:hover { background:var(--surface2); color:var(--text); }
-.btn-enter { background:linear-gradient(135deg,var(--accent),var(--accent2)); border-color:transparent; color:#1a1000; }
-.btn-enter:hover { opacity:.88; transform:translateY(-1px); }
-.admin-error-msg { font-size:.78rem; color:var(--red); margin-top:-.4rem; margin-bottom:.5rem; display:none; }
-.admin-error-msg.show { display:block; }
-.admin-panel { display:none; position:fixed; inset:0; background:rgba(0,0,0,.88); backdrop-filter:blur(8px); z-index:10000; flex-direction:column; overflow-y:auto; }
-.admin-panel.open { display:flex; }
-.admin-panel-inner { max-width:900px; width:100%; margin:0 auto; padding:2rem; }
-.admin-panel-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:1.5rem; padding-bottom:1rem; border-bottom:1px solid var(--border2); }
-.admin-panel-header h1 { font-family:'Bebas Neue',sans-serif; font-size:2rem; letter-spacing:.1em; background:linear-gradient(90deg,var(--accent),var(--accent2)); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text; }
-.admin-badge { background:rgba(245,200,66,.1); border:1px solid rgba(245,200,66,.25); color:var(--accent); font-size:.7rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; padding:.22rem .65rem; border-radius:5px; font-family:'JetBrains Mono',monospace; margin-left:.75rem; }
-.admin-close-btn { background:var(--surface2); border:1px solid var(--border2); color:var(--muted2); padding:.45rem 1rem; border-radius:7px; cursor:pointer; font-size:.82rem; font-weight:700; font-family:'DM Sans',sans-serif; transition:all .2s; }
-.admin-close-btn:hover { background:var(--surface3); color:var(--text); }
-.admin-section-title { font-family:'Bebas Neue',sans-serif; font-size:1rem; letter-spacing:.18em; color:var(--muted2); margin-bottom:.75rem; display:flex; align-items:center; gap:.5rem; }
-.admin-section-title::after { content:''; flex:1; height:1px; background:var(--border); }
-.admin-count-badge { font-family:'JetBrains Mono',monospace; font-size:.68rem; background:var(--surface3); border:1px solid var(--border2); color:var(--muted); padding:.1rem .45rem; border-radius:4px; }
-.admin-entry { display:flex; align-items:center; gap:.9rem; background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:.7rem 1rem; margin-bottom:5px; transition:border-color .2s; }
-.admin-entry:hover { border-color:var(--border2); }
-.admin-entry-avatar { width:34px; height:34px; border-radius:6px; overflow:hidden; flex-shrink:0; }
-.admin-entry-avatar img { width:100%; height:100%; object-fit:cover; image-rendering:pixelated; display:block; }
-.admin-entry-info { flex:1; min-width:0; }
-.admin-entry-name { font-family:'Bebas Neue',sans-serif; font-size:1.05rem; letter-spacing:.04em; color:var(--text); line-height:1; }
-.admin-entry-meta { font-size:.7rem; color:var(--muted2); margin-top:3px; font-family:'JetBrains Mono',monospace; display:flex; gap:.5rem; flex-wrap:wrap; align-items:center; }
-.admin-entry-meta .sep { color:var(--border2); }
-.admin-delete-btn { background:rgba(224,80,80,.1); border:1px solid rgba(224,80,80,.25); color:var(--red); padding:.38rem .85rem; border-radius:6px; cursor:pointer; font-size:.78rem; font-weight:700; font-family:'DM Sans',sans-serif; transition:all .2s; white-space:nowrap; flex-shrink:0; }
-.admin-delete-btn:hover { background:rgba(224,80,80,.2); border-color:rgba(224,80,80,.45); transform:translateY(-1px); }
-.admin-delete-btn:disabled { opacity:.45; cursor:not-allowed; transform:none; }
-.confirm-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:10100; align-items:center; justify-content:center; }
-.confirm-overlay.open { display:flex; }
-.confirm-modal { background:var(--surface); border:1px solid var(--border2); border-radius:12px; padding:1.75rem; max-width:380px; width:90%; box-shadow:0 20px 50px rgba(0,0,0,.7); animation:modalIn .18s ease; }
-.confirm-modal h3 { font-family:'Bebas Neue',sans-serif; font-size:1.3rem; letter-spacing:.08em; color:var(--red); margin-bottom:.4rem; }
-.confirm-modal p { font-size:.83rem; color:var(--muted2); line-height:1.5; margin-bottom:1.25rem; }
-.confirm-modal p strong { color:var(--text); }
-.confirm-btns { display:flex; gap:.6rem; justify-content:flex-end; }
-.confirm-btns button { padding:.5rem 1.2rem; border-radius:7px; font-size:.82rem; font-weight:700; cursor:pointer; border:1px solid; font-family:'DM Sans',sans-serif; transition:all .2s; }
-.btn-confirm-cancel { background:transparent; border-color:var(--border2); color:var(--muted2); }
-.btn-confirm-cancel:hover { background:var(--surface2); color:var(--text); }
-.btn-confirm-delete { background:rgba(224,80,80,.15); border-color:rgba(224,80,80,.4); color:var(--red); }
-.btn-confirm-delete:hover { background:rgba(224,80,80,.25); }
-.admin-empty { text-align:center; padding:3rem 1rem; color:var(--muted); font-size:.88rem; }
-.admin-tabs { display:flex; gap:.4rem; background:var(--surface2); border:1px solid var(--border); border-radius:8px; padding:.3rem; margin-bottom:1.25rem; }
-.admin-tab { flex:1; padding:.5rem; border-radius:6px; cursor:pointer; font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted2); text-align:center; transition:all .2s; font-family:'DM Sans',sans-serif; border:1px solid transparent; }
-.admin-tab:hover { color:var(--text); background:var(--surface3); }
-.admin-tab.active { color:var(--accent); background:rgba(245,200,66,.1); border-color:rgba(245,200,66,.2); }
-
-/* API URL config row in admin panel */
-.admin-api-row { display:flex; align-items:center; gap:.6rem; background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:.6rem .9rem; margin-bottom:1rem; }
-.admin-api-row label { font-size:.68rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted2); font-family:'JetBrains Mono',monospace; white-space:nowrap; flex-shrink:0; }
-.admin-api-row input { flex:1; background:transparent; border:none; outline:none; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.78rem; min-width:0; }
-.admin-api-row input::placeholder { color:var(--muted); }
-.admin-api-status { font-size:.65rem; font-family:'JetBrains Mono',monospace; white-space:nowrap; flex-shrink:0; }
-.api-status-ok   { color:var(--green); }
-.api-status-err  { color:var(--red); }
-.api-status-none { color:var(--muted); }
 </style>
 </head>
 <body>
@@ -391,7 +320,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 
 <div class="tabs-wrap">
 
-  <!-- ── Main tab bar ── -->
   <div class="tabs">
     <div class="tab active" onclick="setParentTab('All')" id="ptab-All">
       <svg class="tab-icon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
@@ -426,7 +354,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
         <circle cx="256.6" cy="257.7" r="215.4" style="fill:#10574b"/>
         <path d="M426.6 305c-10.2 56.5-64.4 110.7-120.9 120.9s-94.1-27.3-83.9-83.9 64.5-110.7 121-121c56.7-10.2 94.2 27.4 83.8 84" style="fill:rgba(0,0,0,.35)"/>
         <path d="M282.7 156.7c-10.3 56.5-64.5 110.7-121 121s-94.2-27.3-83.9-83.9 64.5-110.7 121.1-121 94.1 27.2 83.8 83.9" style="fill:rgba(0,0,0,.28)"/>
-        <path d="M83.6 262.2c15.8 15.8 46.8-46.8 89.3-89.3s104.7-72 88.3-88.3c-10.7-10.7-74.2-16-133.9 43.7C73.4 182.1 68.4 247 83.6 262.2" style="fill:#40bc9e"/>
+        <path d="M83.6 262.2c15.8 15.8-46.8-46.8 89.3-89.3s104.7-72 88.3-88.3c-10.7-10.7-74.2-16-133.9 43.7C73.4 182.1 68.4 247 83.6 262.2" style="fill:#40bc9e"/>
         <path d="M426 249.6c-15.8-15.8-46.8 46.8-89.3 89.3s-104.6 71.9-88.3 88.3c10.7 10.7 74.2 16 133.9-43.7 53.9-53.9 58.9-118.7 43.7-133.9" style="fill:#40bc9e"/>
         <path d="M106.1 210.8c7 7 27.3-27.3 52.2-52.2s58.7-44.2 51.5-51.5c-16.3-16.3-55.3 15.4-71.8 31.9-16.4 16.5-47.6 56-31.9 71.8" style="fill:#b0f0e0"/>
         <path d="M404.1 301.6c-7-7-27.3 27.3-52.2 52.2s-58.7 44.2-51.5 51.5c16.3 16.3 55.3-15.4 71.8-31.9s47.7-56 31.9-71.8" style="fill:#b0f0e0"/>
@@ -436,7 +364,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- ── Sub-tier strips ── -->
   <div class="subtabs-strip" id="strip-Vanilla">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-Vanilla" style="border-color:rgba(200,137,230,.35);color:#c889e6" onclick="setSubTab('Vanilla')">
@@ -550,72 +477,8 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 </footer>
 
 <div class="copy-toast" id="copyToast">✓ Copied to clipboard!</div>
-<div id="adminTrigger" onclick="openAdminLogin()"></div>
-
-<div class="admin-overlay" id="adminLoginOverlay">
-  <div class="admin-modal">
-    <h2>&#128272; Admin Access</h2>
-    <p>Enter the administrator password to continue.</p>
-    <input type="password" id="adminPasswordInput" placeholder="Password" onkeydown="handleAdminKeydown(event)" autocomplete="off"/>
-    <div class="admin-error-msg" id="adminErrorMsg">Incorrect password. Try again.</div>
-    <div class="admin-modal-btns">
-      <button class="btn-cancel" onclick="closeAdminLogin()">Cancel</button>
-      <button class="btn-enter" onclick="submitAdminPassword()">Enter</button>
-    </div>
-  </div>
-</div>
-
-<div class="admin-panel" id="adminPanel">
-  <div class="admin-panel-inner">
-    <div class="admin-panel-header">
-      <div style="display:flex;align-items:center;gap:.5rem">
-        <h1>Admin Panel</h1><span class="admin-badge">Enterprise</span>
-      </div>
-      <button class="admin-close-btn" onclick="closeAdminPanel()">✕ Close</button>
-    </div>
-
-    <!-- GitHub sync status -->
-    <div class="admin-api-row">
-      <label>GitHub Sync</label>
-      <span style="flex:1;font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--muted2)">Pushes deletions directly to GitHub</span>
-      <span class="admin-api-status api-status-none" id="apiStatusLabel">checking…</span>
-    </div>
-
-    <div class="admin-tabs">
-      <div class="admin-tab active" id="atab-players" onclick="setAdminTab('players')">Players</div>
-      <div class="admin-tab" id="atab-results" onclick="setAdminTab('results')">Test Results</div>
-    </div>
-    <div id="adminPlayersSection">
-      <div class="admin-section-title">Ranked Players <span class="admin-count-badge" id="adminPlayerCount">0</span></div>
-      <div id="adminPlayerList"></div>
-    </div>
-    <div id="adminResultsSection" style="display:none">
-      <div class="admin-section-title">Test Results <span class="admin-count-badge" id="adminResultCount">0</span></div>
-      <div id="adminResultList"></div>
-    </div>
-  </div>
-</div>
-
-<div class="confirm-overlay" id="confirmOverlay">
-  <div class="confirm-modal">
-    <h3>⚠ Confirm Delete</h3>
-    <p id="confirmMessage">Are you sure you want to delete this entry?</p>
-    <div class="confirm-btns">
-      <button class="btn-confirm-cancel" onclick="closeConfirm()">Cancel</button>
-      <button class="btn-confirm-delete" onclick="executeDelete()">Delete</button>
-    </div>
-  </div>
-</div>
 
 <script>
-/* ── ⚙️  CONFIGURATION ───────────────────────────────────────────────────────
-   Fill in these three values (same as your bot's config.json).
-   This lets the admin panel push deletions directly to GitHub — no bot server needed.
-   ──────────────────────────────────────────────────────────────────────────── */
-const GITHUB_TOKEN = '';   // ← your GitHub Personal Access Token (needs repo scope)
-const GITHUB_OWNER = '';   // ← your GitHub username or org  (e.g. 'YourName')
-const GITHUB_REPO  = '';   // ← your repository name         (e.g. 'ligersmp-rankings')
-
 /* ── Gamemode icon SVGs ── */
 const GM_ICONS = {
   Vanilla:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>`,
@@ -673,9 +536,6 @@ function groupForOverall(players){
 }
 
 let allPlayers=[],allResults=[],currentTab='All',currentParent='All';
-
-/* ── Dirty flag: prevents auto-reload from overwriting a pending delete ── */
-let dataDirty = false;
 
 function skinUrl(u){return `https://visage.surgeplay.com/face/104/${encodeURIComponent(u)}`;}
 function skinFallback(img,u){if(!img.dataset.fb){img.dataset.fb='1';img.src=`https://minotar.net/avatar/${encodeURIComponent(u)}/52`;}else{img.src='https://minotar.net/avatar/steve/52';}}
@@ -854,145 +714,13 @@ function showToast(msg){
 document.addEventListener('keydown',e=>{
   if(e.key==='/'&&document.activeElement!==document.getElementById('searchInput')){e.preventDefault();document.getElementById('searchInput').focus();}
   if(e.key==='Escape'){
-    if(document.getElementById('confirmOverlay').classList.contains('open')){closeConfirm();return;}
-    if(document.getElementById('adminPanel').classList.contains('open')){closeAdminPanel();return;}
-    if(document.getElementById('adminLoginOverlay').classList.contains('open')){closeAdminLogin();return;}
     document.getElementById('searchInput').blur();
   }
 });
 
-/* ── Admin ── */
-const ADMIN_PASSWORD='Enterprise_2234';
-let isAdmin=false,pendingDelete=null,currentAdminTab='players';
-
-/* ── API URL: saved in sessionStorage so it persists across panel open/close ── */
-function updateApiStatusLabel(state, msg){
-  const el = document.getElementById('apiStatusLabel');
-  if(!el) return;
-  el.className = 'admin-api-status';
-  if(state==='ok'){el.classList.add('api-status-ok'); el.textContent=msg||'✓ saved';}
-  else if(state==='err'){el.classList.add('api-status-err'); el.textContent=msg||'✗ error';}
-  else{el.classList.add('api-status-none'); el.textContent=msg||(GITHUB_TOKEN?'ready':'not configured');}
-}
-
-function openAdminLogin(){
-  document.getElementById('adminLoginOverlay').classList.add('open');
-  document.getElementById('adminPasswordInput').value='';
-  document.getElementById('adminErrorMsg').classList.remove('show');
-  document.getElementById('adminPasswordInput').classList.remove('error');
-  setTimeout(()=>document.getElementById('adminPasswordInput').focus(),80);
-}
-function closeAdminLogin(){document.getElementById('adminLoginOverlay').classList.remove('open');}
-function handleAdminKeydown(e){if(e.key==='Enter')submitAdminPassword();if(e.key==='Escape')closeAdminLogin();}
-function submitAdminPassword(){
-  const val=document.getElementById('adminPasswordInput').value;
-  if(val===ADMIN_PASSWORD){isAdmin=true;closeAdminLogin();openAdminPanel();}
-  else{const inp=document.getElementById('adminPasswordInput');inp.classList.add('error');document.getElementById('adminErrorMsg').classList.add('show');inp.value='';setTimeout(()=>inp.classList.remove('error'),400);setTimeout(()=>inp.focus(),50);}
-}
-function openAdminPanel(){
-  document.getElementById('adminPanel').classList.add('open');
-  updateApiStatusLabel('none');
-  renderAdminPanel();
-}
-function closeAdminPanel(){document.getElementById('adminPanel').classList.remove('open');}
-function setAdminTab(tab){
-  currentAdminTab=tab;
-  document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active'));
-  document.getElementById('atab-'+tab).classList.add('active');
-  document.getElementById('adminPlayersSection').style.display=tab==='players'?'':'none';
-  document.getElementById('adminResultsSection').style.display=tab==='results'?'':'none';
-}
-function renderAdminPanel(){
-  const pl=document.getElementById('adminPlayerList');
-  document.getElementById('adminPlayerCount').textContent=allPlayers.length;
-  pl.innerHTML=allPlayers.length?allPlayers.map((p,i)=>{const tier=(p.currentTier||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${p.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${p.username}</div><div class="admin-entry-meta"><span class="region-badge region-${p.region}" style="padding:.1rem .4rem;font-size:.63rem">${p.region}</span><span class="sep">·</span><span>${p.gamemode||'—'}</span><span class="sep">·</span><span class="tier-badge-lg tier-${tier}" style="font-size:.65rem;padding:.1rem .45rem">${p.currentTier||'—'}</span>${p.discordTag?`<span class="sep">·</span><span>${p.discordTag}</span>`:''}</div></div><button class="admin-delete-btn" id="del-p-${i}" onclick="confirmDelete('player',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No players to manage.</div>';
-  const rl=document.getElementById('adminResultList');
-  document.getElementById('adminResultCount').textContent=allResults.length;
-  rl.innerHTML=allResults.length?[...allResults].reverse().map((r,revIdx)=>{const i=allResults.length-1-revIdx;const pt=(r.previousRank||'').toUpperCase();const nt=(r.rankEarned||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${r.username}</div><div class="admin-entry-meta"><span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span><span class="sep">·</span><span>${r.gamemode||'—'}</span><span class="sep">·</span>${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.65rem;padding:.1rem .45rem">${r.previousRank}</span> <span style="color:var(--muted)">→</span>`:''}<span class="tier-badge-lg tier-${nt}" style="font-size:.65rem;padding:.1rem .45rem">${r.rankEarned}</span><span class="sep">·</span><span>by ${r.tester}</span><span class="sep">·</span><span>${fmtDate(r.date)}</span></div></div><button class="admin-delete-btn" id="del-r-${i}" onclick="confirmDelete('result',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No test results to manage.</div>';
-}
-function confirmDelete(type,index){
-  pendingDelete={type,index};
-  const msg=document.getElementById('confirmMessage');
-  if(type==='player'){const p=allPlayers[index];msg.innerHTML=`Remove <strong>${p.username}</strong>'s ${p.gamemode} entry (${p.currentTier||'—'})? This cannot be undone.`;}
-  else{const r=allResults[index];msg.innerHTML=`Remove <strong>${r.username}</strong>'s test result (${r.gamemode} · ${r.rankEarned}) submitted by <strong>${r.tester}</strong>? This cannot be undone.`;}
-  document.getElementById('confirmOverlay').classList.add('open');
-}
-function closeConfirm(){document.getElementById('confirmOverlay').classList.remove('open');pendingDelete=null;}
-
-async function executeDelete(){
-  if(!pendingDelete) return;
-  const {type,index}=pendingDelete;
-  closeConfirm();
-
-  /* 1. Remove from in-memory arrays */
-  if(type==='player') allPlayers.splice(index,1);
-  else allResults.splice(index,1);
-
-  /* 2. Mark dirty so the 60s auto-reload doesn't overwrite before the save completes */
-  dataDirty=true;
-
-  /* 3. Update UI immediately */
-  render();
-  renderAdminPanel();
-
-  /* 4. Push directly to GitHub — no bot server needed */
-  if(!GITHUB_TOKEN || !GITHUB_OWNER || !GITHUB_REPO){
-    showToast('⚠ Fill in GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO in the HTML!');
-    updateApiStatusLabel('err','not configured');
-    return;
-  }
-
-  updateApiStatusLabel('none','saving…');
-
-  try {
-    /* GET current file to obtain its SHA (required for PUT) */
-    const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data.json`;
-    const getRes = await fetch(apiBase, {
-      headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'User-Agent': 'LigerAdmin' }
-    });
-    const getJson = await getRes.json();
-    if(!getRes.ok) throw new Error(getJson.message || `GitHub GET ${getRes.status}`);
-
-    /* Preserve blacklist & cooldownResets — admin panel only touches players/results */
-    const existingData = JSON.parse(atob(getJson.content.replace(/\n/g,'')));
-    const updated = {
-      players:        allPlayers,
-      results:        allResults,
-      blacklist:      existingData.blacklist       || [],
-      cooldownResets: existingData.cooldownResets  || []
-    };
-
-    /* Base64-encode new JSON (safe for UTF-8 chars) */
-    const content = btoa(unescape(encodeURIComponent(JSON.stringify(updated, null, 2))));
-
-    const putRes = await fetch(apiBase, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `token ${GITHUB_TOKEN}`,
-        'Content-Type':  'application/json',
-        'User-Agent':    'LigerAdmin'
-      },
-      body: JSON.stringify({ message: 'admin: delete entry', content, sha: getJson.sha })
-    });
-
-    if(putRes.ok){
-      dataDirty = false;
-      updateApiStatusLabel('ok','✓ saved');
-      showToast('✓ Deletion saved to GitHub!');
-    } else {
-      const body = await putRes.json().catch(()=>({}));
-      updateApiStatusLabel('err', `✗ ${putRes.status}`);
-      showToast(`⚠ GitHub ${putRes.status}: ${body.message||'unknown error'}`);
-    }
-  } catch(e) {
-    updateApiStatusLabel('err','✗ failed');
-    showToast('⚠ GitHub API error: ' + e.message);
-  }
-}
-
-/* ── Periodic data reload (skips if a delete is in-flight) ── */
+/* ── Periodic data reload ── */
 fetchData();
-setInterval(()=>{ if(!dataDirty) fetchData(); }, 60000);
+setInterval(fetchData, 60000);
 </script>
 </body>
 </html>
