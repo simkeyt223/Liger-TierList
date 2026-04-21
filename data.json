@@ -919,6 +919,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T22:42:49.866Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T22:49:51.194Z"
     }
   ],
   "results": [
@@ -2362,6 +2372,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-04-21T22:42:49.866Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T22:49:51.195Z"
     }
   ],
   "blacklist": [
