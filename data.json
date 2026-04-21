@@ -909,6 +909,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T22:35:44.652Z"
+    },
+    {
+      "username": "Branee_",
+      "discordId": "1320129208441114685",
+      "discordTag": "braneeq",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T22:42:49.866Z"
     }
   ],
   "results": [
@@ -2341,6 +2351,17 @@
       "rankEarned": "HT3",
       "tester": "banned2timesalready",
       "date": "2026-04-21T22:35:44.652Z"
+    },
+    {
+      "username": "Branee_",
+      "discordId": "1320129208441114685",
+      "discordTag": "braneeq",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T22:42:49.866Z"
     }
   ],
   "blacklist": [
