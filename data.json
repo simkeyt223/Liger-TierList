@@ -819,6 +819,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T21:01:58.050Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T21:02:45.685Z"
     }
   ],
   "results": [
@@ -2141,6 +2151,17 @@
       "rankEarned": "LT5",
       "tester": "itznotmeohio",
       "date": "2026-04-21T21:01:58.050Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "itznotmeohio",
+      "date": "2026-04-21T21:02:45.685Z"
     }
   ],
   "blacklist": [
