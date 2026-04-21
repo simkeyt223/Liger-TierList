@@ -859,6 +859,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T21:47:31.810Z"
+    },
+    {
+      "username": "loke_helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T21:59:16.401Z"
     }
   ],
   "results": [
@@ -2225,6 +2235,17 @@
       "rankEarned": "HT5",
       "tester": "fanos123456",
       "date": "2026-04-21T21:47:31.810Z"
+    },
+    {
+      "username": "loke_helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "fanos123456",
+      "date": "2026-04-21T21:59:16.401Z"
     }
   ],
   "blacklist": [
