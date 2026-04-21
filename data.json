@@ -16,9 +16,9 @@
       "discordTag": "fanos123456",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "LT3",
-      "previousTier": "HT4",
-      "lastTested": "2026-04-05T18:56:27.793Z"
+      "currentTier": "HT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-04-21T22:29:01.725Z"
     },
     {
       "username": "Ma4l0w",
@@ -2309,6 +2309,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-21T22:16:58.761Z"
+    },
+    {
+      "username": "CloakingBadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-21T22:29:01.725Z"
     }
   ],
   "blacklist": [
