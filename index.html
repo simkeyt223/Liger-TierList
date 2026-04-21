@@ -312,6 +312,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 .admin-entry-meta .sep { color:var(--border2); }
 .admin-delete-btn { background:rgba(224,80,80,.1); border:1px solid rgba(224,80,80,.25); color:var(--red); padding:.38rem .85rem; border-radius:6px; cursor:pointer; font-size:.78rem; font-weight:700; font-family:'DM Sans',sans-serif; transition:all .2s; white-space:nowrap; flex-shrink:0; }
 .admin-delete-btn:hover { background:rgba(224,80,80,.2); border-color:rgba(224,80,80,.45); transform:translateY(-1px); }
+.admin-delete-btn:disabled { opacity:.45; cursor:not-allowed; transform:none; }
 .confirm-overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.6); z-index:10100; align-items:center; justify-content:center; }
 .confirm-overlay.open { display:flex; }
 .confirm-modal { background:var(--surface); border:1px solid var(--border2); border-radius:12px; padding:1.75rem; max-width:380px; width:90%; box-shadow:0 20px 50px rgba(0,0,0,.7); animation:modalIn .18s ease; }
@@ -329,6 +330,16 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 .admin-tab { flex:1; padding:.5rem; border-radius:6px; cursor:pointer; font-size:.78rem; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted2); text-align:center; transition:all .2s; font-family:'DM Sans',sans-serif; border:1px solid transparent; }
 .admin-tab:hover { color:var(--text); background:var(--surface3); }
 .admin-tab.active { color:var(--accent); background:rgba(245,200,66,.1); border-color:rgba(245,200,66,.2); }
+
+/* API URL config row in admin panel */
+.admin-api-row { display:flex; align-items:center; gap:.6rem; background:var(--surface2); border:1px solid var(--border2); border-radius:8px; padding:.6rem .9rem; margin-bottom:1rem; }
+.admin-api-row label { font-size:.68rem; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--muted2); font-family:'JetBrains Mono',monospace; white-space:nowrap; flex-shrink:0; }
+.admin-api-row input { flex:1; background:transparent; border:none; outline:none; color:var(--text); font-family:'JetBrains Mono',monospace; font-size:.78rem; min-width:0; }
+.admin-api-row input::placeholder { color:var(--muted); }
+.admin-api-status { font-size:.65rem; font-family:'JetBrains Mono',monospace; white-space:nowrap; flex-shrink:0; }
+.api-status-ok   { color:var(--green); }
+.api-status-err  { color:var(--red); }
+.api-status-none { color:var(--muted); }
 </style>
 </head>
 <body>
@@ -358,7 +369,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
     <a class="nav-btn store" href="https://ligersmp.tebex.io" target="_blank">🛒 Store</a>
     <a class="nav-btn discord" href="https://discord.gg/2pXvQxGucF" target="_blank">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.057a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03z"/></svg>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057c.002.022.015.043.031.057a19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028 14.09 14.09 0 0 0 1.226-1.994.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.030z"/></svg>
       Join
     </a>
   </div>
@@ -401,7 +412,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
       Mace
       <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
     </div>
-    <!-- Neth Pot — uses the uploaded nethop.svg paths inline -->
     <div class="tab" onclick="setParentTab('NethPot')" id="ptab-NethPot">
       <svg class="tab-icon" viewBox="0 0 1080 1080">
         <path d="M318.76 910.04c139.39-61.23 285.97-65.01 441.16 0L937.7 790.79l-50.48-441.68H198.05L132.2 705.19z" style="fill:#6e4a91"/>
@@ -411,7 +421,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
       Neth Pot
       <svg class="tab-caret" viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3.5l3 3 3-3"/></svg>
     </div>
-    <!-- SMP — uses the uploaded smp.svg paths inline -->
     <div class="tab" onclick="setParentTab('SMP')" id="ptab-SMP">
       <svg class="tab-icon" viewBox="0 0 512 512">
         <circle cx="256.6" cy="257.7" r="215.4" style="fill:#10574b"/>
@@ -427,9 +436,7 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- ── Sub-tier strips (one per parent tab) ── -->
-
-  <!-- Vanilla variants -->
+  <!-- ── Sub-tier strips ── -->
   <div class="subtabs-strip" id="strip-Vanilla">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-Vanilla" style="border-color:rgba(200,137,230,.35);color:#c889e6" onclick="setSubTab('Vanilla')">
@@ -446,7 +453,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- Sword variants -->
   <div class="subtabs-strip" id="strip-Sword">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-Sword" style="border-color:rgba(113,191,221,.35);color:#71bfdd" onclick="setSubTab('Sword')">
@@ -459,7 +465,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- Mace variants -->
   <div class="subtabs-strip" id="strip-Mace">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-Mace" style="border-color:rgba(145,145,183,.35);color:#9191b7" onclick="setSubTab('Mace')">
@@ -472,7 +477,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- Neth Pot variants -->
   <div class="subtabs-strip" id="strip-NethPot">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-Neth Pot" style="border-color:rgba(224,80,80,.35);color:#e05050" onclick="setSubTab('Neth Pot')">
@@ -489,7 +493,6 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
     </div>
   </div>
 
-  <!-- SMP variants -->
   <div class="subtabs-strip" id="strip-SMP">
     <span class="subtabs-label">Variants</span>
     <div class="subtab" id="stab-SMP" style="border-color:rgba(56,193,114,.35);color:#38c172" onclick="setSubTab('SMP')">
@@ -570,6 +573,14 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
       </div>
       <button class="admin-close-btn" onclick="closeAdminPanel()">✕ Close</button>
     </div>
+
+    <!-- GitHub sync status -->
+    <div class="admin-api-row">
+      <label>GitHub Sync</label>
+      <span style="flex:1;font-family:'JetBrains Mono',monospace;font-size:.78rem;color:var(--muted2)">Pushes deletions directly to GitHub</span>
+      <span class="admin-api-status api-status-none" id="apiStatusLabel">checking…</span>
+    </div>
+
     <div class="admin-tabs">
       <div class="admin-tab active" id="atab-players" onclick="setAdminTab('players')">Players</div>
       <div class="admin-tab" id="atab-results" onclick="setAdminTab('results')">Test Results</div>
@@ -597,6 +608,14 @@ footer { border-top:1px solid var(--border); padding:1.4rem 2rem; max-width:1240
 </div>
 
 <script>
+/* ── ⚙️  CONFIGURATION ───────────────────────────────────────────────────────
+   Fill in these three values (same as your bot's config.json).
+   This lets the admin panel push deletions directly to GitHub — no bot server needed.
+   ──────────────────────────────────────────────────────────────────────────── */
+const GITHUB_TOKEN = '';   // ← your GitHub Personal Access Token (needs repo scope)
+const GITHUB_OWNER = '';   // ← your GitHub username or org  (e.g. 'YourName')
+const GITHUB_REPO  = '';   // ← your repository name         (e.g. 'ligersmp-rankings')
+
 /* ── Gamemode icon SVGs ── */
 const GM_ICONS = {
   Vanilla:`<svg viewBox="0 0 1080 1080" width="20" height="20" style="overflow:visible;flex-shrink:0"><path d="M667.91 1000.52 549.18 558.88M536.97 546.67 91.62 424.23M549.18 546.67l329.67-333.38" style="fill:none;stroke:#c0bdf7;stroke-width:112.6696;stroke-miterlimit:10"/><path d="M805.48 629.12v-171c0-39.75-21.21-76.48-55.63-96.35l-148.09-85.5c-34.42-19.87-76.84-19.87-111.26 0l-148.09 85.5c-34.42 19.87-55.63 56.6-55.63 96.35v171c0 39.75 21.21 76.48 55.63 96.35l148.09 85.5c34.42 19.87 76.84 19.87 111.26 0l148.09-85.5c34.42-19.87 55.63-56.6 55.63-96.35" style="fill:#c889e6"/></svg>`,
@@ -622,7 +641,6 @@ const PARENT_SUBS = {
   NethPot:  ['Neth Pot','Neth OP'],
   SMP:      ['SMP','Diamond SMP'],
 };
-// Map sub-gamemode string → parent key
 const SUB_TO_PARENT = {};
 for (const [k,subs] of Object.entries(PARENT_SUBS)) {
   if(subs) subs.forEach(s => SUB_TO_PARENT[s]=k);
@@ -656,10 +674,13 @@ function groupForOverall(players){
 
 let allPlayers=[],allResults=[],currentTab='All',currentParent='All';
 
+/* ── Dirty flag: prevents auto-reload from overwriting a pending delete ── */
+let dataDirty = false;
+
 function skinUrl(u){return `https://visage.surgeplay.com/face/104/${encodeURIComponent(u)}`;}
 function skinFallback(img,u){if(!img.dataset.fb){img.dataset.fb='1';img.src=`https://minotar.net/avatar/${encodeURIComponent(u)}/52`;}else{img.src='https://minotar.net/avatar/steve/52';}}
 
-async function loadData(){
+async function fetchData(){
   try{
     const res=await fetch('data.json?t='+Date.now());
     const data=await res.json();
@@ -673,42 +694,30 @@ async function loadData(){
 
 /* ── Tab switching ── */
 function setParentTab(parentKey){
-  // If clicking the already-open parent tab, collapse it and go back to Overall
   if(parentKey !== 'All' && currentParent === parentKey){
     setParentTab('All');
     return;
   }
-  // Deactivate all parent tabs
   document.querySelectorAll('.tab').forEach(t=>t.classList.remove('active'));
   document.getElementById('ptab-'+parentKey).classList.add('active');
-
-  // Hide all strips
   document.querySelectorAll('.subtabs-strip').forEach(s=>s.classList.remove('visible'));
-
   currentParent = parentKey;
-
   if(parentKey==='All'){
     currentTab='All';
     render();
     return;
   }
-
-  // Show the correct strip
   const strip = document.getElementById('strip-'+parentKey);
   if(strip) strip.classList.add('visible');
-
-  // Auto-select first sub-tab
   const firstSub = PARENT_SUBS[parentKey][0];
   setSubTab(firstSub, true);
 }
 
 function setSubTab(gamemode, fromParent){
-  // Style all subtabs in the active strip
   const parentKey = SUB_TO_PARENT[gamemode];
   const strip = document.getElementById('strip-'+parentKey);
   if(strip){
     strip.querySelectorAll('.subtab').forEach(el=>{
-      const c = el.style.getPropertyValue('color') || el.dataset.color;
       el.classList.remove('active');
       el.style.background = 'transparent';
       el.style.boxShadow = '';
@@ -831,10 +840,15 @@ function fmtDate(iso){if(!iso)return'—';return new Date(iso).toLocaleDateStrin
 
 function copyIP(){
   navigator.clipboard.writeText('ligersmp.de').then(()=>{
-    const t=document.getElementById('copyToast');
-    t.classList.add('show');
-    setTimeout(()=>t.classList.remove('show'),2000);
+    showToast('✓ Copied to clipboard!');
   });
+}
+
+function showToast(msg){
+  const t=document.getElementById('copyToast');
+  t.textContent=msg;
+  t.classList.add('show');
+  setTimeout(()=>{t.classList.remove('show');},2500);
 }
 
 document.addEventListener('keydown',e=>{
@@ -850,7 +864,24 @@ document.addEventListener('keydown',e=>{
 /* ── Admin ── */
 const ADMIN_PASSWORD='Enterprise_2234';
 let isAdmin=false,pendingDelete=null,currentAdminTab='players';
-function openAdminLogin(){document.getElementById('adminLoginOverlay').classList.add('open');document.getElementById('adminPasswordInput').value='';document.getElementById('adminErrorMsg').classList.remove('show');document.getElementById('adminPasswordInput').classList.remove('error');setTimeout(()=>document.getElementById('adminPasswordInput').focus(),80);}
+
+/* ── API URL: saved in sessionStorage so it persists across panel open/close ── */
+function updateApiStatusLabel(state, msg){
+  const el = document.getElementById('apiStatusLabel');
+  if(!el) return;
+  el.className = 'admin-api-status';
+  if(state==='ok'){el.classList.add('api-status-ok'); el.textContent=msg||'✓ saved';}
+  else if(state==='err'){el.classList.add('api-status-err'); el.textContent=msg||'✗ error';}
+  else{el.classList.add('api-status-none'); el.textContent=msg||(GITHUB_TOKEN?'ready':'not configured');}
+}
+
+function openAdminLogin(){
+  document.getElementById('adminLoginOverlay').classList.add('open');
+  document.getElementById('adminPasswordInput').value='';
+  document.getElementById('adminErrorMsg').classList.remove('show');
+  document.getElementById('adminPasswordInput').classList.remove('error');
+  setTimeout(()=>document.getElementById('adminPasswordInput').focus(),80);
+}
 function closeAdminLogin(){document.getElementById('adminLoginOverlay').classList.remove('open');}
 function handleAdminKeydown(e){if(e.key==='Enter')submitAdminPassword();if(e.key==='Escape')closeAdminLogin();}
 function submitAdminPassword(){
@@ -858,16 +889,26 @@ function submitAdminPassword(){
   if(val===ADMIN_PASSWORD){isAdmin=true;closeAdminLogin();openAdminPanel();}
   else{const inp=document.getElementById('adminPasswordInput');inp.classList.add('error');document.getElementById('adminErrorMsg').classList.add('show');inp.value='';setTimeout(()=>inp.classList.remove('error'),400);setTimeout(()=>inp.focus(),50);}
 }
-function openAdminPanel(){document.getElementById('adminPanel').classList.add('open');renderAdminPanel();}
+function openAdminPanel(){
+  document.getElementById('adminPanel').classList.add('open');
+  updateApiStatusLabel('none');
+  renderAdminPanel();
+}
 function closeAdminPanel(){document.getElementById('adminPanel').classList.remove('open');}
-function setAdminTab(tab){currentAdminTab=tab;document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active'));document.getElementById('atab-'+tab).classList.add('active');document.getElementById('adminPlayersSection').style.display=tab==='players'?'':'none';document.getElementById('adminResultsSection').style.display=tab==='results'?'':'none';}
+function setAdminTab(tab){
+  currentAdminTab=tab;
+  document.querySelectorAll('.admin-tab').forEach(t=>t.classList.remove('active'));
+  document.getElementById('atab-'+tab).classList.add('active');
+  document.getElementById('adminPlayersSection').style.display=tab==='players'?'':'none';
+  document.getElementById('adminResultsSection').style.display=tab==='results'?'':'none';
+}
 function renderAdminPanel(){
   const pl=document.getElementById('adminPlayerList');
   document.getElementById('adminPlayerCount').textContent=allPlayers.length;
-  pl.innerHTML=allPlayers.length?allPlayers.map((p,i)=>{const tier=(p.currentTier||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${p.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${p.username}</div><div class="admin-entry-meta"><span class="region-badge region-${p.region}" style="padding:.1rem .4rem;font-size:.63rem">${p.region}</span><span class="sep">·</span><span>${p.gamemode||'—'}</span><span class="sep">·</span><span class="tier-badge-lg tier-${tier}" style="font-size:.65rem;padding:.1rem .45rem">${p.currentTier||'—'}</span>${p.discordTag?`<span class="sep">·</span><span>${p.discordTag}</span>`:''}</div></div><button class="admin-delete-btn" onclick="confirmDelete('player',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No players to manage.</div>';
+  pl.innerHTML=allPlayers.length?allPlayers.map((p,i)=>{const tier=(p.currentTier||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${p.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${p.username}</div><div class="admin-entry-meta"><span class="region-badge region-${p.region}" style="padding:.1rem .4rem;font-size:.63rem">${p.region}</span><span class="sep">·</span><span>${p.gamemode||'—'}</span><span class="sep">·</span><span class="tier-badge-lg tier-${tier}" style="font-size:.65rem;padding:.1rem .45rem">${p.currentTier||'—'}</span>${p.discordTag?`<span class="sep">·</span><span>${p.discordTag}</span>`:''}</div></div><button class="admin-delete-btn" id="del-p-${i}" onclick="confirmDelete('player',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No players to manage.</div>';
   const rl=document.getElementById('adminResultList');
   document.getElementById('adminResultCount').textContent=allResults.length;
-  rl.innerHTML=allResults.length?[...allResults].reverse().map((r,revIdx)=>{const i=allResults.length-1-revIdx;const pt=(r.previousRank||'').toUpperCase();const nt=(r.rankEarned||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${r.username}</div><div class="admin-entry-meta"><span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span><span class="sep">·</span><span>${r.gamemode||'—'}</span><span class="sep">·</span>${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.65rem;padding:.1rem .45rem">${r.previousRank}</span> <span style="color:var(--muted)">→</span>`:''}<span class="tier-badge-lg tier-${nt}" style="font-size:.65rem;padding:.1rem .45rem">${r.rankEarned}</span><span class="sep">·</span><span>by ${r.tester}</span><span class="sep">·</span><span>${fmtDate(r.date)}</span></div></div><button class="admin-delete-btn" onclick="confirmDelete('result',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No test results to manage.</div>';
+  rl.innerHTML=allResults.length?[...allResults].reverse().map((r,revIdx)=>{const i=allResults.length-1-revIdx;const pt=(r.previousRank||'').toUpperCase();const nt=(r.rankEarned||'').toUpperCase();return`<div class="admin-entry"><div class="admin-entry-avatar"><img src="https://visage.surgeplay.com/face/68/${r.username}" onerror="this.src='https://minotar.net/avatar/steve/34'" loading="lazy"/></div><div class="admin-entry-info"><div class="admin-entry-name">${r.username}</div><div class="admin-entry-meta"><span class="region-badge region-${r.region}" style="padding:.1rem .4rem;font-size:.63rem">${r.region}</span><span class="sep">·</span><span>${r.gamemode||'—'}</span><span class="sep">·</span>${pt?`<span class="tier-badge-lg tier-${pt}" style="font-size:.65rem;padding:.1rem .45rem">${r.previousRank}</span> <span style="color:var(--muted)">→</span>`:''}<span class="tier-badge-lg tier-${nt}" style="font-size:.65rem;padding:.1rem .45rem">${r.rankEarned}</span><span class="sep">·</span><span>by ${r.tester}</span><span class="sep">·</span><span>${fmtDate(r.date)}</span></div></div><button class="admin-delete-btn" id="del-r-${i}" onclick="confirmDelete('result',${i})">🗑 Delete</button></div>`;}).join(''):'<div class="admin-empty">No test results to manage.</div>';
 }
 function confirmDelete(type,index){
   pendingDelete={type,index};
@@ -877,10 +918,81 @@ function confirmDelete(type,index){
   document.getElementById('confirmOverlay').classList.add('open');
 }
 function closeConfirm(){document.getElementById('confirmOverlay').classList.remove('open');pendingDelete=null;}
-function executeDelete(){if(!pendingDelete)return;const{type,index}=pendingDelete;if(type==='player')allPlayers.splice(index,1);else allResults.splice(index,1);closeConfirm();render();renderAdminPanel();}
 
-loadData();
-setInterval(loadData,60000);
+async function executeDelete(){
+  if(!pendingDelete) return;
+  const {type,index}=pendingDelete;
+  closeConfirm();
+
+  /* 1. Remove from in-memory arrays */
+  if(type==='player') allPlayers.splice(index,1);
+  else allResults.splice(index,1);
+
+  /* 2. Mark dirty so the 60s auto-reload doesn't overwrite before the save completes */
+  dataDirty=true;
+
+  /* 3. Update UI immediately */
+  render();
+  renderAdminPanel();
+
+  /* 4. Push directly to GitHub — no bot server needed */
+  if(!GITHUB_TOKEN || !GITHUB_OWNER || !GITHUB_REPO){
+    showToast('⚠ Fill in GITHUB_TOKEN, GITHUB_OWNER, GITHUB_REPO in the HTML!');
+    updateApiStatusLabel('err','not configured');
+    return;
+  }
+
+  updateApiStatusLabel('none','saving…');
+
+  try {
+    /* GET current file to obtain its SHA (required for PUT) */
+    const apiBase = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/data.json`;
+    const getRes = await fetch(apiBase, {
+      headers: { 'Authorization': `token ${GITHUB_TOKEN}`, 'User-Agent': 'LigerAdmin' }
+    });
+    const getJson = await getRes.json();
+    if(!getRes.ok) throw new Error(getJson.message || `GitHub GET ${getRes.status}`);
+
+    /* Preserve blacklist & cooldownResets — admin panel only touches players/results */
+    const existingData = JSON.parse(atob(getJson.content.replace(/\n/g,'')));
+    const updated = {
+      players:        allPlayers,
+      results:        allResults,
+      blacklist:      existingData.blacklist       || [],
+      cooldownResets: existingData.cooldownResets  || []
+    };
+
+    /* Base64-encode new JSON (safe for UTF-8 chars) */
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(updated, null, 2))));
+
+    const putRes = await fetch(apiBase, {
+      method: 'PUT',
+      headers: {
+        'Authorization': `token ${GITHUB_TOKEN}`,
+        'Content-Type':  'application/json',
+        'User-Agent':    'LigerAdmin'
+      },
+      body: JSON.stringify({ message: 'admin: delete entry', content, sha: getJson.sha })
+    });
+
+    if(putRes.ok){
+      dataDirty = false;
+      updateApiStatusLabel('ok','✓ saved');
+      showToast('✓ Deletion saved to GitHub!');
+    } else {
+      const body = await putRes.json().catch(()=>({}));
+      updateApiStatusLabel('err', `✗ ${putRes.status}`);
+      showToast(`⚠ GitHub ${putRes.status}: ${body.message||'unknown error'}`);
+    }
+  } catch(e) {
+    updateApiStatusLabel('err','✗ failed');
+    showToast('⚠ GitHub API error: ' + e.message);
+  }
+}
+
+/* ── Periodic data reload (skips if a delete is in-flight) ── */
+fetchData();
+setInterval(()=>{ if(!dataDirty) fetchData(); }, 60000);
 </script>
 </body>
 </html>
