@@ -789,6 +789,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T19:52:23.025Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-21T20:15:44.903Z"
     }
   ],
   "results": [
@@ -2078,6 +2088,17 @@
       "rankEarned": "HT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-21T19:52:23.025Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-21T20:15:44.904Z"
     }
   ],
   "blacklist": [
