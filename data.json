@@ -959,6 +959,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-22T18:57:46.818Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-22T20:05:24.886Z"
     }
   ],
   "results": [
@@ -2446,6 +2456,17 @@
       "rankEarned": "HT3",
       "tester": "edytzu_safe05",
       "date": "2026-04-22T18:57:46.818Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "fanos123456",
+      "date": "2026-04-22T20:05:24.886Z"
     }
   ],
   "blacklist": [
