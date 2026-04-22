@@ -949,6 +949,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-22T17:08:39.871Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-22T18:57:46.818Z"
     }
   ],
   "results": [
@@ -2425,6 +2435,17 @@
       "rankEarned": "HT5",
       "tester": "edytzu_safe05",
       "date": "2026-04-22T17:08:39.871Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-22T18:57:46.818Z"
     }
   ],
   "blacklist": [
