@@ -929,6 +929,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-21T22:49:51.194Z"
+    },
+    {
+      "username": "TINI",
+      "discordId": "1262430342237917195",
+      "discordTag": "tini77_77_62149",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-22T16:45:05.697Z"
     }
   ],
   "results": [
@@ -2383,6 +2393,17 @@
       "rankEarned": "HT3",
       "tester": "banned2timesalready",
       "date": "2026-04-21T22:49:51.195Z"
+    },
+    {
+      "username": "TINI",
+      "discordId": "1262430342237917195",
+      "discordTag": "tini77_77_62149",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-22T16:45:05.697Z"
     }
   ],
   "blacklist": [
