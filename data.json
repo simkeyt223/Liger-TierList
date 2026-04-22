@@ -1029,6 +1029,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-22T21:27:52.905Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Diamond Vanilla",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-22T21:55:32.421Z"
     }
   ],
   "results": [
@@ -2593,6 +2603,17 @@
       "rankEarned": "LT3",
       "tester": "fanos123456",
       "date": "2026-04-22T21:27:52.905Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Diamond Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "fanos123456",
+      "date": "2026-04-22T21:55:32.422Z"
     }
   ],
   "blacklist": [
