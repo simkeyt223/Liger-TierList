@@ -1049,6 +1049,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-22T22:26:46.544Z"
+    },
+    {
+      "username": "KozzieMC",
+      "discordId": "1423362077656875079",
+      "discordTag": "bokiduracell",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-23T20:36:23.658Z"
     }
   ],
   "results": [
@@ -2635,6 +2645,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-22T22:26:46.545Z"
+    },
+    {
+      "username": "KozzieMC",
+      "discordId": "1423362077656875079",
+      "discordTag": "bokiduracell",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-04-23T20:36:23.658Z"
     }
   ],
   "blacklist": [
