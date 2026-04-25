@@ -1069,6 +1069,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-25T20:57:05.819Z"
+    },
+    {
+      "username": "purpl4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-25T21:29:29.675Z"
     }
   ],
   "results": [
@@ -2765,6 +2775,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-04-25T20:57:05.819Z"
+    },
+    {
+      "username": "purpl4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-25T21:29:29.675Z"
     }
   ],
   "blacklist": [
