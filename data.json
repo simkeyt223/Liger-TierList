@@ -126,9 +126,9 @@
       "discordTag": "edytzu_safe05",
       "region": "EU",
       "gamemode": "Mace",
-      "currentTier": "HT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-26T23:51:26.788Z"
+      "currentTier": "LT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-04-25T09:34:09.972Z"
     },
     {
       "username": "greensteaky88",
@@ -2720,6 +2720,17 @@
       "rankEarned": "LT3",
       "tester": "edytzu_safe05",
       "date": "2026-04-25T09:33:44.164Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-25T09:34:09.972Z"
     }
   ],
   "blacklist": [
