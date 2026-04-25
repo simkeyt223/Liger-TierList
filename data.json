@@ -176,9 +176,9 @@
       "discordTag": "sara019881",
       "region": "EU",
       "gamemode": "Mace",
-      "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T13:29:19.513Z"
+      "currentTier": "HT4",
+      "previousTier": "HT5",
+      "lastTested": "2026-04-25T10:17:45.404Z"
     },
     {
       "username": "navjot223",
@@ -2679,6 +2679,17 @@
       "rankEarned": "LT4",
       "tester": "edytzu_safe05",
       "date": "2026-04-25T10:04:13.863Z"
+    },
+    {
+      "username": "domek31275",
+      "discordId": "1377202006476980224",
+      "discordTag": "sara019881",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT5",
+      "rankEarned": "HT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-25T10:17:45.404Z"
     }
   ],
   "blacklist": [
