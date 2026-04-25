@@ -1049,6 +1049,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-25T15:08:33.231Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-25T20:51:14.957Z"
     }
   ],
   "results": [
@@ -2723,6 +2733,17 @@
       "rankEarned": "LT3",
       "tester": "itznotmeohio",
       "date": "2026-04-25T15:08:33.232Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "banned2timesalready",
+      "date": "2026-04-25T20:51:14.957Z"
     }
   ],
   "blacklist": [
