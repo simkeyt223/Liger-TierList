@@ -1079,6 +1079,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-25T09:33:44.164Z"
+    },
+    {
+      "username": "Loke_helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-25T09:44:08.936Z"
     }
   ],
   "results": [
@@ -2731,6 +2741,17 @@
       "rankEarned": "LT3",
       "tester": "edytzu_safe05",
       "date": "2026-04-25T09:34:09.972Z"
+    },
+    {
+      "username": "Loke_helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-25T09:44:08.936Z"
     }
   ],
   "blacklist": [
