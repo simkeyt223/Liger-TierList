@@ -1039,6 +1039,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-25T09:44:08.936Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-25T15:08:33.231Z"
     }
   ],
   "results": [
@@ -2702,6 +2712,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-04-25T15:07:00.360Z"
+    },
+    {
+      "username": "QGoscinny",
+      "discordId": "1246743965965881344",
+      "discordTag": "itznotmeohio",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "itznotmeohio",
+      "date": "2026-04-25T15:08:33.232Z"
     }
   ],
   "blacklist": [
