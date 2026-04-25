@@ -1079,6 +1079,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-25T21:32:28.421Z"
+    },
+    {
+      "username": "Glacierrv1",
+      "discordId": "1442549691660111986",
+      "discordTag": "wxshdd.",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-25T21:46:22.274Z"
     }
   ],
   "results": [
@@ -2786,6 +2796,17 @@
       "rankEarned": "LT3",
       "tester": "edytzu_safe05",
       "date": "2026-04-25T21:32:28.421Z"
+    },
+    {
+      "username": "Glacierrv1",
+      "discordId": "1442549691660111986",
+      "discordTag": "wxshdd.",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "edytzu_safe05",
+      "date": "2026-04-25T21:46:22.275Z"
     }
   ],
   "blacklist": [
