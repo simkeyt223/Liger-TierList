@@ -1149,6 +1149,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-26T19:33:12.675Z"
+    },
+    {
+      "username": "Loke_Helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-26T19:59:10.973Z"
     }
   ],
   "results": [
@@ -2933,6 +2943,17 @@
       "rankEarned": "LT3",
       "tester": "purpf4x",
       "date": "2026-04-26T19:33:12.675Z"
+    },
+    {
+      "username": "Loke_Helicopter",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "purpf4x",
+      "date": "2026-04-26T19:59:10.973Z"
     }
   ],
   "blacklist": [
