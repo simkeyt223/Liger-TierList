@@ -1159,6 +1159,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-26T19:59:10.973Z"
+    },
+    {
+      "username": "itzrealAid",
+      "discordId": "1084150245123952673",
+      "discordTag": "premium4529",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-26T20:09:29.133Z"
     }
   ],
   "results": [
@@ -2954,6 +2964,17 @@
       "rankEarned": "HT4",
       "tester": "purpf4x",
       "date": "2026-04-26T19:59:10.973Z"
+    },
+    {
+      "username": "itzrealAid",
+      "discordId": "1084150245123952673",
+      "discordTag": "premium4529",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "purpf4x",
+      "date": "2026-04-26T20:09:29.133Z"
     }
   ],
   "blacklist": [
