@@ -777,8 +777,8 @@
       "region": "EU",
       "gamemode": "Diamond SMP",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-21T19:52:23.025Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-04-26T20:18:30.212Z"
     },
     {
       "username": "purpf4x",
@@ -2975,6 +2975,17 @@
       "rankEarned": "LT5",
       "tester": "purpf4x",
       "date": "2026-04-26T20:09:29.133Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "purpf4x",
+      "date": "2026-04-26T20:18:30.213Z"
     }
   ],
   "blacklist": [
