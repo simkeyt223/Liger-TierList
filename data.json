@@ -1179,6 +1179,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-04-26T21:03:16.737Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-27T21:46:56.750Z"
     }
   ],
   "results": [
@@ -3007,6 +3017,17 @@
       "rankEarned": "HT4",
       "tester": "purpf4x",
       "date": "2026-04-26T21:03:16.737Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "purpf4x",
+      "date": "2026-04-27T21:46:56.750Z"
     }
   ],
   "blacklist": [
