@@ -601,14 +601,14 @@
       "lastTested": "2026-04-20T20:44:56.429Z"
     },
     {
-      "username": "BlinkedX",
+      "username": "blinkedx",
       "discordId": "1424493845390823574",
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "NDBP Vanilla",
       "currentTier": "HT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-20T21:11:07.013Z"
+      "previousTier": "HT4",
+      "lastTested": "2026-04-28T18:52:55.231Z"
     },
     {
       "username": "CloakingBadge78",
@@ -3112,6 +3112,17 @@
       "rankEarned": "LT4",
       "tester": "fanos123456",
       "date": "2026-04-28T18:40:09.968Z"
+    },
+    {
+      "username": "blinkedx",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "NDBP Vanilla",
+      "previousRank": "HT4",
+      "rankEarned": "HT4",
+      "tester": "fanos123456",
+      "date": "2026-04-28T18:52:55.231Z"
     }
   ],
   "blacklist": [
