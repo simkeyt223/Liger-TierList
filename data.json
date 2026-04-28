@@ -1239,6 +1239,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-04-28T18:56:07.053Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-28T19:31:19.256Z"
     }
   ],
   "results": [
@@ -3144,6 +3154,17 @@
       "rankEarned": "HT5",
       "tester": "fanos123456",
       "date": "2026-04-28T18:56:07.053Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "fanos123456",
+      "date": "2026-04-28T19:31:19.256Z"
     }
   ],
   "blacklist": [
