@@ -1269,6 +1269,16 @@
       "currentTier": "LT3",
       "previousTier": "LT3",
       "lastTested": "2026-04-29T18:50:52.643Z"
+    },
+    {
+      "username": "DarkSythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Speed",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-04-29T18:55:30.539Z"
     }
   ],
   "results": [
@@ -3207,6 +3217,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-29T18:50:52.643Z"
+    },
+    {
+      "username": "DarkSythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-04-29T18:55:30.539Z"
     }
   ],
   "blacklist": [
