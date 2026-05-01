@@ -757,8 +757,8 @@
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "HT3",
-      "previousTier": "LT3",
-      "lastTested": "2026-04-21T18:39:47.472Z"
+      "previousTier": "HT3",
+      "lastTested": "2026-05-01T17:33:37.778Z"
     },
     {
       "username": "domek31275",
@@ -3450,6 +3450,17 @@
       "rankEarned": "LT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-01T17:23:50.219Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT3",
+      "rankEarned": "HT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-01T17:33:37.779Z"
     }
   ],
   "blacklist": [
