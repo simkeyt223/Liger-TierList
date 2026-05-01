@@ -1349,6 +1349,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-05-01T16:02:40.861Z"
+    },
+    {
+      "username": "KozzieMc",
+      "discordId": "1423362077656875079",
+      "discordTag": "bokiduracell",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-01T16:56:16.375Z"
     }
   ],
   "results": [
@@ -3386,6 +3396,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-01T16:26:34.167Z"
+    },
+    {
+      "username": "KozzieMc",
+      "discordId": "1423362077656875079",
+      "discordTag": "bokiduracell",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-01T16:56:16.375Z"
     }
   ],
   "blacklist": [
