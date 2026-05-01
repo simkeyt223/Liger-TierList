@@ -1359,6 +1359,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-01T16:56:16.375Z"
+    },
+    {
+      "username": "Darksythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-01T17:08:22.138Z"
     }
   ],
   "results": [
@@ -3407,6 +3417,17 @@
       "rankEarned": "LT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-01T16:56:16.375Z"
+    },
+    {
+      "username": "Darksythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-01T17:08:22.138Z"
     }
   ],
   "blacklist": [
