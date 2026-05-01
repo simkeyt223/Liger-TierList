@@ -1319,6 +1319,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-01T14:58:23.262Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-01T15:36:43.159Z"
     }
   ],
   "results": [
@@ -3312,6 +3322,17 @@
       "rankEarned": "LT3",
       "tester": "purpf4x",
       "date": "2026-05-01T14:58:23.262Z"
+    },
+    {
+      "username": "FlameEmperor",
+      "discordId": "1302993430737190943",
+      "discordTag": "therealbilalasif",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-01T15:36:43.159Z"
     }
   ],
   "blacklist": [
