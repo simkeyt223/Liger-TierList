@@ -1279,6 +1279,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-04-29T18:55:30.539Z"
+    },
+    {
+      "username": "DarkSythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-01T11:56:19.157Z"
     }
   ],
   "results": [
@@ -3228,6 +3238,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-04-29T18:55:30.539Z"
+    },
+    {
+      "username": "DarkSythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-01T11:56:19.157Z"
     }
   ],
   "blacklist": [
