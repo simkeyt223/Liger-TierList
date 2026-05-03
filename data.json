@@ -1017,8 +1017,8 @@
       "region": "EU",
       "gamemode": "Speed",
       "currentTier": "LT3",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-24T22:07:28.323Z"
+      "previousTier": "LT3",
+      "lastTested": "2026-05-03T15:30:01.567Z"
     },
     {
       "username": "euuy",
@@ -3536,6 +3536,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-05-03T15:03:15.786Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "LT3",
+      "rankEarned": "LT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-03T15:30:01.567Z"
     }
   ],
   "blacklist": [],
