@@ -307,8 +307,8 @@
       "region": "EU",
       "gamemode": "Vanilla",
       "currentTier": "HT5",
-      "previousTier": "LT5",
-      "lastTested": "2026-04-04T20:44:30.442Z"
+      "previousTier": "LT4",
+      "lastTested": "2026-05-03T14:48:13.986Z"
     },
     {
       "username": "Kaizu",
@@ -3472,19 +3472,20 @@
       "rankEarned": "LT3",
       "tester": "nicki_der_dicki",
       "date": "2026-05-01T17:40:58.985Z"
-    }
-  ],
-  "blacklist": [
+    },
     {
-      "discordId": "1423379726667485264",
-      "discordTag": "thatonebrotogetpinned",
-      "mcUsername": "antipopyk",
-      "reason": "Cheating in a tier test + several cases of previous cheating.",
-      "issuedBy": "banned2timesalready",
-      "issuedById": "1424493845390823574",
-      "date": "2026-03-30T19:49:39.436Z"
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT4",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-05-03T14:48:13.987Z"
     }
   ],
+  "blacklist": [],
   "cooldownResets": [
     {
       "issuedById": "1424493845390823574",
