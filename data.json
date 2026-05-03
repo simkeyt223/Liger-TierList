@@ -977,8 +977,8 @@
       "region": "EU",
       "gamemode": "Vanilla",
       "currentTier": "LT3",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-22T21:27:52.905Z"
+      "previousTier": "LT3",
+      "lastTested": "2026-05-03T14:55:55.433Z"
     },
     {
       "username": "euuy",
@@ -3483,6 +3483,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-05-03T14:48:13.987Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT3",
+      "rankEarned": "LT3",
+      "tester": "banned2timesalready",
+      "date": "2026-05-03T14:55:55.434Z"
     }
   ],
   "blacklist": [],
