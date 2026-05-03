@@ -1439,6 +1439,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T21:27:28.095Z"
+    },
+    {
+      "username": "Vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-05-03T21:37:30.744Z"
     }
   ],
   "results": [
@@ -3674,6 +3684,17 @@
       "rankEarned": "LT3",
       "tester": "purpf4x",
       "date": "2026-05-03T21:27:28.095Z"
+    },
+    {
+      "username": "Vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "HT4",
+      "rankEarned": "LT3",
+      "tester": "purpf4x",
+      "date": "2026-05-03T21:37:30.744Z"
     }
   ],
   "blacklist": [],
