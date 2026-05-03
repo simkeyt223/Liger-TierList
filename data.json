@@ -1186,9 +1186,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "SMP",
-      "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-27T21:46:56.750Z"
+      "currentTier": "HT4",
+      "previousTier": "LT4",
+      "lastTested": "2026-05-03T21:07:12.102Z"
     },
     {
       "username": "darksythh",
@@ -3642,6 +3642,17 @@
       "rankEarned": "HT4",
       "tester": "purpf4x",
       "date": "2026-05-03T20:54:25.303Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "LT4",
+      "rankEarned": "HT4",
+      "tester": "purpf4x",
+      "date": "2026-05-03T21:07:12.102Z"
     }
   ],
   "blacklist": [],
