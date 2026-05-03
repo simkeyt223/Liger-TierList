@@ -1369,6 +1369,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-01T17:08:22.138Z"
+    },
+    {
+      "username": "patkojepro",
+      "discordId": "1433344960169775104",
+      "discordTag": "patkojepro_99835",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T14:59:12.550Z"
     }
   ],
   "results": [
@@ -3494,6 +3504,17 @@
       "rankEarned": "LT3",
       "tester": "banned2timesalready",
       "date": "2026-05-03T14:55:55.434Z"
+    },
+    {
+      "username": "patkojepro",
+      "discordId": "1433344960169775104",
+      "discordTag": "patkojepro_99835",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-05-03T14:59:12.550Z"
     }
   ],
   "blacklist": [],
