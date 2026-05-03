@@ -706,9 +706,9 @@
       "discordTag": "antek_ollll._20192",
       "region": "EU",
       "gamemode": "Speed",
-      "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-21T13:37:25.421Z"
+      "currentTier": "HT5",
+      "previousTier": "LT4",
+      "lastTested": "2026-05-03T15:47:35.865Z"
     },
     {
       "username": "domek31275",
@@ -3589,6 +3589,17 @@
       "rankEarned": "LT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-03T15:44:07.708Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "LT4",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-03T15:47:35.865Z"
     }
   ],
   "blacklist": [],
