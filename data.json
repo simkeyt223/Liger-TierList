@@ -1429,6 +1429,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T20:54:25.303Z"
+    },
+    {
+      "username": "Velcryx",
+      "discordId": "1422325574126407861",
+      "discordTag": "gren20339",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T21:27:28.095Z"
     }
   ],
   "results": [
@@ -3653,6 +3663,17 @@
       "rankEarned": "HT4",
       "tester": "purpf4x",
       "date": "2026-05-03T21:07:12.102Z"
+    },
+    {
+      "username": "Velcryx",
+      "discordId": "1422325574126407861",
+      "discordTag": "gren20339",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "purpf4x",
+      "date": "2026-05-03T21:27:28.095Z"
     }
   ],
   "blacklist": [],
