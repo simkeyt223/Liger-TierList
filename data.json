@@ -1409,6 +1409,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T15:44:07.708Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T18:12:03.293Z"
     }
   ],
   "results": [
@@ -3600,6 +3610,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-03T15:47:35.865Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-03T18:12:03.293Z"
     }
   ],
   "blacklist": [],
