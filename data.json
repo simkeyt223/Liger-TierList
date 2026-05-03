@@ -1399,6 +1399,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T15:36:03.431Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Speed",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T15:44:07.708Z"
     }
   ],
   "results": [
@@ -3568,6 +3578,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-03T15:36:03.431Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-03T15:44:07.708Z"
     }
   ],
   "blacklist": [],
