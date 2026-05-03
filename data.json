@@ -1379,6 +1379,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T14:59:12.550Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T15:03:15.786Z"
     }
   ],
   "results": [
@@ -3515,6 +3525,17 @@
       "rankEarned": "LT5",
       "tester": "banned2timesalready",
       "date": "2026-05-03T14:59:12.550Z"
+    },
+    {
+      "username": "JambyElFavo3",
+      "discordId": "1400957233780625420",
+      "discordTag": "cxr_0",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "banned2timesalready",
+      "date": "2026-05-03T15:03:15.786Z"
     }
   ],
   "blacklist": [],
