@@ -1389,6 +1389,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-03T15:03:15.786Z"
+    },
+    {
+      "username": "deemee67",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Speed",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-03T15:36:03.431Z"
     }
   ],
   "results": [
@@ -3547,6 +3557,17 @@
       "rankEarned": "LT3",
       "tester": "nicki_der_dicki",
       "date": "2026-05-03T15:30:01.567Z"
+    },
+    {
+      "username": "deemee67",
+      "discordId": "1258877454718734337",
+      "discordTag": "iyodrodamomenti",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-03T15:36:03.431Z"
     }
   ],
   "blacklist": [],
