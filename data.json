@@ -1449,6 +1449,16 @@
       "currentTier": "LT3",
       "previousTier": "HT4",
       "lastTested": "2026-05-03T21:37:30.744Z"
+    },
+    {
+      "username": "Darksythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Pot",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-04T16:33:19.912Z"
     }
   ],
   "results": [
@@ -3695,6 +3705,17 @@
       "rankEarned": "LT3",
       "tester": "purpf4x",
       "date": "2026-05-03T21:37:30.744Z"
+    },
+    {
+      "username": "Darksythh",
+      "discordId": "1171014237854900284",
+      "discordTag": "dark_sythh",
+      "region": "EU",
+      "gamemode": "Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-04T16:33:19.912Z"
     }
   ],
   "blacklist": [],
