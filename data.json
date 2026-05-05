@@ -826,9 +826,9 @@
       "discordTag": "purpf4x",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-21T21:20:19.603Z"
+      "currentTier": "HT4",
+      "previousTier": "LT4",
+      "lastTested": "2026-05-05T20:13:51.574Z"
     },
     {
       "username": "BlinkedX",
@@ -3716,6 +3716,17 @@
       "rankEarned": "LT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-04T16:33:19.912Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purpf4x",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT4",
+      "rankEarned": "HT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-05-05T20:13:51.574Z"
     }
   ],
   "blacklist": [],
