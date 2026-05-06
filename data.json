@@ -1459,6 +1459,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-04T16:33:19.912Z"
+    },
+    {
+      "username": "roko_x",
+      "discordId": "1257968591521976371",
+      "discordTag": "justiceforbruca333",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-06T13:40:33.436Z"
     }
   ],
   "results": [
@@ -3727,6 +3737,17 @@
       "rankEarned": "HT4",
       "tester": "edytzu_safe05",
       "date": "2026-05-05T20:13:51.574Z"
+    },
+    {
+      "username": "roko_x",
+      "discordId": "1257968591521976371",
+      "discordTag": "justiceforbruca333",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-06T13:40:33.436Z"
     }
   ],
   "blacklist": [],
