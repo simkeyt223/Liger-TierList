@@ -1469,6 +1469,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-06T13:40:33.436Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Pot",
+      "currentTier": "LT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-06T17:50:19.612Z"
     }
   ],
   "results": [
@@ -3748,6 +3758,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-06T13:40:33.436Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "LT4",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-06T17:50:19.612Z"
     }
   ],
   "blacklist": [],
