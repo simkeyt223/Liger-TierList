@@ -196,9 +196,9 @@
       "discordTag": "antek_ollll._20192",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "LT4",
-      "previousTier": "HT4",
-      "lastTested": "2026-05-01T17:16:00.430Z"
+      "currentTier": "LT5",
+      "previousTier": "LT4",
+      "lastTested": "2026-05-09T17:35:05.932Z"
     },
     {
       "username": "QGoscinny",
@@ -3864,6 +3864,17 @@
       "rankEarned": "LT3",
       "tester": "nicki_der_dicki",
       "date": "2026-05-09T17:29:16.303Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1362368859100811334",
+      "discordTag": "antek_ollll._20192",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT4",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-09T17:35:05.932Z"
     }
   ],
   "blacklist": [],
