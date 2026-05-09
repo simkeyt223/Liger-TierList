@@ -1003,12 +1003,12 @@
     {
       "username": "KozzieMc",
       "discordId": "1423362077656875079",
-      "discordTag": "bokiduracell",
+      "discordTag": "kozzie2",
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "LT3",
-      "previousTier": "HT4",
-      "lastTested": "2026-05-01T17:40:58.984Z"
+      "previousTier": "LT3",
+      "lastTested": "2026-05-09T17:29:16.303Z"
     },
     {
       "username": "BlinkedX",
@@ -3853,6 +3853,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-05-06T18:54:51.715Z"
+    },
+    {
+      "username": "KozzieMc",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT3",
+      "rankEarned": "LT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-09T17:29:16.303Z"
     }
   ],
   "blacklist": [],
