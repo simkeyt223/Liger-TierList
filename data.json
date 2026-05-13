@@ -536,9 +536,9 @@
       "discordTag": "tini77_77_62149",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-16T17:47:20.115Z"
+      "currentTier": "LT4",
+      "previousTier": "HT5",
+      "lastTested": "2026-05-13T19:29:56.579Z"
     },
     {
       "username": "itzzantosek",
@@ -3949,6 +3949,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-05-10T18:58:14.283Z"
+    },
+    {
+      "username": "TINI",
+      "discordId": "1262430342237917195",
+      "discordTag": "tini77_77_62149",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "LT4",
+      "tester": "banned2timesalready",
+      "date": "2026-05-13T19:29:56.579Z"
     }
   ],
   "blacklist": [],
