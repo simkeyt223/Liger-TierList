@@ -3918,17 +3918,6 @@
       "date": "2026-05-09T17:41:12.430Z"
     },
     {
-      "username": "BlinkedX",
-      "discordId": "1424493845390823574",
-      "discordTag": "banned2timesalready",
-      "region": "EU",
-      "gamemode": "Neth Pot",
-      "previousRank": "HT5",
-      "rankEarned": "LT5",
-      "tester": "nicki_der_dicki",
-      "date": "2026-05-10T15:42:58.845Z"
-    },
-    {
       "username": "deemee67",
       "discordId": "1258877454718734337",
       "discordTag": "iyodrodamomenti",
@@ -3972,6 +3961,15 @@
       "gamemode": "Vanilla",
       "month": "2026-04",
       "date": "2026-04-21T15:01:42.051Z"
+    },
+    {
+      "issuedById": "1424493845390823574",
+      "issuedByTag": "banned2timesalready",
+      "targetId": "1424493845390823574",
+      "targetTag": "banned2timesalready",
+      "gamemode": "Neth Pot",
+      "month": "2026-05",
+      "date": "2026-05-13T19:30:32.649Z"
     }
   ]
 }
