@@ -736,9 +736,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Neth Pot",
-      "currentTier": "LT5",
+      "currentTier": "HT5",
       "previousTier": "HT5",
-      "lastTested": "2026-05-10T15:42:58.845Z"
+      "lastTested": "2026-05-13T20:01:29.883Z"
     },
     {
       "username": "blinkedx",
@@ -3949,6 +3949,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-05-13T19:29:56.579Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Neth Pot",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-13T20:01:29.883Z"
     }
   ],
   "blacklist": [],
