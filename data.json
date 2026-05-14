@@ -1559,6 +1559,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-13T20:05:32.392Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-14T19:23:45.897Z"
     }
   ],
   "results": [
@@ -3981,6 +3991,17 @@
       "rankEarned": "LT5",
       "tester": "nicki_der_dicki",
       "date": "2026-05-13T20:05:32.392Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "edytzu_safe05",
+      "date": "2026-05-14T19:23:45.897Z"
     }
   ],
   "blacklist": [],
