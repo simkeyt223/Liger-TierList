@@ -1026,9 +1026,9 @@
       "discordTag": "nicki_der_dicki",
       "region": "EU",
       "gamemode": "Mace",
-      "currentTier": "LT3",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-25T09:33:44.164Z"
+      "currentTier": "HT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-05-21T20:28:41.878Z"
     },
     {
       "username": "Loke_helicopter",
@@ -4002,6 +4002,17 @@
       "rankEarned": "HT4",
       "tester": "edytzu_safe05",
       "date": "2026-05-14T19:23:45.897Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-05-21T20:28:41.880Z"
     }
   ],
   "blacklist": [],
