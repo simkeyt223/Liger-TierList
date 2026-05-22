@@ -1589,6 +1589,16 @@
       "currentTier": "HT3",
       "previousTier": "LT3",
       "lastTested": "2026-05-22T20:51:03.605Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-22T23:25:02.569Z"
     }
   ],
   "results": [
@@ -4154,6 +4164,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-05-22T21:41:07.966Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "purpf4x",
+      "date": "2026-05-22T23:25:02.569Z"
     }
   ],
   "blacklist": [
