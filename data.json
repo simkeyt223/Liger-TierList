@@ -1579,6 +1579,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-05-22T20:21:27.800Z"
+    },
+    {
+      "username": "vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-05-22T20:51:03.605Z"
     }
   ],
   "results": [
@@ -4078,6 +4088,17 @@
       "rankEarned": "LT2",
       "tester": "nicki_der_dicki",
       "date": "2026-05-22T20:36:20.890Z"
+    },
+    {
+      "username": "vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-22T20:51:03.605Z"
     }
   ],
   "blacklist": [
