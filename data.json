@@ -941,14 +941,14 @@
       "lastTested": "2026-04-22T17:08:39.871Z"
     },
     {
-      "username": "euuy",
+      "username": "Euuy",
       "discordId": "1238607640955719812",
       "discordTag": "nicki_der_dicki",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "LT2",
-      "previousTier": "HT3",
-      "lastTested": "2026-05-22T20:36:20.890Z"
+      "currentTier": "HT3",
+      "previousTier": "LT2",
+      "lastTested": "2026-05-22T20:58:03.224Z"
     },
     {
       "username": "QGoscinny",
@@ -4099,6 +4099,17 @@
       "rankEarned": "HT3",
       "tester": "nicki_der_dicki",
       "date": "2026-05-22T20:51:03.605Z"
+    },
+    {
+      "username": "Euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT2",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-05-22T20:58:03.224Z"
     }
   ],
   "blacklist": [
