@@ -192,13 +192,13 @@
     },
     {
       "username": "Itszzantosek",
-      "discordId": "1362368859100811334",
-      "discordTag": "antek_ollll._20192",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "LT5",
-      "previousTier": "LT4",
-      "lastTested": "2026-05-09T17:35:05.932Z"
+      "currentTier": "HT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-05-22T21:35:42.163Z"
     },
     {
       "username": "QGoscinny",
@@ -4132,6 +4132,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-05-22T21:29:36.811Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-05-22T21:35:42.163Z"
     }
   ],
   "blacklist": [
