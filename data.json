@@ -1569,6 +1569,16 @@
       "currentTier": "HT4",
       "previousTier": "Unranked",
       "lastTested": "2026-05-14T19:23:45.897Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-22T20:21:27.800Z"
     }
   ],
   "results": [
@@ -4035,6 +4045,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-05-22T11:13:14.090Z"
+    },
+    {
+      "username": "Itszzantosek",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-22T20:21:27.802Z"
     }
   ],
   "blacklist": [
