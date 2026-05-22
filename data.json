@@ -1067,8 +1067,8 @@
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-25T20:57:05.819Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-05-22T21:41:07.966Z"
     },
     {
       "username": "purpf4x",
@@ -4143,6 +4143,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-05-22T21:35:42.163Z"
+    },
+    {
+      "username": "Glacierrv1",
+      "discordId": "1442549691660111986",
+      "discordTag": "wxshdd.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-05-22T21:41:07.966Z"
     }
   ],
   "blacklist": [
