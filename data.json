@@ -4037,7 +4037,17 @@
       "date": "2026-05-22T11:13:14.090Z"
     }
   ],
-  "blacklist": [],
+  "blacklist": [
+    {
+      "discordId": "863176218274955274",
+      "discordTag": "kurdinthehouse",
+      "mcUsername": "KURDISTHEBEST",
+      "reason": "Cheating in a tier test",
+      "issuedBy": "banned2timesalready",
+      "issuedById": "1424493845390823574",
+      "date": "2026-05-22T11:22:21.465Z"
+    }
+  ],
   "cooldownResets": [
     {
       "issuedById": "1424493845390823574",
