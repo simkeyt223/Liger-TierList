@@ -1639,6 +1639,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-05-23T22:53:56.386Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "Pot",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-23T23:01:17.552Z"
     }
   ],
   "results": [
@@ -4292,6 +4302,17 @@
       "rankEarned": "LT4",
       "tester": "nicki_der_dicki",
       "date": "2026-05-23T22:53:56.386Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "Pot",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-23T23:01:17.552Z"
     }
   ],
   "blacklist": [
