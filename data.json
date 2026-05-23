@@ -451,14 +451,14 @@
       "lastTested": "2026-04-05T21:26:45.380Z"
     },
     {
-      "username": "Vigilentull",
+      "username": "vigilentull",
       "discordId": "1254516008346189906",
       "discordTag": "edytzu_safe05",
       "region": "EU",
       "gamemode": "Vanilla",
-      "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-09T15:43:17.071Z"
+      "currentTier": "LT4",
+      "previousTier": "LT5",
+      "lastTested": "2026-05-23T14:25:30.435Z"
     },
     {
       "username": "XstrahinjaX",
@@ -4196,6 +4196,17 @@
       "rankEarned": "LT3",
       "tester": "purpf4x",
       "date": "2026-05-23T14:09:46.878Z"
+    },
+    {
+      "username": "vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "LT5",
+      "rankEarned": "LT4",
+      "tester": "fanos123456",
+      "date": "2026-05-23T14:25:30.435Z"
     }
   ],
   "blacklist": [
