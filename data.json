@@ -1619,6 +1619,16 @@
       "currentTier": "LT5",
       "previousTier": "HT5",
       "lastTested": "2026-05-23T14:32:23.476Z"
+    },
+    {
+      "username": "traxxasC_10",
+      "discordId": "650384731212349450",
+      "discordTag": "traxxasc",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-23T14:55:42.794Z"
     }
   ],
   "results": [
@@ -4239,6 +4249,17 @@
       "rankEarned": "LT3",
       "tester": "fanos123456",
       "date": "2026-05-23T14:39:15.919Z"
+    },
+    {
+      "username": "traxxasC_10",
+      "discordId": "650384731212349450",
+      "discordTag": "traxxasc",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "fanos123456",
+      "date": "2026-05-23T14:55:42.794Z"
     }
   ],
   "blacklist": [
