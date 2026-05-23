@@ -1659,6 +1659,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-23T23:27:21.735Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-23T23:43:23.989Z"
     }
   ],
   "results": [
@@ -4334,6 +4344,17 @@
       "rankEarned": "LT3",
       "tester": "edytzu_safe05",
       "date": "2026-05-23T23:27:21.735Z"
+    },
+    {
+      "username": "errorturn",
+      "discordId": "809400722520670219",
+      "discordTag": "errorturn",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT3",
+      "tester": "edytzu_safe05",
+      "date": "2026-05-23T23:43:23.989Z"
     }
   ],
   "blacklist": [
