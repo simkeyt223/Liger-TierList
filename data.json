@@ -1476,9 +1476,9 @@
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Pot",
-      "currentTier": "LT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-05-06T17:50:19.612Z"
+      "currentTier": "LT3",
+      "previousTier": "LT4",
+      "lastTested": "2026-05-23T22:45:22.608Z"
     },
     {
       "username": "euuy",
@@ -4260,6 +4260,17 @@
       "rankEarned": "LT3",
       "tester": "fanos123456",
       "date": "2026-05-23T14:55:42.794Z"
+    },
+    {
+      "username": "BlinkedX",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Pot",
+      "previousRank": "LT4",
+      "rankEarned": "LT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-05-23T22:45:22.608Z"
     }
   ],
   "blacklist": [
