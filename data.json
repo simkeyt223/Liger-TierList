@@ -1599,6 +1599,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-22T23:25:02.569Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT3",
+      "previousTier": "Unranked",
+      "lastTested": "2026-05-23T14:09:46.878Z"
     }
   ],
   "results": [
@@ -4175,6 +4185,17 @@
       "rankEarned": "HT3",
       "tester": "purpf4x",
       "date": "2026-05-22T23:25:02.569Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT3",
+      "tester": "purpf4x",
+      "date": "2026-05-23T14:09:46.878Z"
     }
   ],
   "blacklist": [
