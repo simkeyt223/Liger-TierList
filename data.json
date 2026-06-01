@@ -1266,9 +1266,9 @@
       "discordTag": "1_helicopter_1",
       "region": "EU",
       "gamemode": "Speed",
-      "currentTier": "LT3",
+      "currentTier": "HT3",
       "previousTier": "LT3",
-      "lastTested": "2026-04-29T18:50:52.643Z"
+      "lastTested": "2026-06-01T19:43:28.024Z"
     },
     {
       "username": "DarkSythh",
@@ -4430,6 +4430,17 @@
       "rankEarned": "LT4",
       "tester": "banned2timesalready",
       "date": "2026-06-01T19:37:05.602Z"
+    },
+    {
+      "username": "Vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "1_helicopter_1",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-06-01T19:43:28.025Z"
     }
   ],
   "blacklist": [
