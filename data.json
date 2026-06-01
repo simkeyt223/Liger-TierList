@@ -1669,6 +1669,16 @@
       "currentTier": "HT3",
       "previousTier": "Unranked",
       "lastTested": "2026-05-23T23:43:23.989Z"
+    },
+    {
+      "username": "glacierrv1",
+      "discordId": "1442549691660111986",
+      "discordTag": "wxshdd.",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-01T19:08:09.764Z"
     }
   ],
   "results": [
@@ -4366,6 +4376,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-06-01T18:37:03.650Z"
+    },
+    {
+      "username": "glacierrv1",
+      "discordId": "1442549691660111986",
+      "discordTag": "wxshdd.",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "fanos123456",
+      "date": "2026-06-01T19:08:09.765Z"
     }
   ],
   "blacklist": [
