@@ -127,8 +127,8 @@
       "region": "EU",
       "gamemode": "Mace",
       "currentTier": "HT3",
-      "previousTier": "LT3",
-      "lastTested": "2026-05-21T20:32:48.103Z"
+      "previousTier": "HT3",
+      "lastTested": "2026-06-03T20:03:30.719Z"
     },
     {
       "username": "greensteaky88",
@@ -4484,6 +4484,17 @@
       "rankEarned": "HT5",
       "tester": "1_helicopter_1",
       "date": "2026-06-03T19:03:10.975Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "HT3",
+      "rankEarned": "HT3",
+      "tester": "1_helicopter_1",
+      "date": "2026-06-03T20:03:30.719Z"
     }
   ],
   "blacklist": [
