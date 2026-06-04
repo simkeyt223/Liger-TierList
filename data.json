@@ -1699,6 +1699,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-06-03T18:47:02.825Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "SMP",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-04T16:47:00.598Z"
     }
   ],
   "results": [
@@ -4495,6 +4505,17 @@
       "rankEarned": "HT3",
       "tester": "1_helicopter_1",
       "date": "2026-06-03T20:03:30.719Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "1_helicopter_1",
+      "date": "2026-06-04T16:47:00.598Z"
     }
   ],
   "blacklist": [
