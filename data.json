@@ -1571,14 +1571,14 @@
       "lastTested": "2026-05-14T19:23:45.897Z"
     },
     {
-      "username": "Itszzantosek",
+      "username": "itszzantosek",
       "discordId": "1467782829046890527",
       "discordTag": "antek_ollll",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-05-22T20:21:27.800Z"
+      "currentTier": "LT4",
+      "previousTier": "HT5",
+      "lastTested": "2026-06-05T16:23:52.244Z"
     },
     {
       "username": "vervolet_",
@@ -4537,6 +4537,17 @@
       "rankEarned": "LT5",
       "tester": "1_helicopter_1",
       "date": "2026-06-05T16:10:55.879Z"
+    },
+    {
+      "username": "itszzantosek",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "HT5",
+      "rankEarned": "LT4",
+      "tester": "1_helicopter_1",
+      "date": "2026-06-05T16:23:52.244Z"
     }
   ],
   "blacklist": [
