@@ -811,14 +811,14 @@
       "lastTested": "2026-06-11T18:14:20.914Z"
     },
     {
-      "username": "vigilentull",
+      "username": "Vigilentull",
       "discordId": "1254516008346189906",
       "discordTag": "edytzu_safe05",
       "region": "EU",
       "gamemode": "Spear Mace",
       "currentTier": "LT3",
-      "previousTier": "HT3",
-      "lastTested": "2026-05-22T20:35:58.467Z"
+      "previousTier": "LT3",
+      "lastTested": "2026-06-11T18:49:01.888Z"
     },
     {
       "username": "purpf4x",
@@ -4602,6 +4602,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-11T18:14:20.914Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT3",
+      "rankEarned": "LT3",
+      "tester": "vervoleto",
+      "date": "2026-06-11T18:49:01.888Z"
     }
   ],
   "blacklist": [
