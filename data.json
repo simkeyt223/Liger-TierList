@@ -1759,6 +1759,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-06-11T19:22:30.559Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Speed",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-11T19:38:21.471Z"
     }
   ],
   "results": [
@@ -4698,6 +4708,17 @@
       "rankEarned": "HT3",
       "tester": "vervoleto",
       "date": "2026-06-11T19:31:17.029Z"
+    },
+    {
+      "username": "Vigilentull",
+      "discordId": "1254516008346189906",
+      "discordTag": "edytzu_safe05",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-11T19:38:21.471Z"
     }
   ],
   "blacklist": [
