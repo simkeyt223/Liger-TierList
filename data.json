@@ -996,9 +996,9 @@
       "discordTag": "nicki_der_dicki",
       "region": "EU",
       "gamemode": "Speed",
-      "currentTier": "LT3",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-22T22:26:46.544Z"
+      "currentTier": "HT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-06-11T19:31:17.029Z"
     },
     {
       "username": "KozzieMc",
@@ -4687,6 +4687,17 @@
       "rankEarned": "LT5",
       "tester": "vervoleto",
       "date": "2026-06-11T19:22:30.559Z"
+    },
+    {
+      "username": "euuy",
+      "discordId": "1238607640955719812",
+      "discordTag": "nicki_der_dicki",
+      "region": "EU",
+      "gamemode": "Speed",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "vervoleto",
+      "date": "2026-06-11T19:31:17.029Z"
     }
   ],
   "blacklist": [
