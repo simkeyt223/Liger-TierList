@@ -806,9 +806,9 @@
       "discordTag": "fanos123456",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "LT5",
+      "currentTier": "HT5",
       "previousTier": "LT5",
-      "lastTested": "2026-05-22T21:04:28.256Z"
+      "lastTested": "2026-06-11T18:14:20.914Z"
     },
     {
       "username": "vigilentull",
@@ -4591,6 +4591,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-11T18:03:47.080Z"
+    },
+    {
+      "username": "cloakingbadge78",
+      "discordId": "851466092493013012",
+      "discordTag": "fanos123456",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-11T18:14:20.914Z"
     }
   ],
   "blacklist": [
