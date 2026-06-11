@@ -1729,6 +1729,16 @@
       "currentTier": "LT4",
       "previousTier": "Unranked",
       "lastTested": "2026-06-05T19:26:03.196Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-11T19:04:24.414Z"
     }
   ],
   "results": [
@@ -4613,6 +4623,17 @@
       "rankEarned": "LT3",
       "tester": "vervoleto",
       "date": "2026-06-11T18:49:01.888Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "Unranked",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-11T19:04:24.414Z"
     }
   ],
   "blacklist": [
