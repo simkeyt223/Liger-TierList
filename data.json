@@ -831,14 +831,14 @@
       "lastTested": "2026-05-05T20:13:51.574Z"
     },
     {
-      "username": "BlinkedX",
+      "username": "Blinkedx",
       "discordId": "1424493845390823574",
       "discordTag": "banned2timesalready",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-21T21:34:14.741Z"
+      "currentTier": "HT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-06-11T18:03:47.079Z"
     },
     {
       "username": "Greensteaky88",
@@ -4580,6 +4580,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-10T20:57:55.847Z"
+    },
+    {
+      "username": "Blinkedx",
+      "discordId": "1424493845390823574",
+      "discordTag": "banned2timesalready",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-11T18:03:47.080Z"
     }
   ],
   "blacklist": [
