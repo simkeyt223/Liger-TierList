@@ -1739,6 +1739,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-06-11T19:04:24.414Z"
+    },
+    {
+      "username": "Vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "vervoleto",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "HT3",
+      "previousTier": "HT3",
+      "lastTested": "2026-06-11T19:15:20.520Z"
     }
   ],
   "results": [
@@ -4634,6 +4644,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-11T19:04:24.414Z"
+    },
+    {
+      "username": "Vervolet_",
+      "discordId": "987070342847692840",
+      "discordTag": "vervoleto",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT3",
+      "rankEarned": "HT3",
+      "tester": "banned2timesalready",
+      "date": "2026-06-11T19:15:20.520Z"
     }
   ],
   "blacklist": [
