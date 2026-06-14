@@ -1769,6 +1769,16 @@
       "currentTier": "HT5",
       "previousTier": "Unranked",
       "lastTested": "2026-06-11T19:38:21.471Z"
+    },
+    {
+      "username": "patkojepro",
+      "discordId": "1433344960169775104",
+      "discordTag": "patkojepro_99835",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-14T16:20:38.254Z"
     }
   ],
   "results": [
@@ -4719,6 +4729,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-11T19:38:21.471Z"
+    },
+    {
+      "username": "patkojepro",
+      "discordId": "1433344960169775104",
+      "discordTag": "patkojepro_99835",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "vervoleto",
+      "date": "2026-06-14T16:20:38.254Z"
     }
   ],
   "blacklist": [
