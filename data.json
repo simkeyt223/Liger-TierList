@@ -1696,9 +1696,9 @@
       "discordTag": "thatonebrotogetpinned",
       "region": "EU",
       "gamemode": "Diamond SMP",
-      "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-06-03T18:47:02.825Z"
+      "currentTier": "HT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-06-14T16:28:12.888Z"
     },
     {
       "username": "antipopyk",
@@ -4740,6 +4740,17 @@
       "rankEarned": "LT5",
       "tester": "vervoleto",
       "date": "2026-06-14T16:20:38.254Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-14T16:28:12.888Z"
     }
   ],
   "blacklist": [
