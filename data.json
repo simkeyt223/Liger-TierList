@@ -1779,6 +1779,16 @@
       "currentTier": "LT5",
       "previousTier": "Unranked",
       "lastTested": "2026-06-14T16:20:38.254Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "currentTier": "LT4",
+      "previousTier": "LT5",
+      "lastTested": "2026-06-14T16:38:00.459Z"
     }
   ],
   "results": [
@@ -4751,6 +4761,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-14T16:28:12.888Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT5",
+      "rankEarned": "LT4",
+      "tester": "vervoleto",
+      "date": "2026-06-14T16:38:00.459Z"
     }
   ],
   "blacklist": [
