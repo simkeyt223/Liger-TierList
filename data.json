@@ -1789,6 +1789,16 @@
       "currentTier": "LT4",
       "previousTier": "LT5",
       "lastTested": "2026-06-14T16:38:00.459Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-17T11:55:03.864Z"
     }
   ],
   "results": [
@@ -4772,6 +4782,17 @@
       "rankEarned": "LT4",
       "tester": "vervoleto",
       "date": "2026-06-14T16:38:00.459Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-17T11:55:03.864Z"
     }
   ],
   "blacklist": [
