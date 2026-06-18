@@ -166,9 +166,9 @@
       "discordTag": "thatonebrotogetpinned",
       "region": "EU",
       "gamemode": "Mace",
-      "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-03-28T13:12:02.403Z"
+      "currentTier": "HT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-06-18T14:14:55.650Z"
     },
     {
       "username": "domek31275",
@@ -4847,6 +4847,17 @@
       "rankEarned": "LT3",
       "tester": "vervoleto",
       "date": "2026-06-18T13:47:45.134Z"
+    },
+    {
+      "username": "antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "vervoleto",
+      "date": "2026-06-18T14:14:55.650Z"
     }
   ],
   "blacklist": [
