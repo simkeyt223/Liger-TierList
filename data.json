@@ -1796,9 +1796,9 @@
       "discordTag": "deme67.",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "LT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-06-17T11:55:03.864Z"
+      "currentTier": "HT5",
+      "previousTier": "LT5",
+      "lastTested": "2026-06-24T12:46:23.366Z"
     },
     {
       "username": "kozzie_",
@@ -4858,6 +4858,17 @@
       "rankEarned": "HT5",
       "tester": "vervoleto",
       "date": "2026-06-18T14:14:55.650Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT5",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-24T12:46:23.366Z"
     }
   ],
   "blacklist": [
