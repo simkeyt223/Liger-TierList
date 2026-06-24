@@ -1053,12 +1053,12 @@
     {
       "username": "purpf4x",
       "discordId": "1390812207524085790",
-      "discordTag": "purpf4x",
+      "discordTag": "purp3d",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "HT4",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-25T20:51:14.957Z"
+      "currentTier": "HT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-06-24T13:35:42.405Z"
     },
     {
       "username": "Glacierrv1",
@@ -4891,6 +4891,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-06-24T12:56:23.732Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT4",
+      "rankEarned": "HT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-24T13:35:42.405Z"
     }
   ],
   "blacklist": [
