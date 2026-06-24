@@ -1786,9 +1786,9 @@
       "discordTag": "deme67.",
       "region": "EU",
       "gamemode": "Sword",
-      "currentTier": "LT4",
-      "previousTier": "LT5",
-      "lastTested": "2026-06-14T16:38:00.459Z"
+      "currentTier": "HT5",
+      "previousTier": "LT4",
+      "lastTested": "2026-06-24T12:54:53.406Z"
     },
     {
       "username": "demecpvp",
@@ -4869,6 +4869,17 @@
       "rankEarned": "HT5",
       "tester": "nicki_der_dicki",
       "date": "2026-06-24T12:46:23.366Z"
+    },
+    {
+      "username": "demecpvp",
+      "discordId": "1258877454718734337",
+      "discordTag": "deme67.",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "LT4",
+      "rankEarned": "HT5",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-24T12:54:53.407Z"
     }
   ],
   "blacklist": [
