@@ -1809,6 +1809,16 @@
       "currentTier": "LT3",
       "previousTier": "Unranked",
       "lastTested": "2026-06-18T13:47:45.134Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "HT3",
+      "previousTier": "HT4",
+      "lastTested": "2026-06-24T14:05:30.042Z"
     }
   ],
   "results": [
@@ -4902,6 +4912,17 @@
       "rankEarned": "HT3",
       "tester": "nicki_der_dicki",
       "date": "2026-06-24T13:35:42.405Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "HT4",
+      "rankEarned": "HT3",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-24T14:05:30.042Z"
     }
   ],
   "blacklist": [
