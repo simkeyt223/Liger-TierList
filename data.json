@@ -823,12 +823,12 @@
     {
       "username": "purpf4x",
       "discordId": "1390812207524085790",
-      "discordTag": "purpf4x",
+      "discordTag": "purp3d",
       "region": "EU",
       "gamemode": "Spear Mace",
-      "currentTier": "HT4",
-      "previousTier": "LT4",
-      "lastTested": "2026-05-05T20:13:51.574Z"
+      "currentTier": "LT4",
+      "previousTier": "HT4",
+      "lastTested": "2026-06-24T15:48:03.133Z"
     },
     {
       "username": "BlinkedX",
@@ -4923,6 +4923,17 @@
       "rankEarned": "HT3",
       "tester": "nicki_der_dicki",
       "date": "2026-06-24T14:05:30.042Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "HT4",
+      "rankEarned": "LT4",
+      "tester": "nicki_der_dicki",
+      "date": "2026-06-24T15:48:03.133Z"
     }
   ],
   "blacklist": [
