@@ -783,12 +783,12 @@
     {
       "username": "purpf4x",
       "discordId": "1390812207524085790",
-      "discordTag": "purpf4x",
+      "discordTag": "purp3d",
       "region": "EU",
       "gamemode": "Diamond SMP",
-      "currentTier": "LT3",
-      "previousTier": "Unranked",
-      "lastTested": "2026-04-21T20:15:44.903Z"
+      "currentTier": "HT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-06-26T21:22:26.534Z"
     },
     {
       "username": "Loke_Helicopter",
@@ -4966,6 +4966,17 @@
       "rankEarned": "LT3",
       "tester": "vervoleto",
       "date": "2026-06-26T20:55:57.869Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "LT3",
+      "rankEarned": "HT3",
+      "tester": "vervoleto",
+      "date": "2026-06-26T21:22:26.534Z"
     }
   ],
   "blacklist": [
