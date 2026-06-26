@@ -1829,6 +1829,16 @@
       "currentTier": "LT3",
       "previousTier": "LT3",
       "lastTested": "2026-06-26T20:55:57.869Z"
+    },
+    {
+      "username": "purp4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Mace",
+      "currentTier": "HT4",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-26T22:41:46.432Z"
     }
   ],
   "results": [
@@ -4977,6 +4987,17 @@
       "rankEarned": "HT3",
       "tester": "vervoleto",
       "date": "2026-06-26T21:22:26.534Z"
+    },
+    {
+      "username": "purp4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "HT4",
+      "tester": "vervoleto",
+      "date": "2026-06-26T22:41:46.432Z"
     }
   ],
   "blacklist": [
