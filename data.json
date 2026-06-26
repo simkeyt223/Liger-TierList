@@ -1819,6 +1819,16 @@
       "currentTier": "HT3",
       "previousTier": "HT4",
       "lastTested": "2026-06-24T14:05:30.042Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "currentTier": "LT3",
+      "previousTier": "LT3",
+      "lastTested": "2026-06-26T20:55:57.869Z"
     }
   ],
   "results": [
@@ -4945,6 +4955,17 @@
       "rankEarned": "LT3",
       "tester": "nicki_der_dicki",
       "date": "2026-06-25T20:33:34.453Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Diamond SMP",
+      "previousRank": "LT3",
+      "rankEarned": "LT3",
+      "tester": "vervoleto",
+      "date": "2026-06-26T20:55:57.869Z"
     }
   ],
   "blacklist": [
