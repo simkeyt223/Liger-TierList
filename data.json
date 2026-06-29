@@ -1849,6 +1849,16 @@
       "currentTier": "LT5",
       "previousTier": "LT4",
       "lastTested": "2026-06-27T20:16:18.379Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "currentTier": "LT5",
+      "previousTier": "Unranked",
+      "lastTested": "2026-06-29T20:49:55.832Z"
     }
   ],
   "results": [
@@ -5030,6 +5040,17 @@
       "rankEarned": "LT4",
       "tester": "vervoleto",
       "date": "2026-06-29T20:37:48.764Z"
+    },
+    {
+      "username": "_Duxy",
+      "discordId": "1124226238941233262",
+      "discordTag": "duxy_7",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "Unranked",
+      "rankEarned": "LT5",
+      "tester": "vervoleto",
+      "date": "2026-06-29T20:49:55.832Z"
     }
   ],
   "blacklist": [
