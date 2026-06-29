@@ -827,8 +827,8 @@
       "region": "EU",
       "gamemode": "Spear Mace",
       "currentTier": "LT4",
-      "previousTier": "HT4",
-      "lastTested": "2026-06-24T15:48:03.133Z"
+      "previousTier": "LT4",
+      "lastTested": "2026-06-29T20:37:48.764Z"
     },
     {
       "username": "BlinkedX",
@@ -5019,6 +5019,17 @@
       "rankEarned": "LT5",
       "tester": "vervoleto",
       "date": "2026-06-27T20:16:18.379Z"
+    },
+    {
+      "username": "purpf4x",
+      "discordId": "1390812207524085790",
+      "discordTag": "purp3d",
+      "region": "EU",
+      "gamemode": "Spear Mace",
+      "previousRank": "LT4",
+      "rankEarned": "LT4",
+      "tester": "vervoleto",
+      "date": "2026-06-29T20:37:48.764Z"
     }
   ],
   "blacklist": [
