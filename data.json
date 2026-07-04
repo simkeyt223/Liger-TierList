@@ -1731,14 +1731,14 @@
       "lastTested": "2026-06-05T19:26:03.196Z"
     },
     {
-      "username": "antipopyk",
+      "username": "Antipopyk",
       "discordId": "1423379726667485264",
       "discordTag": "thatonebrotogetpinned",
       "region": "EU",
       "gamemode": "Sword",
       "currentTier": "HT5",
-      "previousTier": "Unranked",
-      "lastTested": "2026-06-11T19:04:24.414Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-07-04T15:26:26.134Z"
     },
     {
       "username": "Vervolet_",
@@ -5094,6 +5094,17 @@
       "rankEarned": "HT4",
       "tester": "banned2timesalready",
       "date": "2026-07-04T15:22:36.113Z"
+    },
+    {
+      "username": "Antipopyk",
+      "discordId": "1423379726667485264",
+      "discordTag": "thatonebrotogetpinned",
+      "region": "EU",
+      "gamemode": "Sword",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-07-04T15:26:26.134Z"
     }
   ],
   "blacklist": [
