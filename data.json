@@ -302,13 +302,13 @@
     },
     {
       "username": "Itszzantosek",
-      "discordId": "1362368859100811334",
-      "discordTag": "antek_ollll._20192",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
       "region": "EU",
       "gamemode": "Vanilla",
       "currentTier": "HT5",
-      "previousTier": "LT4",
-      "lastTested": "2026-05-03T14:48:13.986Z"
+      "previousTier": "HT5",
+      "lastTested": "2026-07-10T20:18:46.678Z"
     },
     {
       "username": "Kaizu",
@@ -5105,19 +5105,20 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-07-04T15:26:26.134Z"
-    }
-  ],
-  "blacklist": [
+    },
     {
-      "discordId": "863176218274955274",
-      "discordTag": "kurdinthehouse",
-      "mcUsername": "KURDISTHEBEST",
-      "reason": "Cheating in a tier test",
-      "issuedBy": "banned2timesalready",
-      "issuedById": "1424493845390823574",
-      "date": "2026-05-22T11:22:21.465Z"
+      "username": "Itszzantosek",
+      "discordId": "1467782829046890527",
+      "discordTag": "antek_ollll",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-07-10T20:18:46.681Z"
     }
   ],
+  "blacklist": [],
   "cooldownResets": [
     {
       "issuedById": "1424493845390823574",
