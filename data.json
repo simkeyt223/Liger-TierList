@@ -1869,6 +1869,16 @@
       "currentTier": "HT3",
       "previousTier": "HT3",
       "lastTested": "2026-07-04T15:10:57.119Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "currentTier": "HT5",
+      "previousTier": "HT5",
+      "lastTested": "2026-07-10T20:26:18.465Z"
     }
   ],
   "results": [
@@ -5116,6 +5126,17 @@
       "rankEarned": "HT5",
       "tester": "banned2timesalready",
       "date": "2026-07-10T20:18:46.681Z"
+    },
+    {
+      "username": "Kozzie_",
+      "discordId": "1423362077656875079",
+      "discordTag": "kozzie2",
+      "region": "EU",
+      "gamemode": "Vanilla",
+      "previousRank": "HT5",
+      "rankEarned": "HT5",
+      "tester": "banned2timesalready",
+      "date": "2026-07-10T20:26:18.465Z"
     }
   ],
   "blacklist": [],
